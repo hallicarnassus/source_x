@@ -1,0 +1,8 @@
+N0010 (Filename: SourceX_v1.1_bottom_plate_4mm_for_CAM.tap)
+N0020 (Post processor: Mach3.scpost)
+N0030 (Date:26/11/2021 Time:20:35:13)
+N0040 G21 (Units: Metric)
+N0050 G40 G90 G91.1
+N0060 F1
+N0070 (Part: SourceX_v1.1_bottom_plate_4mm_for_CAM)
+N0080 M05 M30
