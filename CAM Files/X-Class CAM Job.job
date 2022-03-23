@@ -1,0 +1,2433 @@
+[Cutoff]
+Angle threshold=0.5
+BelongsTo=-1
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=2
+Cut depth=0
+Cut direction=0.5
+Cutting rules=0
+Edge overlap=5
+Enabled=0
+Feed rate=1
+Finish allowance=0
+Grid size=50
+Hole Size=0
+ID=-1
+Layer=
+Lead in=-1
+Lead in type=0
+Lead out=-1
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Maximum X size=2000
+Maximum Y size=2000
+Minimum X size=500
+Minimum Y size=500
+Name=
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Remnants must be rectangular=0
+Reverse open paths=0
+Start depth=0
+Start position=0
+Tool=1
+Type=RemnantOperation
+[Cutoff/Custom]
+[Misc]
+Count=11
+FileVersion=1003
+optBias=0.5
+Optimisation=0
+Template=0
+[OpOrder]
+[Part 0]
+Angle=1.570796326794897
+copyOf=-1
+DrawingDate=1414955172
+DrawingFile=C:\Users\Luken\Documents\GitHub\source_x\Betsy Motor Mount Plate.DXF
+enabled=1
+HRef=0
+Locked=0
+name=Betsy Motor Mount Plate
+VRef=0
+XPos=108.260451951726452
+YPos=435.550304853218847
+[Part 0/GroupSources]
+[Part 0/Operation0]
+Angle threshold=0.5
+BelongsTo=-1
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=2
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Enabled=1
+Feed rate=100
+Finish allowance=0
+Hole Size=0
+ID=14
+Layer=Motor Mount Fixture Holes
+Lead in=-1
+Lead in type=0
+Lead out=-1
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Max hole size=3.3
+Min hole size=2.7
+Name=Drill, Motor Mount Fixture Holes, T9: 3.00mm Fish-tail, Chip-breaker router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Peck depth=2
+Peck retract=3
+Plunge rate=140
+Reverse open paths=0
+Spindle speed=11000
+Start depth=0
+Start position=0
+Tool=9
+Type=DrillOperation
+[Part 0/Operation0/Custom]
+[Part 0/Operation1]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=0
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=2.25
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=15
+Layer=Motor Mount Central Pocket
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Inside Offset, Motor Mount Central Pocket, T8: 3.00mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=8
+Type=ContourOperation
+[Part 0/Operation1/Custom]
+[Part 0/Operation2]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=0
+Coolant=2
+Cut depth=1.75
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=1.75
+Enabled=1
+Feed rate=140
+Finish allowance=0
+Hole Size=0
+ID=16
+Layer=Motor Mount Arm Countersink
+Lead in=-1
+Lead in type=0
+Lead out=-1
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Spiral pocket, Motor Mount Arm Countersink, T9: 3.00mm Fish-tail, Chip-breaker router, 1.75 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=140
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Start depth=0
+Start position=0
+Step over=0.6
+Tool=9
+Type=SpiralPocketOperation
+[Part 0/Operation2/Custom]
+[Part 0/Operation3]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=1
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=2.25
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=17
+Layer=Motor Mount Outer Contour
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Outside Offset, Motor Mount Outer Contour, T8: 3.00mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=8
+Type=ContourOperation
+[Part 0/Operation3/Custom]
+[Part 1]
+Angle=1.570796326794897
+copyOf=0
+DrawingFile=
+enabled=1
+HRef=0
+Locked=0
+name=Duplicate 1
+VRef=0
+XPos=185.440227015294568
+YPos=435.394406377527048
+[Part 1/GroupSources]
+[Part 10]
+Angle=0
+copyOf=-1
+DrawingDate=1415278805
+DrawingFile=C:\Users\Luken\Documents\GitHub\source_x\SourceX_v1.1_bottom_plate_4mm.DXF
+enabled=1
+HRef=0
+Locked=0
+name=SourceX_v1.1_bottom_plate_4mm
+VRef=0
+XPos=146.743683039550149
+YPos=112.296020795200135
+[Part 10/GroupSources]
+[Part 10/Operation0]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=0
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=2.25
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=4
+Layer=2.5mm Holes
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Inside Offset, 2.5mm Holes, T7: 2.38mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=7
+Type=ContourOperation
+[Part 10/Operation0/Custom]
+[Part 10/Operation1]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=0
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=2.25
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=3
+Layer=Inner Contours
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Inside Offset, Inner Contours, T7: 2.38mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=7
+Type=ContourOperation
+[Part 10/Operation1/Custom]
+[Part 10/Operation2]
+Angle threshold=0.5
+BelongsTo=-1
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=2
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Enabled=1
+Feed rate=100
+Finish allowance=0
+Hole Size=0
+ID=0
+Layer=3.0mm Holes
+Lead in=-1
+Lead in type=0
+Lead out=-1
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Max hole size=3.3
+Min hole size=2.7
+Name=Drill, 3.0mm Holes, T8: 3.00mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Peck depth=2
+Peck retract=3
+Plunge rate=100
+Reverse open paths=0
+Spindle speed=11000
+Start depth=0
+Start position=0
+Tool=8
+Type=DrillOperation
+[Part 10/Operation2/Custom]
+[Part 10/Operation3]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=0
+Coolant=2
+Cut depth=1.8
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=1.8
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=1
+Layer=1.5mm Pocket Countersink
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Inside Offset, 1.5mm Pocket Countersink, T8: 3.00mm Fish-tail, Diamond-cut (Zn) router, 1.8 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=8
+Type=ContourOperation
+[Part 10/Operation3/Custom]
+[Part 10/Operation4]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=0
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=4.5
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=2
+Layer=3.4mm Holes
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Inside Offset, 3.4mm Holes, T8: 3.00mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=8
+Type=ContourOperation
+[Part 10/Operation4/Custom]
+[Part 10/Operation5]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=0
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=4.5
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=5
+Layer=Arm Fixtures
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Inside Offset, Arm Fixtures, T8: 3.00mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=8
+Type=ContourOperation
+[Part 10/Operation5/Custom]
+[Part 10/Operation6]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=1
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=4.5
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=6
+Layer=Outer Contour
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Outside Offset, Outer Contour, T8: 3.00mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=8
+Type=ContourOperation
+[Part 10/Operation6/Custom]
+[Part 2]
+Angle=1.570796326794897
+copyOf=0
+DrawingFile=
+enabled=1
+HRef=0
+Locked=0
+name=Duplicate 2
+VRef=0
+XPos=108.404919513017077
+YPos=204.376209158922762
+[Part 2/GroupSources]
+[Part 3]
+Angle=1.570796326794897
+copyOf=0
+DrawingFile=
+enabled=1
+HRef=0
+Locked=0
+name=Duplicate 3
+VRef=0
+XPos=109.788987989354439
+YPos=250.0035255269282
+[Part 3/GroupSources]
+[Part 4]
+Angle=1.570796326794897
+copyOf=0
+DrawingFile=
+enabled=1
+HRef=0
+Locked=0
+name=Duplicate 4
+VRef=0
+XPos=185.828211946498925
+YPos=204.089340541977549
+[Part 4/GroupSources]
+[Part 5]
+Angle=1.570796326794897
+copyOf=0
+DrawingFile=
+enabled=1
+HRef=0
+Locked=0
+name=Duplicate 5
+VRef=0
+XPos=185.94345053333447
+YPos=249.754097822691648
+[Part 5/GroupSources]
+[Part 6]
+Angle=1.570796326794897
+copyOf=0
+DrawingFile=
+enabled=1
+HRef=0
+Locked=0
+name=Duplicate 6
+VRef=0
+XPos=186.086287146114955
+YPos=21.48816330570056
+[Part 6/GroupSources]
+[Part 7]
+Angle=1.570796326794897
+copyOf=0
+DrawingFile=
+enabled=1
+HRef=0
+Locked=0
+name=Duplicate 7
+VRef=0
+XPos=110.246773418749598
+YPos=21.356387387096817
+[Part 7/GroupSources]
+[Part 8]
+Angle=0
+copyOf=-1
+DrawingDate=1414955339
+DrawingFile=C:\Users\Luken\Documents\GitHub\source_x\full_size_camera_drop_reinforcement.DXF
+enabled=1
+HRef=0
+Locked=0
+name=full_size_camera_drop_reinforcement
+VRef=0
+XPos=321.314749818048938
+YPos=32.418337176262028
+[Part 8/GroupSources]
+[Part 8/Operation0]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=0
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=2.25
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=7
+Layer=Inner Contour
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Inside Offset, Inner Contour, T8: 3.00mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=8
+Type=ContourOperation
+[Part 8/Operation0/Custom]
+[Part 8/Operation1]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=0
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=4.5
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=8
+Layer=Fixture Holes
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Inside Offset, Fixture Holes, T7: 2.38mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=7
+Type=ContourOperation
+[Part 8/Operation1/Custom]
+[Part 8/Operation2]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=1
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=2.25
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=9
+Layer=Outer Contour
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Outside Offset, Outer Contour, T7: 2.38mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=7
+Type=ContourOperation
+[Part 8/Operation2/Custom]
+[Part 9]
+Angle=1.570796326794897
+copyOf=-1
+DrawingDate=1414955528
+DrawingFile=C:\Users\Luken\Documents\GitHub\source_x\SourceX_v1.1_top_plate_2mm.DXF
+enabled=1
+HRef=0
+Locked=0
+name=SourceX_v1.1_top_plate_2mm
+VRef=0
+XPos=147.29602079520015
+YPos=341.743683039550035
+[Part 9/GroupSources]
+[Part 9/Operation0]
+Angle threshold=0.5
+BelongsTo=-1
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=2
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Enabled=1
+Feed rate=100
+Finish allowance=0
+Hole Size=0
+ID=12
+Layer=Fixture Holes
+Lead in=-1
+Lead in type=0
+Lead out=-1
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Max hole size=3.3
+Min hole size=2.7
+Name=Drill, Fixture Holes, T9: 3.00mm Fish-tail, Chip-breaker router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Peck depth=2
+Peck retract=3
+Plunge rate=140
+Reverse open paths=0
+Spindle speed=11000
+Start depth=0
+Start position=0
+Tool=9
+Type=DrillOperation
+[Part 9/Operation0/Custom]
+[Part 9/Operation1]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=0
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=2.25
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=10
+Layer=Arm Fixtures
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Inside Offset, Arm Fixtures, T8: 3.00mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=8
+Type=ContourOperation
+[Part 9/Operation1/Custom]
+[Part 9/Operation2]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=0
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=2.25
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=11
+Layer=Inner Contours
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Inside Offset, Inner Contours, T8: 3.00mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=8
+Type=ContourOperation
+[Part 9/Operation2/Custom]
+[Part 9/Operation3]
+Angle threshold=0.492182849062401
+BelongsTo=-1
+Clean up exit ramp=0
+Climb cut=0
+CodeSnip=-1
+Comment=
+Contour method=1
+Coolant=2
+Cut depth=4.5
+Cut direction=0.5
+Cutting rules=0
+Depth per pass=2.25
+Enabled=1
+Feed rate=200
+Finish allowance=0
+Hole Size=0
+ID=13
+Layer=Outer Contour
+Lead in=0
+Lead in type=0
+Lead out=0
+Lead out type=0
+Leadins on open paths=0
+Length=1
+Name=Outside Offset, Outer Contour, T8: 3.00mm Fish-tail, Diamond-cut (Zn) router, 4.5 mm Deep
+Name_Edited=0
+Offset open paths=0
+Optimisation=1
+Overcut corners=0
+Path rules=
+Plunge rate=100
+Ramp Angle=0
+Reverse open paths=0
+Spindle speed=11000
+Square corners=0
+Start depth=0
+Start position=0
+Thickness=0
+Tool=8
+Type=ContourOperation
+[Part 9/Operation3/Custom]
+[pathRules]
+GlobalRule=-1
+[Table]
+MaxHeight=1000
+Origin=6
+RapidSpeed=2000
+tableOrigin=6
+TableX1=0
+TableX2=400
+TableY1=0
+TableY2=600
+ToolTime=0
+X1=0
+X2=385
+Y1=0
+Y2=585
+[Tool0]
+Comment=
+Depth per pass=4.5
+Diameter=2.5
+Feed rate=200
+Flute length=20
+Name=Mill/router, 2.5 mm diameter
+Name_Edited=0
+Path rules=
+Plunge rate=100
+Point angle=2.059488517353309
+Ramp Angle=0
+Spindle direction=0
+Spindle speed=11000
+Tool length offset=0
+Tool number=1
+Type=MillTool
+[Tool0/Custom]
+[Tool1]
+Comment=RCD08-0433-028D
+Depth per pass=4.5
+Diameter=1.1
+Flute length=9
+Name=1.10mm Drill point, Diamond-cut router
+Name_Edited=1
+Path rules=
+Plunge rate=100
+Point angle=2.059488517353309
+Spindle direction=0
+Spindle speed=11000
+Tool length offset=20.449999999999999
+Tool number=2
+Type=DrillTool
+[Tool1/Custom]
+[Tool2]
+Comment=RCD08-0433-028D
+Depth per pass=4.5
+Diameter=1.2
+Feed rate=200
+Flute length=7.5
+Name=1.20mm Chip-breaker router
+Name_Edited=1
+Path rules=
+Plunge rate=100
+Point angle=2.059488517353309
+Ramp Angle=0
+Spindle direction=0
+Spindle speed=11000
+Tool length offset=20.449999999999999
+Tool number=3
+Type=MillTool
+[Tool2/Custom]
+[Tool3]
+Comment=RCD08-0591-032F
+Depth per pass=4.5
+Diameter=1.5
+Feed rate=200
+Flute length=7.5
+Name=1.50 mm Fish-tail, Diamond-cut router
+Name_Edited=1
+Path rules=
+Plunge rate=100
+Point angle=2.059488517353309
+Ramp Angle=0
+Spindle direction=0
+Spindle speed=11000
+Tool length offset=20.449999999999999
+Tool number=4
+Type=MillTool
+[Tool3/Custom]
+[Tool4]
+Comment=RCD08-0787-032FC
+Zirconium Nitride Coated
+Depth per pass=4.5
+Diameter=2
+Feed rate=200
+Flute length=9
+Name=2.00mm Fish-tail, Diamond-cut (Zn) router
+Name_Edited=1
+Path rules=
+Plunge rate=100
+Point angle=2.059488517353309
+Ramp Angle=0
+Spindle direction=0
+Spindle speed=11000
+Tool length offset=20.449999999999999
+Tool number=5
+Type=MillTool
+[Tool4/Custom]
+[Tool5]
+Comment=RCT08-0787-028D
+Depth per pass=4.5
+Diameter=2
+Feed rate=200
+Flute length=9
+Name=2.00mm Drill Point, Tab Cutter router
+Name_Edited=1
+Path rules=
+Plunge rate=100
+Point angle=2.059488517353309
+Ramp Angle=0
+Spindle direction=0
+Spindle speed=11000
+Tool length offset=20.449999999999999
+Tool number=6
+Type=MillTool
+[Tool5/Custom]
+[Tool6]
+Comment=RCD08-0938-032FC
+Zirconium Nitride Coated
+Depth per pass=4.5
+Diameter=2.38
+Feed rate=200
+Flute length=9
+Name=2.38mm Fish-tail, Diamond-cut (Zn) router
+Name_Edited=1
+Path rules=
+Plunge rate=100
+Point angle=2.059488517353309
+Ramp Angle=0
+Spindle direction=0
+Spindle speed=11000
+Tool length offset=20.449999999999999
+Tool number=7
+Type=MillTool
+[Tool6/Custom]
+[Tool7]
+Comment=RCD08-1181-032FC
+Zirconium Nitride Coated
+Depth per pass=4.5
+Diameter=3
+Feed rate=200
+Flute length=9
+Name=3.00mm Fish-tail, Diamond-cut (Zn) router
+Name_Edited=1
+Path rules=
+Plunge rate=100
+Point angle=2.059488517353309
+Ramp Angle=0
+Spindle direction=0
+Spindle speed=11000
+Tool length offset=20.5
+Tool number=8
+Type=MillTool
+[Tool7/Custom]
+[Tool8]
+Comment=RCC08-1181-039F
+Depth per pass=4.5
+Diameter=3
+Feed rate=200
+Flute length=9
+Name=3.00mm Fish-tail, Chip-breaker router
+Name_Edited=1
+Path rules=
+Plunge rate=100
+Point angle=2.059488517353309
+Ramp Angle=0
+Spindle direction=0
+Spindle speed=11000
+Tool length offset=20.5
+Tool number=9
+Type=MillTool
+[Tool8/Custom]
+[Tool9]
+Comment=RCD08-0938-032FC
+Zirconium Nitride Coated
+Depth per pass=2
+Feed rate=140
+Flute length=3
+Name=V cutter, 0.01 mm diameter
+Name_Edited=1
+Path rules=
+Plunge rate=140
+Ramp Angle=0
+Spindle direction=0
+Spindle speed=11000
+Tip diameter=0.01
+Tool length offset=0
+Tool number=10
+Type=VTool
+V angle=2.059488517353309
+[Tool9/Custom]
+[ToolChange]
+BeforeCode=
+Code=
+noSafeZ=0
+UseX=0
+UseY=0
+UseZ=0
+X=0
+Y=0
+Z=0
+[Variables]
+[Work]
+Bottom=10
+Clearance=10
+isPolygon=0
+Name=
+Notes=
+Origin=6
+parkCode=
+ParkUseX=0
+ParkUseY=0
+ParkUseZ=0
+ParkX=0
+ParkY=0
+ParkZ=0
+PlungeSafety=5
+polyLayer=Motor Mount Outer Contour
+polyPart=0
+Show Notes=0
+Thickness=4
+X1=0
+X2=370
+Y1=0
+Y2=550
+[Work/keepout]
+Clamp Clearance Height=RapidClearance
+Corner 1X=0
+Corner 1Y=0
+Corner 2X=0
+Corner 2Y=0
+Function=0
+Inside=1
+layer=Motor Mount Outer Contour
+part=0
+[BinaryDataStart]%        E=     à‡=   Motor Mount Arm Countersink /  ÿÿÿÿ        T    €)Àû‡ä"¦ŠAÀ   T    €)Àÿ„ä"¦ŠA@         E½     à‡½           	           
+   tÖ JÎáz              T    €)Àÿ„ä"¦ŠA@   ¬ÿÿÿÿ)@ÿ„ä"¦ŠA@         E½     à‡½   -DTû!ù?	           
+   tÖ JÎáz              ¬ÿÿÿÿ)@ÿ„ä"¦ŠA@   ¬ÿÿÿÿ)@û‡ä"¦ŠAÀ         E½     à‡½   -DTû!	@	   ¼Ç2w    
+   tÖ JÎáz              ¬ÿÿÿÿ)@û‡ä"¦ŠAÀ   T    €)Àû‡ä"¦ŠAÀ         E½     à‡½   -DTû!ù¿	           
+   tÖ JÎáz             Motor Mount Fixture Holes /  ÿÿÿÿ        ¬ÿÿÿÿÿ-@ü   €?À   ¬ÿÿÿÿÿ*@ü    >À   ¬ÿÿÿÿÿ-@ü    >À   -DTû!ù?	   -DTû!	@
+         ø?              ¬ÿÿÿÿÿ*@ü    >À   ¬ÿÿÿÿÿ-@ü   €<À   ¬ÿÿÿÿÿ-@ü    >À   -DTû!ù?	   -DTû!ù¿
+         ø?              ¬ÿÿÿÿÿ-@ü   €<À   Öÿÿÿÿ0@ü    >À   ¬ÿÿÿÿÿ-@ü    >À   -DTû!ù?	           
+         ø?              Öÿÿÿÿ0@ü    >À   ¬ÿÿÿÿÿ-@ü   €?À   ¬ÿÿÿÿÿ-@ü    >À   -DTû!ù?	   -DTû!ù?
+         ø?             Motor Mount Fixture Holes /  ÿÿÿÿ        ¬ÿÿÿÿÿ-@ýÿÿÿ<@   °ÿÿÿÿÿ*@ýÿÿÿÿ=@   ¬ÿÿÿÿÿ-@ýÿÿÿÿ=@   -DTû!ù?	   -DTû!	@
+   àÿÿÿÿÿ÷?              °ÿÿÿÿÿ*@ýÿÿÿÿ=@   ¬ÿÿÿÿÿ-@ýÿÿÿ?@   ¬ÿÿÿÿÿ-@ýÿÿÿÿ=@   -DTû!ù?	   -DTû!ù¿
+   àÿÿÿÿÿ÷?              ¬ÿÿÿÿÿ-@ýÿÿÿ?@   Ôÿÿÿÿ0@ýÿÿÿÿ=@   ¬ÿÿÿÿÿ-@ýÿÿÿÿ=@   -DTû!ù?	           
+   àÿÿÿÿÿ÷?              Ôÿÿÿÿ0@ýÿÿÿÿ=@   ¬ÿÿÿÿÿ-@ýÿÿÿ<@   ¬ÿÿÿÿÿ-@ýÿÿÿÿ=@   -DTû!ù?	   -DTû!ù?
+   àÿÿÿÿÿ÷?             Motor Mount Fixture Holes /  ÿÿÿÿ        T     .Àýÿÿÿ<@   (    €0Àýÿÿÿÿ=@   T     .Àýÿÿÿÿ=@   -DTû!ù?	   -DTû!	@
+   àÿÿÿÿÿ÷?              (    €0Àýÿÿÿÿ=@   T     .Àýÿÿÿ?@   T     .Àýÿÿÿÿ=@   -DTû!ù?	   -DTû!ù¿
+   àÿÿÿÿÿ÷?              T     .Àýÿÿÿ?@   X     +Àýÿÿÿÿ=@   T     .Àýÿÿÿÿ=@   -DTû!ù?	           
+   àÿÿÿÿÿ÷?              X     +Àýÿÿÿÿ=@   T     .Àýÿÿÿ<@   T     .Àýÿÿÿÿ=@   -DTû!ù?	   -DTû!ù?
+   àÿÿÿÿÿ÷?             Motor Mount Fixture Holes /  ÿÿÿÿ        T     .Àý   €?À   +    €0Àü    >À   T     .Àü    >À   -DTû!ù?	   -DTû!	@
+        ø?              +    €0Àü    >À   T     .Àû   €<À   T     .Àü    >À   -DTû!ù?	   -DTû!ù¿
+        ø?              T     .Àû   €<À   R     +Àü    >À   T     .Àü    >À   -DTû!ù?	           
+        ø?              R     +Àü    >À   T     .Àý   €?À   T     .Àü    >À   -DTû!ù?	   -DTû!ù?
+        ø?             Motor Mount Central Pocket /  ÿÿÿÿ        Ó9`xèÞD½ó    À   «     ÀÆøóð"ä‡½         E½     à‡½   -DTû!ù?	   -DTû!	@
+        @              «     ÀÆøóð"ä‡½         E½ôÿÿÿÿ@        ÀD½cüyxâ‡½   -DTû!ù?	   -DTû!ù¿
+        @                    E½ôÿÿÿÿ@   [ÿÿÿÿÿ@†‡îÝ‡½         E½     à‡½   -DTû!ù?	           
+        @              [ÿÿÿÿÿ@†‡îÝ‡½   Ó9`xèÞD½ó    À         E½     à‡½   -DTû!ù?	   -DTû!ù?
+        @             Motor Mount Fixture Holes /  ÿÿÿÿ        ] À{­!@t5&€÷Z@   ¼@&€÷Z@¹À{­!@   ] À{­!@¹À{­!@   -DTû!ù?	   -DTû!	@
+   øÿÿÿÿÿ÷?              ¼@&€÷Z@¹À{­!@   ] À{­!@¸À{­$@   ] À{­!@¹À{­!@   -DTû!ù?	   -DTû!ù¿
+   øÿÿÿÿÿ÷?              ] À{­!@¸À{­$@   \ À{­$@¹À{­!@   ] À{­!@¹À{­!@   -DTû!ù?	           
+   øÿÿÿÿÿ÷?              \ À{­$@¹À{­!@   ] À{­!@t5&€÷Z@   ] À{­!@¹À{­!@   -DTû!ù?	   -DTû!ù?
+   øÿÿÿÿÿ÷?             Motor Mount Fixture Holes /  ÿÿÿÿ        !À{­!À¨&À{­$À   !À{­$À©&À{­!À   !À{­!À©&À{­!À   -DTû!ù?	   -DTû!	@
+   øÿÿÿÿÿ÷?              !À{­$À©&À{­!À   !À{­!ÀTM&€÷ZÀ   !À{­!À©&À{­!À   -DTû!ù?	   -DTû!ù¿
+   øÿÿÿÿÿ÷?              !À{­!ÀTM&€÷ZÀ   B&€÷ZÀ©&À{­!À   !À{­!À©&À{­!À   -DTû!ù?	           
+   øÿÿÿÿÿ÷?              B&€÷ZÀ©&À{­!À   !À{­!À¨&À{­$À   !À{­!À©&À{­!À   -DTû!ù?	   -DTû!ù?
+   øÿÿÿÿÿ÷?             Motor Mount Fixture Holes /  ÿÿÿÿ        ] À{­!@­&À{­$À   ²@&€÷Z@©&À{­!À   ] À{­!@©&À{­!À   -DTû!ù?	   -DTû!	@
+         ø?              ²@&€÷Z@©&À{­!À   ] À{­!@JM&€÷ZÀ   ] À{­!@©&À{­!À   -DTû!ù?	   -DTû!ù¿
+         ø?              ] À{­!@JM&€÷ZÀ   a À{­$@©&À{­!À   ] À{­!@©&À{­!À   -DTû!ù?	           
+         ø?              a À{­$@©&À{­!À   ] À{­!@­&À{­$À   ] À{­!@©&À{­!À   -DTû!ù?	   -DTû!ù?
+         ø?             Motor Mount Fixture Holes /  ÿÿÿÿ        !À{­!Àp5&€÷Z@   !À{­$À¹À{­!@   !À{­!À¹À{­!@   -DTû!ù?	   -DTû!	@
+        ø?              !À{­$À¹À{­!@   !À{­!ÀºÀ{­$@   !À{­!À¹À{­!@   -DTû!ù?	   -DTû!ù¿
+        ø?              !À{­!ÀºÀ{­$@   B&€÷ZÀ¹À{­!@   !À{­!À¹À{­!@   -DTû!ù?	           
+        ø?              B&€÷ZÀ¹À{­!@   !À{­!Àp5&€÷Z@   !À{­!À¹À{­!@   -DTû!ù?	   -DTû!ù?
+        ø?             Motor Mount Outer Contour /  ÿÿÿÿ        B    5ÀW<    >@   T     .À†þÿÿÿÿA@   ¦?    .Àž    >@   ˜çCTû!ù?	   *“CTû!ù¿
+   ¸éÿÿÿÿ@              T     .À†þÿÿÿÿA@   ”Úÿÿÿÿ-@    B@       €!°½Ê7LøeQ@   `Öûˆàê¿	   ã³DDêÅÀ
+   m•®¨ eB@              ”Úÿÿÿÿ-@    B@   Øÿÿÿÿÿ4@ýÿÿÿÿ=@   (áÿÿÿÿ-@¿óÿÿÿÿ=@   $DTû!ù?	        Œa½
+   =    @              Øÿÿÿÿÿ4@ýÿÿÿÿ=@   >    5@0B    >À   ÌüÙ!æ^@     ,¥=   HQ"kæ4â¿	   ÐŸ{¹Á”ô¿
+   (Äjõ¹Z@              >    5@0B    >À   ¬ÿÿÿÿÿ-@‚    BÀ   à>    .@6    >À   ÄæCTû!ù?	   °ÇDTû!ù?
+   8ëÿÿÿÿ@              ¬ÿÿÿÿÿ-@‚    BÀ   üæÿÿÿÿ-ÀîýÿÿÿÿAÀ        8}½šÉ7LøeQÀ    Üûˆàê¿	   DëûˆàÚ?
+   m•®¨ eB@              üæÿÿÿÿ-ÀîýÿÿÿÿAÀ   ,     5Àü    >À   ì    .À¦üÿÿÿÿ=À    @DTû!ù?	   "DTû!	@
+   Øüÿÿÿÿ@              ,     5Àü    >À   B    5ÀW<    >@   ÖüÙ!æ^À     æ¯½   PQ"kæ4â¿	   xºï4¯ý?
+   )Äjõ¹Z@                  ð¿        ð¿              ÿÿÿÿ   	 ¬ÿÿÿÿÿ-@ 	 ü    >À     #   $   0 	         1   2 	                                 ð¿         ð¿              ÿÿÿÿ   	 ¬ÿÿÿÿÿ-@ 	 ýÿÿÿÿ=@     #   $   0 	         1   2 	                                 ð¿         ð¿              ÿÿÿÿ   	 T     .À 	 ýÿÿÿÿ=@     #   $   0 	         1   2 	                                 ð¿         ð¿              ÿÿÿÿ   	 T     .À 	 ü    >À     #   $   0 	         1   2 	                                 ð¿         ð¿              ÿÿÿÿ   	 ] À{­!@ 	 ¹À{­!@      #   $   0 	         1   2 	                                 ð¿         ð¿              ÿÿÿÿ   	 !À{­!À 	 ©&À{­!À     #   $   0 	         1   2 	                                 ð¿         ð¿              ÿÿÿÿ   	 ] À{­!@ 	 ©&À{­!À     #   $   0 	         1   2 	                                 ð¿         ð¿              ÿÿÿÿ   	 !À{­!À 	 ¹À{­!@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ¹H€”6À 	 T€”6À      #   $   0 	         1   2 	                              ð¿        ð¿              ÿÿÿÿ   	 T    €)À 	      à‡½      #   $   0 	         1   2 	                                                        ÿÿÿÿ   	 ´â¼,´0À 	 xîÎ’‚¾=      #   $   0 	         1   2 	                          % k €‰~¯Ðwã¿ÀŒ’ç-9à¿   Fixture Holes /  ÿÿÿÿ        üÿÿÿÿ1@Šë¬d¬¥"@   :     0@ë¬d¬¥%@   üÿÿÿÿ1@ë¬d¬¥%@   -DTû!ù?	   -DTû!	@
+    üÿÿÿÿ÷?              :     0@ë¬d¬¥%@   üÿÿÿÿ1@’ê¬d¬¥(@   üÿÿÿÿ1@ë¬d¬¥%@   -DTû!ù?	   -DTû!ù¿
+    üÿÿÿÿ÷?              üÿÿÿÿ1@’ê¬d¬¥(@   ¾ÿÿÿÿÿ2@ë¬d¬¥%@   üÿÿÿÿ1@ë¬d¬¥%@   -DTû!ù?	           
+    üÿÿÿÿ÷?              ¾ÿÿÿÿÿ2@ë¬d¬¥%@   üÿÿÿÿ1@Šë¬d¬¥"@   üÿÿÿÿ1@ë¬d¬¥%@   -DTû!ù?	   -DTû!ù?
+    üÿÿÿÿ÷?             Fixture Holes /  ÿÿÿÿ        ¢ù? €1À¤øvÝ)­9À   jó  3ÀÜþ6Ü)-8À   ¢ù? €1ÀÜþ6Ü)-8À   -DTû!ù?	   -DTû!	@
+   €œÿ  ø?              jó  3ÀÜþ6Ü)-8À   ¢ù? €1À÷Ú)­6À   ¢ù? €1ÀÜþ6Ü)-8À   -DTû!ù?	   -DTû!ù¿
+   €œÿ  ø?              ¢ù? €1À÷Ú)­6À   ´ÿÿÿÿÿ/ÀÜþ6Ü)-8À   ¢ù? €1ÀÜþ6Ü)-8À   -DTû!ù?	           
+   €œÿ  ø?              ´ÿÿÿÿÿ/ÀÜþ6Ü)-8À   ¢ù? €1À¤øvÝ)­9À   ¢ù? €1ÀÜþ6Ü)-8À   -DTû!ù?	   -DTû!ù?
+   €œÿ  ø?             Fixture Holes /  ÿÿÿÿ            €1ÀŽë¬d¬¥"@   Äÿÿÿÿÿ2Àë¬d¬¥%@       €1Àë¬d¬¥%@   -DTû!ù?	   -DTû!	@
+    üÿÿÿÿ÷?              Äÿÿÿÿÿ2Àë¬d¬¥%@       €1ÀŽê¬d¬¥(@       €1Àë¬d¬¥%@   -DTû!ù?	   -DTû!ù¿
+    üÿÿÿÿ÷?                  €1ÀŽê¬d¬¥(@   D     0Àë¬d¬¥%@       €1Àë¬d¬¥%@   -DTû!ù?	           
+    üÿÿÿÿ÷?              D     0Àë¬d¬¥%@       €1ÀŽë¬d¬¥"@       €1Àë¬d¬¥%@   -DTû!ù?	   -DTû!ù?
+    üÿÿÿÿ÷?             Fixture Holes /  ÿÿÿÿ        šù? €1@‚÷Ú)­9À   ôò  0@Üþ6Ü)-8À   šù? €1@Üþ6Ü)-8À   -DTû!ù?	   -DTû!	@
+   `j ìÿÿ÷?              ôò  0@Üþ6Ü)-8À   šù? €1@6øvÝ)­6À   šù? €1@Üþ6Ü)-8À   -DTû!ù?	   -DTû!ù¿
+   `j ìÿÿ÷?              šù? €1@6øvÝ)­6À   @     3@Üþ6Ü)-8À   šù? €1@Üþ6Ü)-8À   -DTû!ù?	           
+   `j ìÿÿ÷?              @     3@Üþ6Ü)-8À   šù? €1@‚÷Ú)­9À   šù? €1@Üþ6Ü)-8À   -DTû!ù?	   -DTû!ù?
+   `j ìÿÿ÷?             Inner Contour /  ÿÿÿÿ        £¿?õÿ(ÀJ™’iÇÊ"@   ŒÄ?õÿ(@9™’iÇÊ"@   €‰~¯Ðwã?ÀŒ’ç-9à?   -DTû!ù?	           
+   `j ìÿÿ÷?              ŒÄ?õÿ(@9™’iÇÊ"@   =f@  €,@àÌ%·•@   ¥l@  €(@°2%ÓŽ•@   ™E¸ù!ù?	      2P†¾
+   „ÿÿÿÿÿÿ?              =f@  €,@àÌ%·•@   Îc@  €,@©ó6è›1À   €‰~¯Ðwã?ÀŒ’ç-9à?   ²,DTû!	À	           
+   `j ìÿÿ÷?              Îc@  €,@©ó6è›1À   Ú¾AùT+@Û †ü¥„2À   ¥l@  €(@²ã6,œ1À   xlF ý!é?	   Ì¬D4ù!ù?
+   Ç      @              Ú¾AùT+@Û †ü¥„2À   à¼?õÿ(@Ãã6,œ3À   ¥l@  €(@²ã6,œ1À   xlF ý!é?	   „ñ3|Ù@
+   Ä      @              à¼?õÿ(@Ãã6,œ3À   ¤¿?õÿ(À«ã6,œ3À   €‰~¯Ðwã?ÀŒ’ç-9à?   -DTû!ù¿	           
+   `j ìÿÿ÷?              ¤¿?õÿ(À«ã6,œ3À   •1AùT+Àoù…ü¥„2À   Î?  €(À²ã6,œ1À   òB ý!é?	   ÄŠD>û!	@
+         @              •1AùT+Àoù…ü¥„2À   Ç‡?  €,À¨ó6è›1À   Î?  €(À²ã6,œ1À   òB ý!é?	   è3|ÙÀ
+         @              Ç‡?  €,À¨ó6è›1À   vŠ?  €,ÀàÌ%·•@   €‰~¯Ðwã?ÀŒ’ç-9à?         ,½	           
+   `j ìÿÿ÷?              vŠ?  €,ÀàÌ%·•@   £¿?õÿ(ÀJ™’iÇÊ"@   Î?  €(À°2%ÓŽ•@   d=B¸ù!ù?	   ¸øBŒù!ù¿
+         @             Outer Contour /  ÿÿÿÿ        )·¿øÿ?1À¿Þ&~Lê¿   åï¿É·1ÀMNrá­Ý?   ·¿øÿ?3ÀhU—Š~Lê¿   ‡… Wæ¿	   V;û!ù?
+   ÿÿÿÿÿÿ?              åï¿É·1ÀMNrá­Ý?   ó5€¼ãš7ÀÄ[#Sfë@   €‰~¯Ðwã?ÀŒ’ç-9à?   @ÌëWæ¿	           
+   `j ìÿÿ÷?              ó5€¼ãš7ÀÄ[#Sfë@   *ÀÌó7À*,’E%æ"@   S .Ñ¬6À,A7ê‡!@   ¾Ù/UÁð?	   ˜þKÄ&À
+   !ÿÿÿÿÿÿ?              *ÀÌó7À*,’E%æ"@   ~ €/•5À  ’_vë/@   €‰~¯Ðwã?ÀŒ’ç-9à?   ðÇ`WÖ?	           
+   `j ì*5w              ~ €/•5À  ’_vë/@   )éÿ	ø4ÀMÉ)Ö>1@   ÊºVÑ´3ÀT‰žÐ:.@   ÿ_fOÁð?	   /ß0Œó¿
+    ÿÿÿÿÿÿ?              )éÿ	ø4ÀMÉ)Ö>1@   ñÿ{¢23Àî=É¡Ue1@   €‰~¯Ðwã?ÀŒ’ç-9à?   Ó®ÜžWö?	           
+   `j ì*5w              ñÿ{¢23Àî=É¡Ue1@   ßØ€kª1À¨É•q®2@   —ä‹‹3À2
+RŽ]3@   ü¿Ò2UÁð¿	   TËî‰¼@
+   ‘ÿÿÿÿÿÿ?              ßØ€kª1À¨É•q®2@   š€Ÿµø-ÀRÉud:@   €‰~¯Ðwã?ÀŒ’ç-9à?   8¯Æ9WÖ?	           
+   `j ì*5w              š€Ÿµø-ÀRÉud:@   €çÿñ7t&Àº
+ÉÏ)­<@   „TH%8t&Àð
+ÉÏ)­8@   @ìY%5Œó?	   8É¾4Œó¿
+   p     @              €çÿñ7t&Àº
+ÉÏ)­<@   vâÿñ7t&@¶
+ÉÏ)­<@   €‰~¯Ðwã?ÀŒ’ç-9à?   -DTû!ù?	           
+   `j ì*5w              vâÿñ7t&@¶
+ÉÏ)­<@   ¾Ÿµø-@RÉud:@   xG%8t&@ð
+ÉÏ)­8@   d>X%5Œó?	     €Ë£™¾
+   `     @              ¾Ÿµø-@RÉud:@   óØ€kª1@²É•q®2@   €‰~¯Ðwã?ÀŒ’ç-9à?   ‘í
+MW@	           
+   `j ì*5w              óØ€kª1@²É•q®2@   ñÿ{¢23@>É¡Ue1@   —ä‹‹3@2
+RŽ]3@   þ¿Ò2UÁð¿	   ¬Ö
+ç¼·þ¿
+   ºýÿÿÿÿÿ?              ñÿ{¢23@>É¡Ue1@   R^ 
+ø4@ÄÉ)Ö>1@   €‰~¯Ðwã?ÀŒ’ç-9à?   %««	Ýìû?	           
+   `j ì*5w              R^ 
+ø4@ÄÉ)Ö>1@   %€/•5@&Ü‘_vë/@   ÂºVÑ´3@T‰žÐ:.@   Êà\fOÁð?	   °‰–ÆWÆ?
+   “      @              %€/•5@&Ü‘_vë/@   *ÀÌó7@/,’E%æ"@   €‰~¯Ðwã?ÀŒ’ç-9à?   6BhW@	           
+   `j ì*5w              *ÀÌó7@/,’E%æ"@   ò5€¼ãš7@²[#Sfë@   L .Ñ¬6@,A7ê‡!@   ¾Ù/UÁð?	   ?¾3Œó?
+   ’ÿÿÿÿÿÿ?              ò5€¼ãš7@²[#Sfë@   4ñ¿É·1@|vIrá­Ý?   €‰~¯Ðwã?ÀŒ’ç-9à?   ÅEÉl:ŒÀ	           
+   `j ì*5w              4ñ¿É·1@|vIrá­Ý?    %Àøÿ?1@VPá&~Lê¿   %Àøÿ?3@ø–‰Š~Lê¿   pþ€Wæ¿	   n¶õÝìë¿
+   )      @               %Àøÿ?1@VPá&~Lê¿   a%Àøÿ?1@€mmt«Ï/À   €‰~¯Ðwã?ÀŒ’ç-9à?   å,DTû!	@	           
+   `j ì*5w              a%Àøÿ?1@€mmt«Ï/À   /ô¿>ìk2@•ª6é»2À   %Àøÿ?5@ô.?«Ï/À   pTû!é¿	   0ÔÂ¾û!ù¿
+   Õÿÿÿÿÿ@              /ô¿>ìk2@•ª6é»2À   äâN–®4@t7®“þ4À   €‰~¯Ðwã?ÀŒ’ç-9à?   s¹€¶|Ù@	           
+   `j ìÿÿ÷?              äâN–®4@t7®“þ4À   ã?/–®4@&èv)À[;À   šù? €1@Üþ6Ü)-8À   -DTû!ù?	   ³fñû!é?
+   ¼0HÎÿÿ@              ã?/–®4@&èv)À[;À      hÓ¢,@Dè6
+À[;À   šù? €1@Üþ6Ü)-8À   -DTû!ù?	   RÃ{¦|Ù@
+   ¼0HÎÿÿ@                 hÓ¢,@Dè6
+À[;À   ª3@ðcx&@Oç6}ˆF8À   €‰~¯Ðwã?ÀŒ’ç-9à?   b‹Gü!é¿	           
+   `j ìÿÿ÷?              ª3@ðcx&@Oç6}ˆF8À   	z G<Ð @°«67œ7À   z 1<Ð @„«67œ;À   & Ñû!é¿	   cŠ)ü!é?
+   ÿÿÿÿÿ@              	z G<Ð @°«67œ7À   2žÿF<Ð Àž«67œ7À   €‰~¯Ðwã?ÀŒ’ç-9à?   -DTû!ù¿	           
+   `j ìÿÿ÷?              2žÿF<Ð Àž«67œ7À   íW?ðcx&ÀCç6}ˆF8À   £Cÿ0<Ð À„«67œ;À   * Ñû!é¿	      Z †¾
+   ©ÿÿÿÿÿ@              íW?ðcx&ÀCç6}ˆF8À   ¯  hÓ¢,ÀEè6
+À[;À   €‰~¯Ðwã?ÀŒ’ç-9à?   íÅ`B|ÙÀ	           
+   `j ìÿÿ÷?              ¯  hÓ¢,ÀEè6
+À[;À   
+ã?/–®4À'èv)À[;À   ¢ù? €1ÀÜþ6Ü)-8À   -DTû!ù?	   R€êW|Ù@
+   ¿0HÎÿÿ@              
+ã?/–®4À'èv)À[;À   íâN–®4Àt7®“þ4À   ¢ù? €1ÀÜþ6Ü)-8À   -DTû!ù?	   SÃ{¦|ÙÀ
+   ¿0HÎÿÿ@              íâN–®4Àt7®“þ4À   Øò¿>ìk2À(©6é»2À   €‰~¯Ðwã?ÀŒ’ç-9à?   8Îwú!é?	           
+   `j ìÿÿ÷?              Øò¿>ìk2À(©6é»2À   ·¿øÿ?1À†hmt«Ï/À   ·¿øÿ?5À>-?«Ï/À   €àTû!é¿	   $9i´|Ù@
+   „ÿÿÿÿÿ@              ·¿øÿ?1À†hmt«Ï/À   )·¿øÿ?1À¿Þ&~Lê¿   €‰~¯Ðwã?ÀŒ’ç-9à?        €=	           
+   `j ìÿÿ÷?                                            ÿÿÿÿ   	 ‰?  €,À 	 à ÛôojÀ      #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 žöÍl‡2@ 	 Êý‹†#@      #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 :2ðn‡2À 	 t7çI±<9À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ¤öÍl‡2À 	 OØH>»Ä'@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ë®+m‡2@ 	 -´"H±<9À     #   $   0 	         1   2 	                                                        ÿÿÿÿ   	 NbŸ3ç
++À 	 85¦«ùó;@      #   $   0 	         1   2 	                          % k 4?‰*äc@ÙFÃ7î£e@   Alt Fixture Holes /  ÿÿÿÿ        Òþ?   FÀ\¡nãHiIÀ   žËÍÌÌFÀÔ¡|œHÀ   Òþ?   FÀÔ¡|œHÀ   -DTû!ù?	   -DTû!	@
+   €™™™™™ù?              žËÍÌÌFÀÔ¡|œHÀ   Òþ?   FÀÄÕI¯ÏGÀ   Òþ?   FÀÔ¡|œHÀ   -DTû!ù?	   -DTû!ù¿
+   €™™™™™ù?              Òþ?   FÀÄÕI¯ÏGÀ   2s333EÀÔ¡|œHÀ   Òþ?   FÀÔ¡|œHÀ   -DTû!ù?	           
+   €™™™™™ù?              2s333EÀÔ¡|œHÀ   Òþ?   FÀ\¡nãHiIÀ   Òþ?   FÀÔ¡|œHÀ   -DTû!ù?	   -DTû!ù?
+   €™™™™™ù?             Fixture Holes /  ÿÿÿÿ         þ?   F@\¡nãHiIÀ   Ô1s333E@Ô¡|œHÀ    þ?   F@Ô¡|œHÀ   -DTû!ù?	   -DTû!	@
+   €™™™™™ù?              Ô1s333E@Ô¡|œHÀ    þ?   F@ÄÕI¯ÏGÀ    þ?   F@Ô¡|œHÀ   -DTû!ù?	   -DTû!ù¿
+   €™™™™™ù?               þ?   F@ÄÕI¯ÏGÀ   lËÍÌÌF@Ô¡|œHÀ    þ?   F@Ô¡|œHÀ   -DTû!ù?	           
+   €™™™™™ù?              lËÍÌÌF@Ô¡|œHÀ    þ?   F@\¡nãHiIÀ    þ?   F@Ô¡|œHÀ   -DTû!ù?	   -DTû!ù?
+   €™™™™™ù?             Fixture Holes /  ÿÿÿÿ        Òþ?   FÀ¸BÝÆ‘Ò4À   žËÍÌÌFÀ ©C-ø83À   Òþ?   FÀ ©C-ø83À   -DTû!ù?	   -DTû!	@
+   €™™™™™ù?              žËÍÌÌFÀ ©C-ø83À   Òþ?   FÀˆª“^Ÿ1À   Òþ?   FÀ ©C-ø83À   -DTû!ù?	   -DTû!ù¿
+   €™™™™™ù?              Òþ?   FÀˆª“^Ÿ1À   2s333EÀ ©C-ø83À   Òþ?   FÀ ©C-ø83À   -DTû!ù?	           
+   €™™™™™ù?              2s333EÀ ©C-ø83À   Òþ?   FÀ¸BÝÆ‘Ò4À   Òþ?   FÀ ©C-ø83À   -DTû!ù?	   -DTû!ù?
+   €™™™™™ù?             Fixture Holes /  ÿÿÿÿ         þ?   F@ÀBÝÆ‘Ò4À   Ð1s333E@ ©C-ø83À    þ?   F@ ©C-ø83À   -DTû!ù?	   -DTû!	@
+    š™™™™ù?              Ð1s333E@ ©C-ø83À    þ?   F@€ª“^Ÿ1À    þ?   F@ ©C-ø83À   -DTû!ù?	   -DTû!ù¿
+    š™™™™ù?               þ?   F@€ª“^Ÿ1À   pËÍÌÌF@ ©C-ø83À    þ?   F@ ©C-ø83À   -DTû!ù?	           
+    š™™™™ù?              pËÍÌÌF@ ©C-ø83À    þ?   F@ÀBÝÆ‘Ò4À    þ?   F@ ©C-ø83À   -DTû!ù?	   -DTû!ù?
+    š™™™™ù?             Fixture Holes /  ÿÿÿÿ         þ?   F@P½"9n­1@   hËÍÌÌF@àV¼ÒG3@    þ?   F@àV¼ÒG3@   -DTû!ù¿	   -DTû!	@
+    ™™™™™ù?              hËÍÌÌF@àV¼ÒG3@    þ?   F@pðUl¡à4@    þ?   F@àV¼ÒG3@   -DTû!ù¿	   -DTû!ù?
+    ™™™™™ù?               þ?   F@pðUl¡à4@   Ø1s333E@àV¼ÒG3@    þ?   F@àV¼ÒG3@   -DTû!ù¿	           
+    ™™™™™ù?              Ø1s333E@àV¼ÒG3@    þ?   F@P½"9n­1@    þ?   F@àV¼ÒG3@   -DTû!ù¿	   -DTû!ù¿
+    ™™™™™ù?             Fixture Holes /  ÿÿÿÿ        Òþ?   FÀH½"9n­1@   2s333EÀàV¼ÒG3@   Òþ?   FÀàV¼ÒG3@   -DTû!ù¿	   -DTû!	@
+   €™™™™™ù?              2s333EÀàV¼ÒG3@   Òþ?   FÀxðUl¡à4@   Òþ?   FÀàV¼ÒG3@   -DTû!ù¿	   -DTû!ù?
+   €™™™™™ù?              Òþ?   FÀxðUl¡à4@   žËÍÌÌFÀàV¼ÒG3@   Òþ?   FÀàV¼ÒG3@   -DTû!ù¿	           
+   €™™™™™ù?              žËÍÌÌFÀàV¼ÒG3@   Òþ?   FÀH½"9n­1@   Òþ?   FÀàV¼ÒG3@   -DTû!ù¿	   -DTû!ù¿
+   €™™™™™ù?             Fixture Holes /  ÿÿÿÿ        Òþ?   FÀ¤^‘·ÖG@   žËÍÌÌFÀp+^éƒ£H@   Òþ?   FÀp+^éƒ£H@   -DTû!ù?	   -DTû!	@
+   €™™™™™ù?              žËÍÌÌFÀp+^éƒ£H@   Òþ?   FÀ<ø*¶PpI@   Òþ?   FÀp+^éƒ£H@   -DTû!ù?	   -DTû!ù¿
+   €™™™™™ù?              Òþ?   FÀ<ø*¶PpI@   2s333EÀp+^éƒ£H@   Òþ?   FÀp+^éƒ£H@   -DTû!ù?	           
+   €™™™™™ù?              2s333EÀp+^éƒ£H@   Òþ?   FÀ¤^‘·ÖG@   Òþ?   FÀp+^éƒ£H@   -DTû!ù?	   -DTû!ù?
+   €™™™™™ù?             Fixture Holes /  ÿÿÿÿ         þ?   F@ ^‘·ÖG@   Ð1s333E@p+^éƒ£H@    þ?   F@p+^éƒ£H@   -DTû!ù?	   -DTû!	@
+    š™™™™ù?              Ð1s333E@p+^éƒ£H@    þ?   F@@ø*¶PpI@    þ?   F@p+^éƒ£H@   -DTû!ù?	   -DTû!ù¿
+    š™™™™ù?               þ?   F@@ø*¶PpI@   pËÍÌÌF@p+^éƒ£H@    þ?   F@p+^éƒ£H@   -DTû!ù?	           
+    š™™™™ù?              pËÍÌÌF@p+^éƒ£H@    þ?   F@ ^‘·ÖG@    þ?   F@p+^éƒ£H@   -DTû!ù?	   -DTû!ù?
+    š™™™™ù?             Fixture Holes /  ÿÿÿÿ        0     3À=žôþ¦¶`@   @    €4À?žôþ¦æ`@   0     3À?žôþ¦æ`@   -DTû!ù?	   -DTû!	@
+        ø?              @    €4À?žôþ¦æ`@   0     3ÀAžôþ¦a@   0     3À?žôþ¦æ`@   -DTû!ù?	   -DTû!ù¿
+        ø?              0     3ÀAžôþ¦a@        €1À?žôþ¦æ`@   0     3À?žôþ¦æ`@   -DTû!ù?	           
+        ø?                   €1À?žôþ¦æ`@   0     3À=žôþ¦¶`@   0     3À?žôþ¦æ`@   -DTû!ù?	   -DTû!ù?
+        ø?             Fixture Holes /  ÿÿÿÿ             EÀ€o   ø¿       ÀEÀ     |Ë½        EÀ     |Ë½   -DTû!ù?	   -DTû!	@
+         ø?                  ÀEÀ     |Ë½        EÀ€üÿÿÿ÷?        EÀ     |Ë½   -DTû!ù?	   -DTû!ù¿
+         ø?                   EÀ€üÿÿÿ÷?       @DÀ     |Ë½        EÀ     |Ë½   -DTû!ù?	           
+         ø?                  @DÀ     |Ë½        EÀ€o   ø¿        EÀ     |Ë½   -DTû!ù?	   -DTû!ù?
+         ø?             Fixture Holes /  ÿÿÿÿ        `    €.À>òÿÿÿŸV@   @    À0ÀBòÿÿÿÿV@   `    €.ÀBòÿÿÿÿV@   -DTû!ù?	   -DTû!	@
+        ø?              @    À0ÀBòÿÿÿÿV@   `    €.ÀFòÿÿÿ_W@   `    €.ÀBòÿÿÿÿV@   -DTû!ù?	   -DTû!ù¿
+        ø?              `    €.ÀFòÿÿÿ_W@   @    €+ÀBòÿÿÿÿV@   `    €.ÀBòÿÿÿÿV@   -DTû!ù?	           
+        ø?              @    €+ÀBòÿÿÿÿV@   `    €.À>òÿÿÿŸV@   `    €.ÀBòÿÿÿÿV@   -DTû!ù?	   -DTû!ù?
+        ø?             Fixture Holes /  ÿÿÿÿ        0    €1Àøb#%¹vVÀ   8     3Àöb#%¹VÀ   0    €1Àöb#%¹VÀ   -DTû!ù?	   -DTû!	@
+   €     ø?              8     3Àöb#%¹VÀ   0    €1Àôb#%¹¶UÀ   0    €1Àöb#%¹VÀ   -DTû!ù?	   -DTû!ù¿
+   €     ø?              0    €1Àôb#%¹¶UÀ   (     0Àöb#%¹VÀ   0    €1Àöb#%¹VÀ   -DTû!ù?	           
+   €     ø?              (     0Àöb#%¹VÀ   0    €1Àøb#%¹vVÀ   0    €1Àöb#%¹VÀ   -DTû!ù?	   -DTû!ù?
+   €     ø?             Arm Fixtures /  ÿÿÿÿ        ÂIÖ=QJ@
+!æ•iU@   ÂIÖ=QH@!æ•iV@   ÂIÖ=QJ@!æ•iV@   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ@              ÂIÖ=QH@!æ•iV@   ÂIÖ=QJ@!æ•iW@   ÂIÖ=QJ@!æ•iV@   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ@              ÂIÖ=QJ@!æ•iW@   ÂIÖ=QL@!æ•iV@   ÂIÖ=QJ@!æ•iV@   -DTû!ù?	           
+   €ÿÿÿÿÿ@              ÂIÖ=QL@!æ•iV@   ÂIÖ=QJ@
+!æ•iU@   ÂIÖ=QJ@!æ•iV@   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ@             Arm Fixtures /  ÿÿÿÿ        ÂIÖ=QJ@,!æ•iWÀ   ÂIÖ=QH@,!æ•iVÀ   ÂIÖ=QJ@,!æ•iVÀ   -DTû!ù?	   -DTû!	@
+         @              ÂIÖ=QH@,!æ•iVÀ   ÂIÖ=QJ@,!æ•iUÀ   ÂIÖ=QJ@,!æ•iVÀ   -DTû!ù?	   -DTû!ù¿
+         @              ÂIÖ=QJ@,!æ•iUÀ   ÂIÖ=QL@,!æ•iVÀ   ÂIÖ=QJ@,!æ•iVÀ   -DTû!ù?	           
+         @              ÂIÖ=QL@,!æ•iVÀ   ÂIÖ=QJ@,!æ•iWÀ   ÂIÖ=QJ@,!æ•iVÀ   -DTû!ù?	   -DTû!ù?
+         @             Arm Fixtures /  ÿÿÿÿ        ¤0øõXÀ„DàAÚ`À   ¤0øõYÀ„DàAZ`À   ¤0øõXÀ„DàAZ`À   -DTû!ù?	   -DTû!	@
+        @              ¤0øõYÀ„DàAZ`À   ¤0øõXÀ‰*Àƒ´_À   ¤0øõXÀ„DàAZ`À   -DTû!ù?	   -DTû!ù¿
+        @              ¤0øõXÀ‰*Àƒ´_À   ¢0øõWÀ„DàAZ`À   ¤0øõXÀ„DàAZ`À   -DTû!ù?	           
+        @              ¢0øõWÀ„DàAZ`À   ¤0øõXÀ„DàAÚ`À   ¤0øõXÀ„DàAZ`À   -DTû!ù?	   -DTû!ù?
+        @             Arm Fixtures /  ÿÿÿÿ        ¤0øõXÀŠm*Àƒ´_@   ¤0øõYÀÅ6àAZ`@   ¤0øõXÀÅ6àAZ`@   -DTû!ù?	   -DTû!	@
+         @              ¤0øõYÀÅ6àAZ`@   ¤0øõXÀÅ6àAÚ`@   ¤0øõXÀÅ6àAZ`@   -DTû!ù?	   -DTû!ù¿
+         @              ¤0øõXÀÅ6àAÚ`@   ¤0øõWÀÅ6àAZ`@   ¤0øõXÀÅ6àAZ`@   -DTû!ù?	           
+         @              ¤0øõWÀÅ6àAZ`@   ¤0øõXÀŠm*Àƒ´_@   ¤0øõXÀÅ6àAZ`@   -DTû!ù?	   -DTû!ù?
+   ðÿÿÿÿÿ@             Fixture Holes /  ÿÿÿÿ        0    €1Àøb#%¹6_À   8     3Àöb#%¹Ö^À   0    €1Àöb#%¹Ö^À   -DTû!ù?	   -DTû!	@
+   €     ø?              8     3Àöb#%¹Ö^À   0    €1Àôb#%¹v^À   0    €1Àöb#%¹Ö^À   -DTû!ù?	   -DTû!ù¿
+   €     ø?              0    €1Àôb#%¹v^À   (     0Àöb#%¹Ö^À   0    €1Àöb#%¹Ö^À   -DTû!ù?	           
+   €     ø?              (     0Àöb#%¹Ö^À   0    €1Àøb#%¹6_À   0    €1Àöb#%¹Ö^À   -DTû!ù?	   -DTû!ù?
+   €     ø?             Fixture Holes /  ÿÿÿÿ        `    €.ÀBòÿÿÿ?^@   0    À0ÀBòÿÿÿŸ^@   `    €.ÀBòÿÿÿŸ^@   -DTû!ù?	   -DTû!	@
+         ø?              0    À0ÀBòÿÿÿŸ^@   `    €.ÀBòÿÿÿÿ^@   `    €.ÀBòÿÿÿŸ^@   -DTû!ù?	   -DTû!ù¿
+         ø?              `    €.ÀBòÿÿÿÿ^@   `    €+ÀBòÿÿÿŸ^@   `    €.ÀBòÿÿÿŸ^@   -DTû!ù?	           
+         ø?              `    €+ÀBòÿÿÿŸ^@   `    €.ÀBòÿÿÿ?^@   `    €.ÀBòÿÿÿŸ^@   -DTû!ù?	   -DTû!ù?
+         ø?             Fixture Holes /  ÿÿÿÿ         ÿÿÿÿ.@>òÿÿÿŸV@   €ÿÿÿÿ+@BòÿÿÿÿV@    ÿÿÿÿ.@BòÿÿÿÿV@   -DTû!ù?	   -DTû!	@
+        ø?              €ÿÿÿÿ+@BòÿÿÿÿV@    ÿÿÿÿ.@Fòÿÿÿ_W@    ÿÿÿÿ.@BòÿÿÿÿV@   -DTû!ù?	   -DTû!ù¿
+        ø?               ÿÿÿÿ.@Fòÿÿÿ_W@   àÿÿÿÿ¿0@BòÿÿÿÿV@    ÿÿÿÿ.@BòÿÿÿÿV@   -DTû!ù?	           
+        ø?              àÿÿÿÿ¿0@BòÿÿÿÿV@    ÿÿÿÿ.@>òÿÿÿŸV@    ÿÿÿÿ.@BòÿÿÿÿV@   -DTû!ù?	   -DTû!ù?
+        ø?             Fixture Holes /  ÿÿÿÿ        Ðÿÿÿÿ1@ôb#%¹vVÀ   °ÿÿÿÿÿ/@öb#%¹VÀ   Ðÿÿÿÿ1@öb#%¹VÀ   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ÷?              °ÿÿÿÿÿ/@öb#%¹VÀ   Ðÿÿÿÿ1@øb#%¹¶UÀ   Ðÿÿÿÿ1@öb#%¹VÀ   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ÷?              Ðÿÿÿÿ1@øb#%¹¶UÀ   Èÿÿÿÿÿ2@öb#%¹VÀ   Ðÿÿÿÿ1@öb#%¹VÀ   -DTû!ù?	           
+   €ÿÿÿÿÿ÷?              Èÿÿÿÿÿ2@öb#%¹VÀ   Ðÿÿÿÿ1@ôb#%¹vVÀ   Ðÿÿÿÿ1@öb#%¹VÀ   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ÷?             Arm Fixtures /  ÿÿÿÿ        B‹IÖ=QJÀ!æ•iU@   B‹IÖ=QLÀ!æ•iV@   B‹IÖ=QJÀ!æ•iV@   -DTû!ù?	   -DTû!	@
+         @              B‹IÖ=QLÀ!æ•iV@   B‹IÖ=QJÀ!æ•iW@   B‹IÖ=QJÀ!æ•iV@   -DTû!ù?	   -DTû!ù¿
+         @              B‹IÖ=QJÀ!æ•iW@   B‹IÖ=QHÀ!æ•iV@   B‹IÖ=QJÀ!æ•iV@   -DTû!ù?	           
+         @              B‹IÖ=QHÀ!æ•iV@   B‹IÖ=QJÀ!æ•iU@   B‹IÖ=QJÀ!æ•iV@   -DTû!ù?	   -DTû!ù?
+         @             Arm Fixtures /  ÿÿÿÿ        B‹IÖ=QJÀ,!æ•iWÀ   B‹IÖ=QLÀ,!æ•iVÀ   B‹IÖ=QJÀ,!æ•iVÀ   -DTû!ù?	   -DTû!	@
+         @              B‹IÖ=QLÀ,!æ•iVÀ   B‹IÖ=QJÀ,!æ•iUÀ   B‹IÖ=QJÀ,!æ•iVÀ   -DTû!ù?	   -DTû!ù¿
+         @              B‹IÖ=QJÀ,!æ•iUÀ   B‹IÖ=QHÀ,!æ•iVÀ   B‹IÖ=QJÀ,!æ•iVÀ   -DTû!ù?	           
+         @              B‹IÖ=QHÀ,!æ•iVÀ   B‹IÖ=QJÀ,!æ•iWÀ   B‹IÖ=QJÀ,!æ•iVÀ   -DTû!ù?	   -DTû!ù?
+         @             Arm Fixtures /  ÿÿÿÿ        90øõX@„DàAÚ`À   90øõW@„DàAZ`À   90øõX@„DàAZ`À   -DTû!ù?	   -DTû!	@
+         @              90øõW@„DàAZ`À   90øõX@‰*Àƒ´_À   90øõX@„DàAZ`À   -DTû!ù?	   -DTû!ù¿
+         @              90øõX@‰*Àƒ´_À   90øõY@„DàAZ`À   90øõX@„DàAZ`À   -DTû!ù?	           
+         @              90øõY@„DàAZ`À   90øõX@„DàAÚ`À   90øõX@„DàAZ`À   -DTû!ù?	   -DTû!ù?
+         @             Arm Fixtures /  ÿÿÿÿ        90øõX@Šm*Àƒ´_@   90øõW@Å6àAZ`@   90øõX@Å6àAZ`@   -DTû!ù?	   -DTû!	@
+         @              90øõW@Å6àAZ`@   90øõX@Å6àAÚ`@   90øõX@Å6àAZ`@   -DTû!ù?	   -DTû!ù¿
+         @              90øõX@Å6àAÚ`@   90øõY@Å6àAZ`@   90øõX@Å6àAZ`@   -DTû!ù?	           
+         @              90øõY@Å6àAZ`@   90øõX@Šm*Àƒ´_@   90øõX@Å6àAZ`@   -DTû!ù?	   -DTû!ù?
+         @             Fixture Holes /  ÿÿÿÿ        Ðÿÿÿÿ1@òb#%¹6_À   Àÿÿÿÿÿ/@öb#%¹Ö^À   Ðÿÿÿÿ1@öb#%¹Ö^À   -DTû!ù?	   -DTû!	@
+    ÿÿÿÿÿ÷?              Àÿÿÿÿÿ/@öb#%¹Ö^À   Ðÿÿÿÿ1@úb#%¹v^À   Ðÿÿÿÿ1@öb#%¹Ö^À   -DTû!ù?	   -DTû!ù¿
+    ÿÿÿÿÿ÷?              Ðÿÿÿÿ1@úb#%¹v^À   Àÿÿÿÿÿ2@öb#%¹Ö^À   Ðÿÿÿÿ1@öb#%¹Ö^À   -DTû!ù?	           
+    ÿÿÿÿÿ÷?              Àÿÿÿÿÿ2@öb#%¹Ö^À   Ðÿÿÿÿ1@òb#%¹6_À   Ðÿÿÿÿ1@öb#%¹Ö^À   -DTû!ù?	   -DTû!ù?
+    ÿÿÿÿÿ÷?             Fixture Holes /  ÿÿÿÿ         ÿÿÿÿ.@Fòÿÿÿ?^@   Àÿÿÿÿ+@BòÿÿÿŸ^@    ÿÿÿÿ.@BòÿÿÿŸ^@   -DTû!ù?	   -DTû!	@
+    ÿÿÿÿÿ÷?              Àÿÿÿÿ+@BòÿÿÿŸ^@    ÿÿÿÿ.@>òÿÿÿÿ^@    ÿÿÿÿ.@BòÿÿÿŸ^@   -DTû!ù?	   -DTû!ù¿
+    ÿÿÿÿÿ÷?               ÿÿÿÿ.@>òÿÿÿÿ^@   Àÿÿÿÿ¿0@BòÿÿÿŸ^@    ÿÿÿÿ.@BòÿÿÿŸ^@   -DTû!ù?	           
+    ÿÿÿÿÿ÷?              Àÿÿÿÿ¿0@BòÿÿÿŸ^@    ÿÿÿÿ.@Fòÿÿÿ?^@    ÿÿÿÿ.@BòÿÿÿŸ^@   -DTû!ù?	   -DTû!ù?
+    ÿÿÿÿÿ÷?             Fixture Holes /  ÿÿÿÿ        èÿÿÿÿÿD@ p   ø¿   äÿÿÿÿ?D@     |Ë½   èÿÿÿÿÿD@     |Ë½   -DTû!ù?	   -DTû!	@
+   €     ø?              äÿÿÿÿ?D@     |Ë½   èÿÿÿÿÿD@ ‘üÿÿÿ÷?   èÿÿÿÿÿD@     |Ë½   -DTû!ù?	   -DTû!ù¿
+   €     ø?              èÿÿÿÿÿD@ ‘üÿÿÿ÷?   ìÿÿÿÿ¿E@     |Ë½   èÿÿÿÿÿD@     |Ë½   -DTû!ù?	           
+   €     ø?              ìÿÿÿÿ¿E@     |Ë½   èÿÿÿÿÿD@ p   ø¿   èÿÿÿÿÿD@     |Ë½   -DTû!ù?	   -DTû!ù?
+   €     ø?             Fixture Holes /  ÿÿÿÿ        Ðÿÿÿÿÿ2@?žôþ¦¶`@   Ðÿÿÿÿ1@?žôþ¦æ`@   Ðÿÿÿÿÿ2@?žôþ¦æ`@   -DTû!ù?	   -DTû!	@
+         ø?              Ðÿÿÿÿ1@?žôþ¦æ`@   Ðÿÿÿÿÿ2@?žôþ¦a@   Ðÿÿÿÿÿ2@?žôþ¦æ`@   -DTû!ù?	   -DTû!ù¿
+         ø?              Ðÿÿÿÿÿ2@?žôþ¦a@   Ðÿÿÿÿ4@?žôþ¦æ`@   Ðÿÿÿÿÿ2@?žôþ¦æ`@   -DTû!ù?	           
+         ø?              Ðÿÿÿÿ4@?žôþ¦æ`@   Ðÿÿÿÿÿ2@?žôþ¦¶`@   Ðÿÿÿÿÿ2@?žôþ¦æ`@   -DTû!ù?	   -DTû!ù?
+         ø?             Alt Fixture Holes /  ÿÿÿÿ         þ?   F@`¡nãHiIÀ   Ð1s333E@Ô¡|œHÀ    þ?   F@Ô¡|œHÀ   -DTû!ù?	   -DTû!	@
+    š™™™™ù?              Ð1s333E@Ô¡|œHÀ    þ?   F@ÀÕI¯ÏGÀ    þ?   F@Ô¡|œHÀ   -DTû!ù?	   -DTû!ù¿
+    š™™™™ù?               þ?   F@ÀÕI¯ÏGÀ   pËÍÌÌF@Ô¡|œHÀ    þ?   F@Ô¡|œHÀ   -DTû!ù?	           
+    š™™™™ù?              pËÍÌÌF@Ô¡|œHÀ    þ?   F@`¡nãHiIÀ    þ?   F@Ô¡|œHÀ   -DTû!ù?	   -DTû!ù?
+    š™™™™ù?             Fixture Holes /  ÿÿÿÿ        Òþ?   FÀX¡nãHiIÀ   šËÍÌÌFÀÔ¡|œHÀ   Òþ?   FÀÔ¡|œHÀ   -DTû!ù?	   -DTû!	@
+    ™™™™™ù?              šËÍÌÌFÀÔ¡|œHÀ   Òþ?   FÀÈÕI¯ÏGÀ   Òþ?   FÀÔ¡|œHÀ   -DTû!ù?	   -DTû!ù¿
+    ™™™™™ù?              Òþ?   FÀÈÕI¯ÏGÀ   
+2s333EÀÔ¡|œHÀ   Òþ?   FÀÔ¡|œHÀ   -DTû!ù?	           
+    ™™™™™ù?              
+2s333EÀÔ¡|œHÀ   Òþ?   FÀX¡nãHiIÀ   Òþ?   FÀÔ¡|œHÀ   -DTû!ù?	   -DTû!ù?
+    ™™™™™ù?             Fixture Holes /  ÿÿÿÿ        Òþ?   FÀ@½"9n­1@   ¢ËÍÌÌFÀàV¼ÒG3@   Òþ?   FÀàV¼ÒG3@   -DTû!ù?	   -DTû!	@
+    š™™™™ù?              ¢ËÍÌÌFÀàV¼ÒG3@   Òþ?   FÀ€ðUl¡à4@   Òþ?   FÀàV¼ÒG3@   -DTû!ù?	   -DTû!ù¿
+    š™™™™ù?              Òþ?   FÀ€ðUl¡à4@   2s333EÀàV¼ÒG3@   Òþ?   FÀàV¼ÒG3@   -DTû!ù?	           
+    š™™™™ù?              2s333EÀàV¼ÒG3@   Òþ?   FÀ@½"9n­1@   Òþ?   FÀàV¼ÒG3@   -DTû!ù?	   -DTû!ù?
+    š™™™™ù?             Fixture Holes /  ÿÿÿÿ         þ?   F@H½"9n­1@   Ô1s333E@àV¼ÒG3@    þ?   F@àV¼ÒG3@   -DTû!ù?	   -DTû!	@
+   €™™™™™ù?              Ô1s333E@àV¼ÒG3@    þ?   F@xðUl¡à4@    þ?   F@àV¼ÒG3@   -DTû!ù?	   -DTû!ù¿
+   €™™™™™ù?               þ?   F@xðUl¡à4@   lËÍÌÌF@àV¼ÒG3@    þ?   F@àV¼ÒG3@   -DTû!ù?	           
+   €™™™™™ù?              lËÍÌÌF@àV¼ÒG3@    þ?   F@H½"9n­1@    þ?   F@àV¼ÒG3@   -DTû!ù?	   -DTû!ù?
+   €™™™™™ù?             Inner Contours /  ÿÿÿÿ        à€ûÿ?B@L€  AÀ   l`  C@ÀþŸ @@À   l`  C@L€  AÀ   -DTû!ù?	   -DTû!ù¿
+   €‘ < ø?              l`  C@ÀþŸ @@À   ø@ ÀC@L€  AÀ   l`  C@L€  AÀ   -DTû!ù?	           
+   €‘ < ø?              ø@ ÀC@L€  AÀ   ø@ ÀC@šÀ  PÀ   4?‰*äcÀÙFÃ7î£eÀ   -DTû!	@	           
+    š™™™™ù?              ø@ ÀC@šÀ  PÀ   l`  C@à° `PÀ   l`  C@šÀ  PÀ   -DTû!ù?	   -DTû!ù?
+   €‘ < ø?              l`  C@à° `PÀ   à€ûÿ?B@šÀ  PÀ   l`  C@šÀ  PÀ   -DTû!ù?	   -DTû!	@
+   €‘ < ø?              à€ûÿ?B@šÀ  PÀ   à€ûÿ?B@L€  AÀ   4?‰*äcÀÙFÃ7î£eÀ           	           
+    š™™™™ù?             Inner Contours /  ÿÿÿÿ        àûÿ?BÀP€  A@   ¦ä_  CÀÄþŸ @@@   ¦ä_  CÀP€  A@   -DTû!ù?	   -DTû!ù?
+   €‘ < ø?              ¦ä_  CÀÄþŸ @@@   2é? ÀCÀP€  A@   ¦ä_  CÀP€  A@   -DTû!ù?	   -DTû!	@
+   €‘ < ø?              2é? ÀCÀP€  A@   2é? ÀCÀè¿  P@   4?‰*äcÀÙFÃ7î£eÀ           	           
+    š™™™™ù?              2é? ÀCÀè¿  P@   ¦ä_  CÀdê¯ `P@   ¦ä_  CÀè¿  P@   -DTû!ù?	   -DTû!ù¿
+   €‘ < ø?              ¦ä_  CÀdê¯ `P@   àûÿ?BÀè¿  P@   ¦ä_  CÀè¿  P@   -DTû!ù?	           
+   €‘ < ø?              àûÿ?BÀè¿  P@   àûÿ?BÀP€  A@   4?‰*äcÀÙFÃ7î£eÀ   -DTû!	@	           
+    š™™™™ù?             Inner Contours /  ÿÿÿÿ        à€þÿ @®ê? €U@   °þþÿ À®ê? €U@   4?‰*äcÀÙFÃ7î£eÀ   -DTû!ù¿	           
+    š™™*5w              °þþÿ À®ê? €U@    É	 €$ÀÞüÿýÿÿU@   àÏ	 € À®ê?  V@   Ð·E¸ù!ù?	   ¼ŠD>û!	@
+   a      @               É	 €$ÀÞüÿýÿÿU@   °Ø	 €$Àîïÿúÿ¿W@   4?‰*äcÀÙFÃ7î£eÀ        8q½	           
+    š™™*5w              °Ø	 €$Àîïÿúÿ¿W@   PÓqì«%ÀÂ%²~‚X@   àÏ	 €(Àòëÿ ÀW@   l²C#ý!é¿	   ˜­Ctý!ù?
+   à      @              PÓqì«%ÀÂ%²~‚X@   Ñ?õÿ(Àòëÿ @X@   àÏ	 €(Àòëÿ ÀW@   l²C#ý!é¿	   Ä¨CÅý!é?
+   í      @              Ñ?õÿ(Àòëÿ @X@   à£¿úÿ*Àöëÿ @X@   4?‰*äcÀÙFÃ7î£eÀ   ,DTû!ù¿	           
+    š™™*5w              à£¿úÿ*Àöëÿ @X@    n¿ €.À"þ¿ýÿ¿X@   u¿ €*Àòëÿ ÀX@   Ð·E¸ù!ù?	   ¼ŠD>û!	@
+   Cÿÿÿÿÿÿ?               n¿ €.À"þ¿ýÿ¿X@   Àn¿ €.ÀJ  à\@   4?‰*äcÀÙFÃ7î£eÀ         ð¼	           
+    š™™*5w              Àn¿ €.ÀJ  à\@   à£¿úÿ*À¦ø¿þÿ_]@   u¿ €*À¦ø¿þÿß\@   d=B¸ù!ù?	   ¤øBŒù!ù¿
+   <      @              à£¿úÿ*À¦ø¿þÿ_]@    Ñ?õÿ(À®ø¿þÿ_]@   4?‰*äcÀÙFÃ7î£eÀ   +DTû!ù?	           
+    š™™*5w               Ñ?õÿ(À®ø¿þÿ_]@   @Ö	 €$Àïðÿß]@   àÏ	 €(À¦ø¿þÿß]@   ÀýB;ù!ù¿	   ˜/Ä+û!	@
+   šÿÿÿÿÿÿ?              @Ö	 €$Àïðÿß]@   àÆ	 €$À*úÿøÿ^@   4?‰*äcÀÙFÃ7î£eÀ        Àž=	           
+    š™™*5w              àÆ	 €$À*úÿøÿ^@   °pT#Àš»~‚z^@   àÏ	 € À*öÿ	  ^@   òB ý!é?	   R­Ctý!ù¿
+   +      @              °pT#Àš»~‚z^@   °þþÿ À*öÿ	  ^@   àÏ	 € À*öÿ	  ^@   òB ý!é?	   ’hDHý!é¿
+   <      @              °þþÿ À*öÿ	  ^@   @ûþÿ @.öÿ	  ^@   4?‰*äcÀÙFÃ7î£eÀ   -DTû!ù?	           
+    š™™*5w              @ûþÿ @.öÿ	  ^@   @ýT#@rÅ~‚z^@    «€	 € @*öÿ	  ^@   €lF ý!é?	      t_†¾
+   ³      @              @ýT#@rÅ~‚z^@   0¢€	 €$@&úÿøÿ^@    «€	 € @*öÿ	  ^@   €lF ý!é?	   °î@Hý!é?
+   à      @              0¢€	 €$@&úÿøÿ^@   @±€	 €$@ïðÿß]@   4?‰*äcÀÙFÃ7î£eÀ   ØðCTû!	@	           
+    š™™*5w              @±€	 €$@ïðÿß]@   P¬@õÿ(@ªø¿þÿ_]@    «€	 €(@¦ø¿þÿß]@   ¼ýB;ù!ù¿	   ˜aEý!ù¿
+   b      @              P¬@õÿ(@ªø¿þÿ_]@    Àúÿ*@šø¿þÿ_]@   4?‰*äcÀÙFÃ7î£eÀ   1DTû!ù?	           
+    š™™*5w               Àúÿ*@šø¿þÿ_]@   IÀ €.@J  à\@   0PÀ €*@¦ø¿þÿß\@   e=B¸ù!ù?	     €f¢ÿ…¾
+   Äýÿÿÿÿÿ?              IÀ €.@J  à\@   àIÀ €.@"þ¿ýÿ¿X@   4?‰*äcÀÙFÃ7î£eÀ   -DTû!	@	           
+    š™™*5w              àIÀ €.@"þ¿ýÿ¿X@    Àúÿ*@òëÿ @X@   0PÀ €*@òëÿ ÀX@   Ð·E¸ù!ù?	    çAý!ù?
+   <      @               Àúÿ*@òëÿ @X@   @¬@õÿ(@êëÿ @X@   4?‰*äcÀÙFÃ7î£eÀ   /DTû!ù¿	           
+    š™™*5w              @¬@õÿ(@êëÿ @X@   °®rì«%@¾%²~‚X@    «€	 €(@òëÿ ÀW@   j²C#ý!é¿	      Àþ?”¾
+   šÿÿÿÿÿÿ?              °®rì«%@¾%²~‚X@   ´€	 €$@îïÿúÿ¿W@    «€	 €(@òëÿ ÀW@   j²C#ý!é¿	   j¨CÅý!é¿
+   »ÿÿÿÿÿÿ?              ´€	 €$@îïÿúÿ¿W@   °¤€	 €$@ÞüÿýÿÿU@   4?‰*äcÀÙFÃ7î£eÀ   O$DTû!	À	           
+    š™™*5w              °¤€	 €$@ÞüÿýÿÿU@   à€þÿ @®ê? €U@    «€	 € @®ê?  V@   ˆI¸ù!ù?	   (çAý!ù?
+   <      @             Inner Contours /  ÿÿÿÿ        ø@ ÀC@P€  A@   l`  C@ÄþŸ @@@   l`  C@P€  A@   -DTû!ù?	   -DTû!ù?
+   €‘ < ø?              l`  C@ÄþŸ @@@   à€ûÿ?B@P€  A@   l`  C@P€  A@   -DTû!ù?	   -DTû!	@
+   €‘ < ø?              à€ûÿ?B@P€  A@   à€ûÿ?B@è¿  P@   4?‰*äcÀÙFÃ7î£eÀ           	           
+    š™™*5w              à€ûÿ?B@è¿  P@   l`  C@dê¯ `P@   l`  C@è¿  P@   -DTû!ù?	   -DTû!ù¿
+   €‘ < ø?              l`  C@dê¯ `P@   ø@ ÀC@è¿  P@   l`  C@è¿  P@   -DTû!ù?	           
+   €‘ < ø?              ø@ ÀC@è¿  P@   ø@ ÀC@P€  A@   4?‰*äcÀÙFÃ7î£eÀ   -DTû!	@	           
+    š™™*5w             Inner Contours /  ÿÿÿÿ        2é? ÀCÀL€  AÀ   ¦ä_  CÀÀþŸ @@À   ¦ä_  CÀL€  AÀ   -DTû!ù?	   -DTû!ù¿
+   €‘ < ø?              ¦ä_  CÀÀþŸ @@À   àûÿ?BÀL€  AÀ   ¦ä_  CÀL€  AÀ   -DTû!ù?	           
+   €‘ < ø?              àûÿ?BÀL€  AÀ   àûÿ?BÀšÀ  PÀ   4?‰*äcÀÙFÃ7î£eÀ   -DTû!	@	           
+    š™™*5w              àûÿ?BÀšÀ  PÀ   ¦ä_  CÀá° `PÀ   ¦ä_  CÀšÀ  PÀ   -DTû!ù?	   -DTû!ù?
+   À‘ < ø?              ¦ä_  CÀá° `PÀ   4é? ÀCÀšÀ  PÀ   ¦ä_  CÀšÀ  PÀ   -DTû!ù?	   -DTû!	@
+   À‘ < ø?              4é? ÀCÀšÀ  PÀ   2é? ÀCÀL€  AÀ   4?‰*äcÀÙFÃ7î£eÀ         À<	           
+    š™™*5w             Inner Contours /  ÿÿÿÿ        €€‚  @Xïøÿÿ3@        pÛ=øÿÿ0@        pÛ=Xïøÿÿ3@   -DTû!ù?	   -DTû!ù?
+   €  @                   pÛ=øÿÿ0@   €¤{  ÀXïøÿÿ3@        pÛ=Xïøÿÿ3@   -DTû!ù?	   -DTû!	@
+   €  @              €¤{  ÀXïøÿÿ3@   €¤{  Àè¿  P@   4?‰*äcÀÙFÃ7î£eÀ           	           
+    š™™*5w              €¤{  Àè¿  P@        pÛ=²àÛ ÀP@        pÛ=è¿  P@   -DTû!ù?	   -DTû!ù¿
+   €  @                   pÛ=²àÛ ÀP@   €€‚  @è¿  P@        pÛ=è¿  P@   -DTû!ù?	           
+   €  @              €€‚  @è¿  P@   €€‚  @Xïøÿÿ3@   4?‰*äcÀÙFÃ7î£eÀ   -DTû!	@	           
+    š™™*5w             Inner Contours /  ÿÿÿÿ        €¤{  ÀH]€øÿÿ3À        pÛ=øzøÿÿ0À        pÛ=H]€øÿÿ3À   -DTû!ù?	   -DTû!ù¿
+   €  @                   pÛ=øzøÿÿ0À   €€‚  @H]€øÿÿ3À        pÛ=H]€øÿÿ3À   -DTû!ù?	           
+   €  @              €€‚  @H]€øÿÿ3À   €€‚  @šÀ  PÀ   4?‰*äcÀÙFÃ7î£eÀ   -DTû!	@	           
+    š™™*5w              €€‚  @šÀ  PÀ        pÛ=.üÛ ÀPÀ        pÛ=šÀ  PÀ   -DTû!ù?	   -DTû!ù?
+   €  @                   pÛ=.üÛ ÀPÀ   €¤{  ÀšÀ  PÀ        pÛ=šÀ  PÀ   -DTû!ù?	   -DTû!	@
+   €  @              €¤{  ÀšÀ  PÀ   €¤{  ÀH]€øÿÿ3À   4?‰*äcÀÙFÃ7î£eÀ           	           
+    š™™*5w             Outer Contour /  ÿÿÿÿ        H@  €LÀxMÆ?@³>@   „ @  €LÀ Å¿DnO@   4?‰*äcÀÙFÃ7î£eÀ        pF=	           
+    š™™*5w              „ @  €LÀ Å¿DnO@   "ü¿ÚøLÀªåÕaP@   Òþ?   NÀ,RZ nO@   ¶XÝbøê¿	   î
+Ðù!ù?
+   y     @              "ü¿ÚøLÀªåÕaP@   æöÿ‹ÈSQÀXía§ÈR@   4?‰*äcÀÙFÃ7î£eÀ   ˜¯[Üùê¿	           
+    š™™*5w              æöÿ‹ÈSQÀXía§ÈR@   ¼ ùÓžQÀNåkOS@   ×
+E¤PÀR‹²Oà‚S@   xÎýø5Œã?	   ¸Y©b;À
+   Xþÿÿÿÿ@              ¼ ùÓžQÀNåkOS@   í RGõQÀz
+ ë•ñT@   4?‰*äcÀÙFÃ7î£eÀ    ¾epÊ¿	           
+    š™™*5w              í RGõQÀz
+ ë•ñT@   ˆó?K^‹RÀ~ö¿ßsþU@   	cá-±êSÀŒ+.×ŠT@   RÁ.5Œã¿	   `©’w˜ßõ?
+   þþÿÿÿÿ@              ˆó?K^‹RÀ~ö¿ßsþU@   Kèÿó8½ZÀÎç?[V¹]@   4?‰*äcÀÙFÃ7î£eÀ   @rªúê¿	           
+    š™™*5w              Kèÿó8½ZÀÎç?[V¹]@   õÿ˜S[Àò?-ªL^@   œÏÁ¹ºµYÀŽmTÒ«Ð^@   8VÓFc¬Ý?	   \dâì;À
+   þÿÿÿÿ@              õÿ˜S[Àò?-ªL^@   ì@ö$\À :Éi`@   4?‰*äcÀÙFÃ7î£eÀ   à
+ñluÖ¿	           
+    š™™*5w              ì@ö$\À :Éi`@   Ô€ƒð[ÀÃü?Ü³«`@   †”4ò’[Ày €É`@   î<¾€á¶ñ?	   Öêû^¿þ¿
+   |ÿÿÿÿÿÿ?              Ô€ƒð[ÀÃü?Ü³«`@   •ö¿òOîXÀIüª¶Cb@   4?‰*äcÀÙFÃ7î£eÀ   HÑ^û2è?	           
+    š™™*5w              •ö¿òOîXÀIüª¶Cb@   M yHlXÀG€úUb@   ƒ,£Š3‘XÀ¡®_@Ìb@   ]J$Já¶ñ?	   ¼ÄUlñê¿
+         @              M yHlXÀG€úUb@   þßÿ§ªØUÀ}ôÿš»ña@   4?‰*äcÀÙFÃ7î£eÀ   2Œ@`Ðý?	           
+    š™™*5w              þßÿ§ªØUÀ}ôÿš»ña@   ŠìVí?UÀÝù?"Åa@   ÈœkkGVÀƒ?Š^ä9a@   ì:(9e¬Ý?	   Æ ç	’¹Ò?
+   4     @              ŠìVí?UÀÝù?"Åa@   bÏÿ%JÀ²ï?è;Ð[@   4?‰*äcÀÙFÃ7î£eÀ   (ú­¼@	           
+    š™™*5w              bÏÿ%JÀ²ï?è;Ð[@   ë!ÒñGÀ:@(J[@   „G@0]GÀ¶2Þ­D]@   \1[‰5Œã¿	   Ëtš÷;À
+   5þÿÿÿÿ@              ë!ÒñGÀ:@(J[@   –Õÿ”*¤DÀŽò¿5.[@   4?‰*äcÀÙFÃ7î£eÀ   ±wŽ_uû?	           
+    š™™*5w              –Õÿ”*¤DÀŽò¿5.[@   Òü?CÀÊäÿtÉZ@     2¿SîDÀn[	UáZ@   X‰À3Œã?	   |MÔ›Â?
+   yþÿÿÿÿ@              Òü?CÀÊäÿtÉZ@   X¢?éRŸ;ÀRë¿÷&X@   4?‰*äcÀÙFÃ7î£eÀ   ºR$Æ¼@	           
+    š™™*5w              X¢?éRŸ;ÀRë¿÷&X@   èQ×/u9ÀZJÐð»úW@   èÂÿ @:À::){CpX@   j‰
+½ò¿	   QÂ<À
+         @              èQ×/u9ÀZJÐð»úW@    Äÿ @8ÀJðÿƒCpX@   èÂÿ @:À::){CpX@   j‰
+½ò¿	   *z¾¡Ûß@
+   Îÿÿÿÿÿÿ?               Äÿ @8ÀJðÿƒCpX@   ˆÂÿ @8Àîïÿò2î]@   4?‰*äcÀÙFÃ7î£eÀ        €2=	           
+    š™™*5w              ˆÂÿ @8Àîïÿò2î]@   ˆž?@Á}8ÀBó?ŸÁE^@   èÂÿ @<ÀDÎÿ2î]@   ÊšÜWÖ¿	   Xn)!ü!ù?
+        @              ˆž?@Á}8ÀBó?ŸÁE^@   (ë¿À>;À¥õ?õ7 `@   4?‰*äcÀÙFÃ7î£eÀ    PWÖ¿	           
+    š™™*5w              (ë¿À>;À¥õ?õ7 `@   XÈÿôÿ?;Àaô¿;ÿ+`@   hÊÿôÿ?7ÀÎøDÿ+`@   À`™WÖ?	   ½…>Á·þ¿
+   a    @              XÈÿôÿ?;Àaô¿;ÿ+`@   Ø¼ÿôÿ?;Àý?åZÄ`@   4?‰*äcÀÙFÃ7î£eÀ        Rƒ=	           
+    š™™*5w              Ø¼ÿôÿ?;Àý?åZÄ`@   ø¸ÿYÏ¶:ÀŸõÎZa@   hÊÿôÿ?7À½õ8ÐZÄ`@   4PwLÁà?	   oBc³ø!ù¿
+       @              ø¸ÿYÏ¶:ÀŸõÎZa@   €Üÿ3–¡6À{üï¦æa@   4?‰*äcÀÙFÃ7î£eÀ   @RÝ”RÁà?	           
+    š™™*5w              €Üÿ3–¡6À{üï¦æa@   ÈŠÿ{.æ4À±ô¿ó¦b@   ˜;Ùq.æ4À±ô¿ó¦Æa@   KÏ!SÁð?	   ËH?rSÁð¿
+   Î      @              ÈŠÿ{.æ4À±ô¿ó¦b@   xÏ¿ŽÑ1À¥ô¿ó¦b@   4?‰*äcÀÙFÃ7î£eÀ   ¬.DTû!ù?	           
+    š™™*5w              xÏ¿ŽÑ1À¥ô¿ó¦b@    Ú­Ó¼.Àwüï¦æa@   èæ˜Ñ1À±ô¿ó¦Æa@   ßT	!SÁð?	     €æ|M”>
+   üÿÿÿÿÿ?               Ú­Ó¼.Àwüï¦æa@   @ÿ\Ïö(À¯ €ù¦Fa@   4?‰*äcÀÙFÃ7î£eÀ   8”Vˆ¦ñ@	           
+    š™™*5w              @ÿ\Ïö(À¯ €ù¦Fa@    ? €%ÀÓú?õ¦&a@   À±Øÿ%ÀÅú?õ¦fa@   z ¤RÁð¿	   
+Ž"›QÁ À
+   ¸     @               ? €%ÀÓú?õ¦&a@   k@ €%@×ú?õ¦&a@   4?‰*äcÀÙFÃ7î£eÀ    -DTû!ù?	           
+    š™™*5w              k@ €%@×ú?õ¦&a@    \ ]Ïö(@± €ù¦Fa@   °›²Øÿ%@Åú?õ¦fa@   | ¤RÁð¿	   XŽ(íú!	@
+   ±      @               \ ]Ïö(@± €ù¦Fa@   `µ€­Ó¼.@yüï¦æa@   4?‰*äcÀÙFÃ7î£eÀ   4c¶/SÁà?	           
+    š™™*5w              `µ€­Ó¼.@yüï¦æa@    =ÀŽÑ1@­ô¿ó¦b@   xûæ˜Ñ1@±ô¿ó¦Æa@   ßT	!SÁð?	   ŸH?rSÁð¿
+   œÿÿÿÿÿÿ?               =ÀŽÑ1@­ô¿ó¦b@   ¨ùÿ{.æ4@³ô¿ó¦b@   4?‰*äcÀÙFÃ7î£eÀ   N,DTû!ù?	           
+    š™™*5w              ¨ùÿ{.æ4@³ô¿ó¦b@   (Üÿ3–¡6@}üï¦æa@   0;Ùq.æ4@±ô¿ó¦Æa@   ßT	!SÁð?	     @ó|M”>
+   d     @              (Üÿ3–¡6@}üï¦æa@   È& ZÏ¶:@¥õÎZa@   4?‰*äcÀÙFÃ7î£eÀ   {¯¦ñ@	           
+    š™™*5w              È& ZÏ¶:@¥õÎZa@   ¸* õÿ?;@ý?åZÄ`@   ø7 õÿ?7@½õ8ÐZÄ`@   :PwLÁà?	   ;šÔwRÁð?
+   E    @              ¸* õÿ?;@ý?åZÄ`@   X6 õÿ?;@aô¿;ÿ+`@   4?‰*äcÀÙFÃ7î£eÀ   DTû!	@	           
+    š™™*5w              X6 õÿ?;@aô¿;ÿ+`@    YÀÀ>;@Ÿõ?õ7 `@   ø7 õÿ?7@ÎøDÿ+`@   À`™WÖ?	   ød_{ü!ù?
+       @               YÀÀ>;@Ÿõ?õ7 `@   ¨@@Á}8@6ó?ŸÁE^@   4?‰*äcÀÙFÃ7î£eÀ   Aƒ0bWÀ	           
+    š™™*5w              ¨@@Á}8@6ó?ŸÁE^@   °0  @8@òïÿò2î]@   x0  @<@DÎÿ2î]@   ÊšÜWÖ¿	   ¯»j5Œó¿
+   B    @              °0  @8@òïÿò2î]@    1  @8@JðÿƒCpX@   4?‰*äcÀÙFÃ7î£eÀ   Á,DTû!	@	           
+    š™™*5w               1  @8@JðÿƒCpX@    UR×/u9@VJÐð»úW@   x0  @:@::){CpX@   k‰
+½ò¿	   km9ú!ù¿
+   „      @               UR×/u9@VJÐð»úW@   ø@éRŸ;@Rë¿÷&X@   x0  @:@::){CpX@   k‰
+½ò¿	   Bz¾¡ÛßÀ
+   \      @              ø@éRŸ;@Rë¿÷&X@   ü@C@öéÿtÉZ@   4?‰*äcÀÙFÃ7î£eÀ   ¬Ñ~8úê?	           
+    š™™*5w              ü@C@öéÿtÉZ@     •*¤D@&÷¿5.[@   ð2¿SîD@n[	UáZ@   ª,ŒÀ3Œã?	    w›µö2è¿
+   Múÿÿÿÿ@                •*¤D@&÷¿5.[@   è!€!ÒñG@ê @(J[@   4?‰*äcÀÙFÃ7î£eÀ   d
+ú’—Îö?	           
+    š™™*5w              è!€!ÒñG@ê @(J[@   ˜ %J@vï?è;Ð[@   L~@0]G@¶2Þ­D]@   `1[‰5Œã¿	   'AñYIø@
+   š     @              ˜ %J@vï?è;Ð[@   ø€Ví?U@×ù?"Åa@   4?‰*äcÀÙFÃ7î£eÀ    ?&™úê?	           
+    š™™*5w              ø€Ví?U@×ù?"Åa@   dûÿ§ªØU@uôÿš»ña@   ,¸kkGV@ƒ?Š^ä9a@   è:(9e¬Ý?	   ®‡¡û2è¿
+   8ÿÿÿÿÿ@              dûÿ§ªØU@uôÿš»ña@   ˜ yHlX@€úUb@   4?‰*äcÀÙFÃ7î£eÀ   Îuh–sô?	           
+    š™™*5w              ˜ yHlX@€úUb@   ØÀòOîX@ùª¶Cb@   èG£Š3‘X@¡®_@Ìb@   æ (Já¶ñ?	   v¨ðO¢¹Ò¿
+   æúÿÿÿÿÿ?              ØÀòOîX@ùª¶Cb@   Œ€ƒð[@Sò?Ü³«`@   4?‰*äcÀÙFÃ7î£eÀ   ö\¤|<@	           
+    š™™*5w              Œ€ƒð[@Sò?Ü³«`@   T@ö$\@¹ùÿ9Éi`@   l”4ò’[@y €É`@   ýe½€á¶ñ?	   îÓ_öúê?
+   ê     @              T@ö$\@¹ùÿ9Éi`@   Ðò˜S[@&ü?-ªL^@   4?‰*äcÀÙFÃ7î£eÀ   ¬Ü¥¦ISÀ	           
+    š™™*5w              Ðò˜S[@&ü?-ªL^@   ùÿó8½Z@Võ?[V¹]@   ´Á¹ºµY@RTÒ«Ð^@   púÏFc¬Ý?	   jE_¿þ?
+   $    @              ùÿó8½Z@Võ?[V¹]@   Ò@K^‹R@–ö¿ßsþU@   4?‰*äcÀÙFÃ7î£eÀ   ”œYÍ¼À	           
+    š™™*5w              Ò@K^‹R@–ö¿ßsþU@   .! RGõQ@~
+ ë•ñT@   n~á-±êS@Œ+.×ŠT@   RÁ.5Œã¿	   Ð dÀû2è¿
+   ¤      @              .! RGõQ@~
+ ë•ñT@   * ùÓžQ@ÈékOS@   4?‰*äcÀÙFÃ7î£eÀ   %k=É€À	           
+    š™™*5w              * ùÓžQ@ÈékOS@   ¦ ŒÈSQ@Öòa§ÈR@   ¾
+E¤P@Öo²Oà‚S@   0ãûø5Œã?	   <ÂÑÈ[dü?
+   ìûÿÿÿÿ@              ¦ ŒÈSQ@Öòa§ÈR@   p2ÀÚøL@ÔãÕaP@   4?‰*äcÀÙFÃ7î£eÀ   oA-Ý¼À	           
+    š™™*5w              p2ÀÚøL@ÔãÕaP@   h @  €L@ØÁ¿DnO@    þ?   N@4Z nO@   øCßbøê¿	   ˆ0=û2è¿
+   !ÿÿÿÿÿ@              h @  €L@ØÁ¿DnO@   x@  €L@ MÆ?@³>@   4?‰*äcÀÙFÃ7î£eÀ   Š+DTû!	@	           
+    š™™*5w              x@  €L@ MÆ?@³>@   ü(\BL@ |iš=@   èÿÿÿÿN@èÎ“NçK<@   x±Ï0±wÐ¿	   ¶òV£yð¿
+   @¨ªªªª@              ü(\BL@ |iš=@   Ð@²7jK@ñ‹:@   :_AüÿF@(®ÈïH{@@   `úÜê»îÔ?	   v$¸áf¬ý?
+   1    (@              Ð@²7jK@ñ‹:@   <2€*äŠH@À¦Þ;à1@   4?‰*äcÀÙFÃ7î£eÀ   ºÁ€þí>À	           
+    š™™*5w              <2€*äŠH@À¦Þ;à1@   %€  H@àápÞ,@    %€  K@ –„ãpÞ,@   t™à:5Œã¿	   ÄÂsÁ·î¿
+   /ÿÿÿÿÿ@              %€  H@àápÞ,@   %€  H@ÀñápÞ,À   4?‰*äcÀÙFÃ7î£eÀ   -DTû!	À	           
+    š™™*5w              %€  H@ÀñápÞ,À   42€*äŠH@¸€Þ;à1À    %€  K@€r…ãpÞ,À   p™à:5Œã¿	   ,’Qû!ù¿
+   ÿÿÿÿÿ@              42€*äŠH@¸€Þ;à1À   °@²7jK@XM€‹:À   4?‰*äcÀÙFÃ7î£eÀ   ­Â€þí>@	           
+    š™™*5w              °@²7jK@XM€‹:À   4ê(\BL@8A|iš=À   è\AüÿF@ÌÌÈïH{@À   âÜê»îÔ?	   +"2˜Á·î?
+   bþÿÿÿÿ'@              4ê(\BL@8A|iš=À   @  €L@h»Æ?@³>À   Gh   €N@‚ “NçK<À    Ð0±wÐ¿	   ”bg¬ý¿
+   ¯¹®ªªª@              @  €L@h»Æ?@³>À   | @  €L@Ìø¿DnOÀ   4?‰*äcÀÙFÃ7î£eÀ   Ç+DTû!	À	           
+    š™™*5w              | @  €L@Ìø¿DnOÀ   |2ÀÚøL@GÿÕaPÀ    þ?   N@*RZ nOÀ   øCßbøê¿	   Øs€Øü!ù¿
+   Ùýÿÿÿÿ@              |2ÀÚøL@GÿÕaPÀ   È ŒÈSQ@*€a§ÈRÀ   4?‰*äcÀÙFÃ7î£eÀ   A-Ý¼@	           
+    š™™*5w              È ŒÈSQ@*€a§ÈRÀ   \ ùÓžQ@8€kOSÀ   ¾
+E¤P@P‹²Oà‚SÀ   2ãûø5Œã?	   ªLqÆÿ2è?
+   /    @              \ ùÓžQ@8€kOSÀ   Z RGõQ@ ë•ñTÀ   4?‰*äcÀÙFÃ7î£eÀ   Tk=É€@	           
+    š™™*5w              Z RGõQ@ ë•ñTÀ   @K^‹R@
+ÀßsþUÀ   n~á-±êS@G.×ŠTÀ   ˆÂÂ.5Œã¿	   lœô0^dü¿
+   §þÿÿÿÿ@              @K^‹R@
+ÀßsþUÀ   ¼öÿó8½Z@"@[V¹]À   4?‰*äcÀÙFÃ7î£eÀ   üœYÍ¼@	           
+    š™™*5w              ¼öÿó8½Z@"@[V¹]À   pò˜S[@Â@-ªL^À   ´Á¹ºµY@ŒmTÒ«Ð^À   NuÐFc¬Ý?	   ëî‹ý2è?
+   ²    @              pò˜S[@Â@-ªL^À   D@ö$\@y :Éi`À   4?‰*äcÀÙFÃ7î£eÀ   °Û¥¦IS@	           
+    š™™*5w              D@ö$\@y :Éi`À   €€ƒð[@
+ @Ü³«`À   l”4ò’[@Ü† €É`À   þe½€á¶ñ?	   "
+›¬—„ó?
+   •      @              €€ƒð[@
+ @Ü³«`À   |ÀòOîX@ô€ª¶CbÀ   4?‰*äcÀÙFÃ7î£eÀ   È:¤|<À	           
+    š™™*5w              |ÀòOîX@ô€ª¶CbÀ   \÷ÿxHlX@ÿúUbÀ   èG£Š3‘X@ ®_@ÌbÀ   'Já¶ñ?	   ™0ù¾@
+   {ÿÿÿÿÿÿ?              \÷ÿxHlX@ÿúUbÀ   jûÿ§ªØU@. ›»ñaÀ   4?‰*äcÀÙFÃ7î£eÀ   ðivh–sô¿	           
+    š™™*5w              jûÿ§ªØU@. ›»ñaÀ    €Ví?U@‘@"ÅaÀ   ,¸kkGV@AMŠ^ä9aÀ   ð:(9e¬Ý?	   ýHÉÊÀ
+   …þÿÿÿÿ@               €Ví?U@‘@"ÅaÀ   \ %J@@è;Ð[À   4?‰*äcÀÙFÃ7î£eÀ    ?&™úê¿	           
+    š™™*5w              \ %J@@è;Ð[À   à!€!ÒñG@’@(J[À   L~@0]G@3#2Þ­D]À   [1[‰5Œã¿	   9á¦rý2è?
+   ;      @              à!€!ÒñG@’@(J[À   ô •*¤D@ÐÀ5.[À   4?‰*äcÀÙFÃ7î£eÀ   x
+ú’—Îö¿	           
+    š™™*5w              ô •*¤D@ÐÀ5.[À   ¼@C@• uÉZÀ   ð2¿SîD@êv	UáZÀ   ¨,ŒÀ3Œã?	   ]Z —JøÀ
+        @              ¼@C@• uÉZÀ   ˜/ Èá?@ÎÀ‚NYÀ   4?‰*äcÀÙFÃ7î£eÀ   ˜µhùê¿	           
+    š™™*5w              ˜/ Èá?@ÎÀ‚NYÀ   Ð˜Ú½\>@±¡ÞôXÀ    Q±«u‚>@8ÉkqYÀ   °‚óÞ´¥ï¿	   {ý[›ú2è?
+   >      @              Ð˜Ú½\>@±¡ÞôXÀ   €ê?.V¡<@i€È£EYÀ    Q±«u‚>@8ÉkqYÀ   °‚óÞ´¥ï¿	   Ð^éÊÍ¿
+   9      @              €ê?.V¡<@i€È£EYÀ   ˆ# Ny³6@ýÿv6X]À   4?‰*äcÀÙFÃ7î£eÀ   å²«7WÀ	           
+    š™™*5w              ˆ# Ny³6@ýÿv6X]À   PèÍa7@ü@›DÖ]À   P÷ÁÂ˜”8@Ž€¼ýƒ]À    ùÐðPÁð¿	   ÕÆ6Œó¿
+   >     @              PèÍa7@ü@›DÖ]À   Ø5€¼ãš7@Lû¿ý¹ ^À   4?‰*äcÀÙFÃ7î£eÀ   üìB¢5Œ@	           
+    š™™*5w              Ø5€¼ãš7@Lû¿ý¹ ^À   x*ÀÌó7@@AÈ~^À     .Ñ¬6@zçuß S^À   ¾Ù/UÁð?	   
+ºàëÜìë?
+         @              x*ÀÌó7@@AÈ~^À    C€/•5@ï@2¹`À   4?‰*äcÀÙFÃ7î£eÀ   ð_BhWÀ	           
+    š™™*5w               C€/•5@ï@2¹`À   ) 
+ø4@Xù‘Ü8`À   ˆ(WÑ´3@B{¡òªó_À   Pz]fOÁð?	   æ6]ÉÅ·þ?
+   0      @              ) 
+ø4@Xù‘Ü8`À   Ð<@c4»2@¥ÀsN@`À   4?‰*äcÀÙFÃ7î£eÀ   È*;"äìû¿	           
+    š™™*5w              Ð<@c4»2@¥ÀsN@`À   hŽ@w172@ùÀÒÜ>`À   h×`ÍÀŽ2@PÉ±äÊ `À   ˆrVÁà?	   íÜŽ¼@
+   ùöÿÿÿÿï?              hŽ@w172@ùÀÒÜ>`À   €=¢y,@u@½‡`À   4?‰*äcÀÙFÃ7î£eÀ   þý5Œó¿	           
+    š™™*5w              €=¢y,@u@½‡`À   `<€ßì•(@8ûO\‡_À   €3R*ú†.@Bà|¶£l_À   ôÙ°áLPñ?	   ¨ÏWÀ
+       @              `<€ßì•(@8ûO\‡_À   p,Î#@u âíF[À   4?‰*äcÀÙFÃ7î£eÀ   `¾[*GßÁ¿	           
+    š™™*5w              p,Î#@u âíF[À        pÛ=~¸  YÀ        pÛ=‚¸  [À   ¼lÚ3æö¿	   ¼lÚ3æö?
+        $@                   pÛ=~¸  YÀ   pX,Î#Àu âíF[À        pÛ=‚¸  [À   ¼lÚ3æö¿	           
+        $@              pX,Î#Àu âíF[À   @aßì•(À8ûO\‡_À   4?‰*äcÀÙFÃ7î£eÀ   {>žáÀ	           
+    š™™*5w              @aßì•(À8ûO\‡_À   p&=¢y,Àu@½‡`À   `XQ*ú†.ÀBà|¶£l_À   ôÙ°áLPñ?	   bOíSã]û?
+       @              p&=¢y,Àu@½‡`À   À @w172ÀÀÒÜ>`À   4?‰*äcÀÙFÃ7î£eÀ   ¼\Š”Á·þ¿	           
+    š™™*5w              À @w172ÀÀÒÜ>`À   HÏ?c4»2À®ÀsN@`À   Øi`ÍÀŽ2ÀPÉ±äÊ `À   ˆrVÁà?	   eÐâKW@
+        ð?              HÏ?c4»2À®ÀsN@`À   ¼ÿ	ø4À[ù‘Ü8`À   4?‰*äcÀÙFÃ7î£eÀ   4-M†Wö¿	           
+    š™™*5w              ¼ÿ	ø4À[ù‘Ü8`À   ˆÕ/•5Àð@2¹`À   øºVÑ´3ÀB{¡òªó_À   Pz]fOÁð?	   žXÝ—Š¼À
+        @              ˆÕ/•5Àð@2¹`À   ¨Ý¿Ìó7À@AÈ~^À   4?‰*äcÀÙFÃ7î£eÀ    Ã`WÖ¿	           
+    š™™*5w              ¨Ý¿Ìó7À@AÈ~^À   À{¼ãš7À Àý¹ ^À   ’-Ñ¬6À÷vß S^À   VvÚ/UÁð?	   ‚Ç¥Ã·þ¿
+   ðÿÿÿÿÿÿ?              À{¼ãš7À Àý¹ ^À   `5€Ía7À>@›DÖ]À   4?‰*äcÀÙFÃ7î£eÀ   ˆeäÇWæ?	           
+    š™™*5w              `5€Ía7À>@›DÖ]À   X Ny³6Àøÿv6X]À   °÷ÁÂ˜”8Àé¼ýƒ]À   [±ÑðPÁð¿	   ÃwÛÃ&@
+         @              X Ny³6Àøÿv6X]À   è|?.V¡<Ài€È£EYÀ   4?‰*äcÀÙFÃ7î£eÀ   àÝÂäWÖ¿	           
+    š™™*5w              è|?.V¡<Ài€È£EYÀ   @+Ú½\>À±¡ÞôXÀ   ä°«u‚>À8ÉkqYÀ   ®‚óÞ´¥ï¿	   öƒE‘7Œó?
+   q      @              @+Ú½\>À±¡ÞôXÀ   Âÿ€Èá?ÀÍÀ‚NYÀ   ä°«u‚>À8ÉkqYÀ   ®‚óÞ´¥ï¿	   ø^éÊÍ?
+   x      @              Âÿ€Èá?ÀÍÀ‚NYÀ   ¶ü?CÀU  uÉZÀ   4?‰*äcÀÙFÃ7î£eÀ    C?ú¼À	           
+    š™™*5w              ¶ü?CÀU  uÉZÀ   Õÿ”*¤DÀÀ5.[À     2¿SîDÀêv	UáZÀ   X‰À3Œã?	   ÂÝ¦=@
+   |     @              Õÿ”*¤DÀÀ5.[À   ë!ÒñGÀ†@(J[À   4?‰*äcÀÙFÃ7î£eÀ   (uŽ_uû¿	           
+    š™™*5w              ë!ÒñGÀ†@(J[À   ¦Ïÿ%JÀ@è;Ð[À   „G@0]GÀ3#2Þ­D]À   ^1[‰5Œã¿	   |¿.¥›Â¿
+   ¡      @              ¦Ïÿ%JÀ@è;Ð[À   ìVí?UÀ˜@"ÅaÀ   4?‰*äcÀÙFÃ7î£eÀ   Fú­¼À	           
+    š™™*5w              ìVí?UÀ˜@"ÅaÀ   ÿßÿ§ªØUÀ8 ›»ñaÀ   ÈœkkGVÀAMŠ^ä9aÀ    ;(9e¬Ý?	   Aâk<@
+   Õÿÿÿÿÿ@              ÿßÿ§ªØUÀ8 ›»ñaÀ   ’ yHlXÀ<€úUbÀ   4?‰*äcÀÙFÃ7î£eÀ   ÀÀ@`Ðý¿	           
+    š™™*5w              ’ yHlXÀ<€úUbÀ   ªý¿òOîXÀ€ª¶CbÀ    H£Š3‘XÀ ®_@ÌbÀ   6#Já¶ñ?	   O'F
+ÇÊ@
+   n      @              ªý¿òOîXÀ€ª¶CbÀ   Ò€ƒð[À~
+@Ü³«`À   4?‰*äcÀÙFÃ7î£eÀ   ÈÈ^û2è¿	           
+    š™™*5w              Ò€ƒð[À~
+@Ü³«`À   è@ö$\À× :Éi`À   †”4ò’[ÀÜ† €É`À   ì<¾€á¶ñ?	   “®–¼À
+   [þÿÿÿÿÿ?              è@ö$\À× :Éi`À    €˜S[Àv@-ªL^À   4?‰*äcÀÙFÃ7î£eÀ   èñluÖ?	           
+    š™™*5w               €˜S[Àv@-ªL^À   Vèÿó8½ZÀ<@[V¹]À   œÏÁ¹ºµYÀ	‰TÒ«Ð^À   0VÓFc¬Ý?	   øfx —„ó¿
+   -ÿÿÿÿÿ@              Vèÿó8½ZÀ<@[V¹]À   ë?K^‹RÀ 
+ÀßsþUÀ   4?‰*äcÀÙFÃ7î£eÀ   ¨rªúê?	           
+    š™™*5w              ë?K^‹RÀ 
+ÀßsþUÀ   ÛþÿQGõQÀ$ ë•ñTÀ   	cá-±êSÀG.×ŠTÀ   ÂÂ.5Œã¿	   Úþ*d<@
+   *      @              ÛþÿQGõQÀ$ ë•ñTÀ   Ó ùÓžQÀÄ €kOSÀ   4?‰*äcÀÙFÃ7î£eÀ   À°epÊ?	           
+    š™™*5w              Ó ùÓžQÀÄ €kOSÀ   ööÿ‹ÈSQÀÂ€a§ÈRÀ   ×
+E¤PÀÍ¦²Oà‚SÀ   xÎýø5Œã?	   ö´ßšßõ¿
+   ¤     @              ööÿ‹ÈSQÀÂ€a§ÈRÀ   &ü¿ÚøLÀ$€ÕaPÀ   4?‰*äcÀÙFÃ7î£eÀ   H°[Üùê?	           
+    š™™*5w              &ü¿ÚøLÀ$€ÕaPÀ   Š @  €LÀöû¿DnOÀ   Òþ?   NÀ$‰Z nOÀ   ¸XÝbøê¿	   Ê{ö„<@
+        @              Š @  €LÀöû¿DnOÀ   h@  €LÀ@»Æ?@³>À   4?‰*äcÀÙFÃ7î£eÀ        @G½	           
+    š™™*5w              h@  €LÀ@»Æ?@³>À   úû(\BLÀ‚|iš=À       €NÀØ<”NçK<À   €±Ï0±wÐ¿	   ÂË¨)å @
+   œªªªªª@              úû(\BLÀ‚|iš=À   tð?²7jKÀh3€‹:À   \SAüÿFÀ•'ÉïH{@À   Þê»îÔ?	   –”ÏÆ—ô¿
+   ¥¨    (@              tð?²7jKÀh3€‹:À   Pû*äŠHÀà€Þ;à1À   4?‰*äcÀÙFÃ7î£eÀ   ŒZW5Œã?	           
+    š™™*5w              Pû*äŠHÀà€Þ;à1À   (î  HÀÀñápÞ,À   8î  KÀ€r…ãpÞ,À   p™à:5Œã¿	   e<÷
+t@
+   ‰     @              (î  HÀÀñápÞ,À   î  HÀàápÞ,@   4?‰*äcÀÙFÃ7î£eÀ         ò<	           
+    š™™*5w              î  HÀàápÞ,@   Dû*äŠHÀ §Þ;à1@   8î  KÀ –„ãpÞ,@   r™à:5Œã¿	   .öVû!ù?
+       @              Dû*äŠHÀ §Þ;à1@   ´é?²7jKÀÈ €‹:@   4?‰*äcÀÙFÃ7î£eÀ   @W5Œã¿	           
+    š™™*5w              ´é?²7jKÀÈ €‹:@   û(\BLÀ°|iš=@   ”AüÿFÀÄ:ÉïH{@@   ˆÝê»îÔ?	   x{8î
+tÀ
+   Ýÿÿÿÿÿ'@              û(\BLÀ°|iš=@   H@  €LÀxMÆ?@³>@   ñÿÿÿNÀ7Ö“NçK<@   Ð)Ð0±wÐ¿	   ¶&£—ô?
+   6ªªªª@                  ð¿        ð¿              ÿÿÿÿ    Òþ?   FÀ   ©C-ø83À     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ     þ?   F@   ©C-ø83À     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ     þ?   F@  àV¼ÒG3@      #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    Òþ?   FÀ  àV¼ÒG3@     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    Òþ?   FÀ  p+^éƒ£H@     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ     þ?   F@  p+^éƒ£H@     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    0     3À  ?žôþ¦æ`@     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ         EÀ       |Ë½     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    `    €.À  BòÿÿÿÿV@     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    0    €1À  öb#%¹VÀ     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    0    €1À  öb#%¹Ö^À     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    `    €.À  BòÿÿÿŸ^@     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ     ÿÿÿÿ.@  BòÿÿÿÿV@     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    Ðÿÿÿÿ1@  öb#%¹VÀ  	   #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    Ðÿÿÿÿ1@  öb#%¹Ö^À     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ     ÿÿÿÿ.@  BòÿÿÿŸ^@     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    èÿÿÿÿÿD@       |Ë½     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    Ðÿÿÿÿÿ2@  ?žôþ¦æ`@     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    Òþ?   FÀ  àV¼ÒG3@     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ     þ?   F@  àV¼ÒG3@     #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ     þ?   F@  Ô¡|œHÀ  
+   #   $   0          1   2                                  ð¿         ð¿              ÿÿÿÿ    Òþ?   FÀ  Ô¡|œHÀ     #   $   0          1   2                                                           ÿÿÿÿ    Ãµ±¼G»K@  â
+UÙšW@     #   $   0          1   2                                                           ÿÿÿÿ    Éµ±¼G»K@  _&UÙšWÀ     #   $   0          1   2                                                           ÿÿÿÿ    ƒdëúÆXÀ  )öÌ~ÿ_À     #   $   0          1   2                                                           ÿÿÿÿ    ‚dëúÆXÀ  ¬söÌ~ÿ_@     #   $   0          1   2                                                           ÿÿÿÿ   	 …—áï3çHÀ 	 ä
+UÙšW@      #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ÿ~±¼G»KÀ 	 _&UÙšWÀ     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 æ2dëúÆX@ 	 *öÌ~ÿ_À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 æ2dëúÆX@ 	 ¬söÌ~ÿ_@     #   $   0 	         1   2 	                                                        ÿÿÿÿ   	 ìªÂÂÃ‡C@ 	 ZKqëáCPÀ     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 %tÂÂÃ‡CÀ 	 Þ/qëáCP@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 øÄ^¦T-@ 	  ÁßŒ}eX@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 à€ûÿ?B@ 	 Æé €H@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 àûÿ?BÀ 	 @€ €HÀ     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 <Ä[Ïvø @ 	 Ðª:ÃÃ‡P@      #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 <èTÏvø À 	 LÆ:ÃÃ‡PÀ     #   $   0 	         1   2 	                                                        ÿÿÿÿ   	 h@  €LÀ 	 @»Æ?@³>À      #   $   0 	         1   2 	                          % k ‘Hw©We@†ÞFÄñ)dÀ   3.0mm Holes /  ÿÿÿÿ        öb#%¹Ö^@ÿÿÿÿÿ/@   úb#%¹v^@¸ÿÿÿÿ1@   öb#%¹Ö^@¸ÿÿÿÿ1@   -DTû!ù?	   -DTû!	@
+    ÿÿÿÿÿ÷?              úb#%¹v^@¸ÿÿÿÿ1@   öb#%¹Ö^@¨ÿÿÿÿÿ2@   öb#%¹Ö^@¸ÿÿÿÿ1@   -DTû!ù?	   -DTû!ù¿
+    ÿÿÿÿÿ÷?              öb#%¹Ö^@¨ÿÿÿÿÿ2@   òb#%¹6_@¸ÿÿÿÿ1@   öb#%¹Ö^@¸ÿÿÿÿ1@   -DTû!ù?	           
+    ÿÿÿÿÿ÷?              òb#%¹6_@¸ÿÿÿÿ1@   öb#%¹Ö^@ÿÿÿÿÿ/@   öb#%¹Ö^@¸ÿÿÿÿ1@   -DTû!ù?	   -DTû!ù?
+    ÿÿÿÿÿ÷?             Arm Fixtures /  ÿÿÿÿ        Æ6àAZ`À$90øõYÀ   Ä6àAÚ`À(90øõXÀ   Æ6àAZ`À(90øõXÀ   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ@              Ä6àAÚ`À(90øõXÀ   Æ6àAZ`À,90øõWÀ   Æ6àAZ`À(90øõXÀ   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ@              Æ6àAZ`À,90øõWÀ   m*Àƒ´_À(90øõXÀ   Æ6àAZ`À(90øõXÀ   -DTû!ù?	           
+   €ÿÿÿÿÿ@              m*Àƒ´_À(90øõXÀ   Æ6àAZ`À$90øõYÀ   Æ6àAZ`À(90øõXÀ   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ@             Arm Fixtures /  ÿÿÿÿ        ,!æ•iVÀ‹IÖ=QH@   ƒ,!æ•iWÀ‹IÖ=QJ@   ,!æ•iVÀ‹IÖ=QJ@   -DTû!ù?	   -DTû!	@
+         @              ƒ,!æ•iWÀ‹IÖ=QJ@   ,!æ•iVÀ
+‹IÖ=QL@   ,!æ•iVÀ‹IÖ=QJ@   -DTû!ù?	   -DTû!ù¿
+         @              ,!æ•iVÀ
+‹IÖ=QL@   ,!æ•iUÀ‹IÖ=QJ@   ,!æ•iVÀ‹IÖ=QJ@   -DTû!ù?	           
+         @              ,!æ•iUÀ‹IÖ=QJ@   ,!æ•iVÀ‹IÖ=QH@   ,!æ•iVÀ‹IÖ=QJ@   -DTû!ù?	   -DTû!ù?
+         @             Arm Fixtures /  ÿÿÿÿ        Å6àAZ`@…0øõW@   Šm*Àƒ´_@…0øõX@   Å6àAZ`@…0øõX@   -DTû!ù?	   -DTû!	@
+         @              Šm*Àƒ´_@…0øõX@   Å6àAZ`@…0øõY@   Å6àAZ`@…0øõX@   -DTû!ù?	   -DTû!ù¿
+         @              Å6àAZ`@…0øõY@   Å6àAÚ`@…0øõX@   Å6àAZ`@…0øõX@   -DTû!ù?	           
+         @              Å6àAÚ`@…0øõX@   Å6àAZ`@…0øõW@   Å6àAZ`@…0øõX@   -DTû!ù?	   -DTû!ù?
+         @             Arm Fixtures /  ÿÿÿÿ        Å6àAZ`@$90øõYÀ   Žm*Àƒ´_@(90øõXÀ   Å6àAZ`@(90øõXÀ   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ@              Žm*Àƒ´_@(90øõXÀ   Å6àAZ`@,90øõWÀ   Å6àAZ`@(90øõXÀ   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ@              Å6àAZ`@,90øõWÀ   Ã6àAÚ`@(90øõXÀ   Å6àAZ`@(90øõXÀ   -DTû!ù?	           
+   €ÿÿÿÿÿ@              Ã6àAÚ`@(90øõXÀ   Å6àAZ`@$90øõYÀ   Å6àAZ`@(90øõXÀ   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ@             Arm Fixtures /  ÿÿÿÿ        ‚,!æ•iV@‹IÖ=QH@   ‚,!æ•iU@‹IÖ=QJ@   ‚,!æ•iV@‹IÖ=QJ@   -DTû!ù?	   -DTû!	@
+   àÿÿÿÿÿ@              ‚,!æ•iU@‹IÖ=QJ@   ‚,!æ•iV@‹IÖ=QL@   ‚,!æ•iV@‹IÖ=QJ@   -DTû!ù?	   -DTû!ù¿
+         @              ‚,!æ•iV@‹IÖ=QL@   ‚,!æ•iW@‹IÖ=QJ@   ‚,!æ•iV@‹IÖ=QJ@   -DTû!ù?	           
+   àÿÿÿÿÿ@              ‚,!æ•iW@‹IÖ=QJ@   ‚,!æ•iV@‹IÖ=QH@   ‚,!æ•iV@‹IÖ=QJ@   -DTû!ù?	   -DTû!ù?
+         @             Arm Fixtures /  ÿÿÿÿ        Æ6àAZ`À…0øõW@   Æ6àAÚ`À…0øõX@   Æ6àAZ`À…0øõX@   -DTû!ù?	   -DTû!	@
+         @              Æ6àAÚ`À…0øõX@   Æ6àAZ`À…0øõY@   Æ6àAZ`À…0øõX@   -DTû!ù?	   -DTû!ù¿
+         @              Æ6àAZ`À…0øõY@   ‹m*Àƒ´_À…0øõX@   Æ6àAZ`À…0øõX@   -DTû!ù?	           
+         @              ‹m*Àƒ´_À…0øõX@   Æ6àAZ`À…0øõW@   Æ6àAZ`À…0øõX@   -DTû!ù?	   -DTû!ù?
+         @             Arm Fixtures /  ÿÿÿÿ        ,!æ•iVÀLÂIÖ=QLÀ   ƒ,!æ•iWÀHÂIÖ=QJÀ   ,!æ•iVÀHÂIÖ=QJÀ   -DTû!ù?	   -DTû!	@
+         @              ƒ,!æ•iWÀHÂIÖ=QJÀ   ,!æ•iVÀDÂIÖ=QHÀ   ,!æ•iVÀHÂIÖ=QJÀ   -DTû!ù?	   -DTû!ù¿
+         @              ,!æ•iVÀDÂIÖ=QHÀ   ,!æ•iUÀHÂIÖ=QJÀ   ,!æ•iVÀHÂIÖ=QJÀ   -DTû!ù?	           
+         @              ,!æ•iUÀHÂIÖ=QJÀ   ,!æ•iVÀLÂIÖ=QLÀ   ,!æ•iVÀHÂIÖ=QJÀ   -DTû!ù?	   -DTû!ù?
+         @             1.5mm Pocket Countersink /  ÿÿÿÿ        BòÿÿÿŸ^À8    À2À   >òÿÿÿ_À    €.À   BòÿÿÿŸ^À    €.À   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ@              >òÿÿÿ_À    €.À   BòÿÿÿŸ^À°    €'À   BòÿÿÿŸ^À    €.À   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ@              BòÿÿÿŸ^À°    €'À   Fòÿÿÿ¿]À    €.À   BòÿÿÿŸ^À    €.À   -DTû!ù?	           
+   €ÿÿÿÿÿ@              Fòÿÿÿ¿]À    €.À   BòÿÿÿŸ^À8    À2À   BòÿÿÿŸ^À    €.À   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        ø6   À<@Pÿÿÿÿ'@   è6   @9@pÿÿÿÿ.@   ø6   À<@pÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   €     @              è6   @9@pÿÿÿÿ.@   ø6   À<@Èÿÿÿÿ¿2@   ø6   À<@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   €     @              ø6   À<@Èÿÿÿÿ¿2@   „    @@pÿÿÿÿ.@   ø6   À<@pÿÿÿÿ.@   -DTû!ù?	           
+   €     @              „    @@pÿÿÿÿ.@   ø6   À<@Pÿÿÿÿ'@   ø6   À<@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   €     @             1.5mm Pocket Countersink /  ÿÿÿÿ        |   F@8    À2À   „   ÐD@    €.À   |   F@    €.À   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ@              „   ÐD@    €.À   |   F@°    €'À   |   F@    €.À   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ@              |   F@°    €'À   t   PH@    €.À   |   F@    €.À   -DTû!ù?	           
+   €ÿÿÿÿÿ@              t   PH@    €.À   |   F@8    À2À   |   F@    €.À   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        |   F@ÿÿÿÿ'@   „   ÐD@pÿÿÿÿ.@   |   F@pÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ@              „   ÐD@pÿÿÿÿ.@   |   F@¨ÿÿÿÿ¿2@   |   F@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ@              |   F@¨ÿÿÿÿ¿2@   t   PH@pÿÿÿÿ.@   |   F@pÿÿÿÿ.@   -DTû!ù?	           
+   €ÿÿÿÿÿ@              t   PH@pÿÿÿÿ.@   |   F@ÿÿÿÿ'@   |   F@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        |    M@€ÿÿÿÿ'@   €   àK@pÿÿÿÿ.@   |    M@pÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   Àÿÿÿÿÿ@              €   àK@pÿÿÿÿ.@   |    M@°ÿÿÿÿ¿2@   |    M@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   Àÿÿÿÿÿ@              |    M@°ÿÿÿÿ¿2@   x   `O@pÿÿÿÿ.@   |    M@pÿÿÿÿ.@   -DTû!ù?	           
+   Àÿÿÿÿÿ@              x   `O@pÿÿÿÿ.@   |    M@€ÿÿÿÿ'@   |    M@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   Àÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        ø6   À<@@    À2À    7   @9@    €.À   ø6   À<@    €.À   -DTû!ù?	   -DTû!	@
+   Àÿÿÿÿÿ@               7   @9@    €.À   ø6   À<@     €'À   ø6   À<@    €.À   -DTû!ù?	   -DTû!ù¿
+   Àÿÿÿÿÿ@              ø6   À<@     €'À   x    @@    €.À   ø6   À<@    €.À   -DTû!ù?	           
+   Àÿÿÿÿÿ@              x    @@    €.À   ø6   À<@@    À2À   ø6   À<@    €.À   -DTû!ù?	   -DTû!ù?
+   Àÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        ðm   €.@X    À2À   Ðm   €'@    €.À   ðm   €.@    €.À   -DTû!ù?	   -DTû!	@
+   €     @              Ðm   €'@    €.À   ðm   €.@p    €'À   ðm   €.@    €.À   -DTû!ù?	   -DTû!ù¿
+   €     @              ðm   €.@p    €'À   7   À2@    €.À   ðm   €.@    €.À   -DTû!ù?	           
+   €     @              7   À2@    €.À   ðm   €.@X    À2À   ðm   €.@    €.À   -DTû!ù?	   -DTû!ù?
+   €     @             1.5mm Pocket Countersink /  ÿÿÿÿ        ðm   €.@`ÿÿÿÿ'@   àm   €'@pÿÿÿÿ.@   ðm   €.@pÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   @     @              àm   €'@pÿÿÿÿ.@   ðm   €.@Àÿÿÿÿ¿2@   ðm   €.@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   @     @              ðm   €.@Àÿÿÿÿ¿2@    7   À2@pÿÿÿÿ.@   ðm   €.@pÿÿÿÿ.@   -DTû!ù?	           
+   @     @               7   À2@pÿÿÿÿ.@   ðm   €.@`ÿÿÿÿ'@   ðm   €.@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   @     @             1.5mm Pocket Countersink /  ÿÿÿÿ             |Ë=àÿÿÿÿ?C@    HþÿÿÿÀÜÿÿÿÿÿD@        |Ë=ÜÿÿÿÿÿD@   -DTû!ù?	   -DTû!	@
+   Àÿÿÿÿÿ@               HþÿÿÿÀÜÿÿÿÿÿD@        |Ë=Øÿÿÿÿ¿F@        |Ë=ÜÿÿÿÿÿD@   -DTû!ù?	   -DTû!ù¿
+   Àÿÿÿÿÿ@                   |Ë=Øÿÿÿÿ¿F@   €·   @ÜÿÿÿÿÿD@        |Ë=ÜÿÿÿÿÿD@   -DTû!ù?	           
+   Àÿÿÿÿÿ@              €·   @ÜÿÿÿÿÿD@        |Ë=àÿÿÿÿ?C@        |Ë=ÜÿÿÿÿÿD@   -DTû!ù?	   -DTû!ù?
+   Àÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        öb#%¹V@€ÿÿÿÿÿ+@   øb#%¹6U@¸ÿÿÿÿ1@   öb#%¹V@¸ÿÿÿÿ1@   -DTû!ù?	   -DTû!	@
+   Àÿÿÿÿÿ@              øb#%¹6U@¸ÿÿÿÿ1@   öb#%¹V@°ÿÿÿÿÿ4@   öb#%¹V@¸ÿÿÿÿ1@   -DTû!ù?	   -DTû!ù¿
+   Àÿÿÿÿÿ@              öb#%¹V@°ÿÿÿÿÿ4@   öb#%¹öV@¸ÿÿÿÿ1@   öb#%¹V@¸ÿÿÿÿ1@   -DTû!ù?	           
+   Àÿÿÿÿÿ@              öb#%¹öV@¸ÿÿÿÿ1@   öb#%¹V@€ÿÿÿÿÿ+@   öb#%¹V@¸ÿÿÿÿ1@   -DTû!ù?	   -DTû!ù?
+         @             1.5mm Pocket Countersink /  ÿÿÿÿ        |    M@@    À2À   €   àK@    €.À   |    M@    €.À   -DTû!ù?	   -DTû!	@
+   Àÿÿÿÿÿ@              €   àK@    €.À   |    M@     €'À   |    M@    €.À   -DTû!ù?	   -DTû!ù¿
+   Àÿÿÿÿÿ@              |    M@     €'À   x   `O@    €.À   |    M@    €.À   -DTû!ù?	           
+   Àÿÿÿÿÿ@              x   `O@    €.À   |    M@@    À2À   |    M@    €.À   -DTû!ù?	   -DTû!ù?
+   Àÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        ¾   èR@(    À2À   Æ   R@    €.À   ¾   èR@    €.À   -DTû!ù?	   -DTû!	@
+    ÿÿÿÿÿ@              Æ   R@    €.À   ¾   èR@Ð    €'À   ¾   èR@    €.À   -DTû!ù?	   -DTû!ù¿
+    ÿÿÿÿÿ@              ¾   èR@Ð    €'À   ¶   ÈS@    €.À   ¾   èR@    €.À   -DTû!ù?	           
+    ÿÿÿÿÿ@              ¶   ÈS@    €.À   ¾   èR@(    À2À   ¾   èR@    €.À   -DTû!ù?	   -DTû!ù?
+    ÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        öb#%¹V@@     5À   øb#%¹6U@H    €1À   öb#%¹V@H    €1À   -DTû!ù?	   -DTû!	@
+   Àÿÿÿÿÿ@              øb#%¹6U@H    €1À   öb#%¹V@      ,À   öb#%¹V@H    €1À   -DTû!ù?	   -DTû!ù¿
+   Àÿÿÿÿÿ@              öb#%¹V@      ,À   öb#%¹öV@H    €1À   öb#%¹V@H    €1À   -DTû!ù?	           
+   Àÿÿÿÿÿ@              öb#%¹öV@H    €1À   öb#%¹V@@     5À   öb#%¹V@H    €1À   -DTû!ù?	   -DTû!ù?
+         @             1.5mm Pocket Countersink /  ÿÿÿÿ        ¾   èR@ ÿÿÿÿ'@   Ä   R@pÿÿÿÿ.@   ¾   èR@pÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   @ÿÿÿÿÿ@              Ä   R@pÿÿÿÿ.@   ¾   èR@ ÿÿÿÿ¿2@   ¾   èR@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   @ÿÿÿÿÿ@              ¾   èR@ ÿÿÿÿ¿2@   ¸   ÈS@pÿÿÿÿ.@   ¾   èR@pÿÿÿÿ.@   -DTû!ù?	           
+   @ÿÿÿÿÿ@              ¸   ÈS@pÿÿÿÿ.@   ¾   èR@ ÿÿÿÿ'@   ¾   èR@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   @ÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        „äÿÿÿŸMÀ@    À2À   €äÿÿÿ_OÀ    €.À   „äÿÿÿŸMÀ    €.À   -DTû!ù?	   -DTû!	@
+   Àÿÿÿÿÿ@              €äÿÿÿ_OÀ    €.À   „äÿÿÿŸMÀ     €'À   „äÿÿÿŸMÀ    €.À   -DTû!ù?	   -DTû!ù¿
+   Àÿÿÿÿÿ@              „äÿÿÿŸMÀ     €'À   ˆäÿÿÿßKÀ    €.À   „äÿÿÿŸMÀ    €.À   -DTû!ù?	           
+   Àÿÿÿÿÿ@              ˆäÿÿÿßKÀ    €.À   „äÿÿÿŸMÀ@    À2À   „äÿÿÿŸMÀ    €.À   -DTû!ù?	   -DTû!ù?
+   Àÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        BòÿÿÿçRÀ8    À2À   >òÿÿÿÇSÀ    €.À   BòÿÿÿçRÀ    €.À   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ@              >òÿÿÿÇSÀ    €.À   BòÿÿÿçRÀ°    €'À   BòÿÿÿçRÀ    €.À   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ@              BòÿÿÿçRÀ°    €'À   FòÿÿÿRÀ    €.À   BòÿÿÿçRÀ    €.À   -DTû!ù?	           
+   €ÿÿÿÿÿ@              FòÿÿÿRÀ    €.À   BòÿÿÿçRÀ8    À2À   BòÿÿÿçRÀ    €.À   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        BòÿÿÿçRÀÿÿÿÿ'@   >òÿÿÿÇSÀpÿÿÿÿ.@   BòÿÿÿçRÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ@              >òÿÿÿÇSÀpÿÿÿÿ.@   BòÿÿÿçRÀ¨ÿÿÿÿ¿2@   BòÿÿÿçRÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ@              BòÿÿÿçRÀ¨ÿÿÿÿ¿2@   FòÿÿÿRÀpÿÿÿÿ.@   BòÿÿÿçRÀpÿÿÿÿ.@   -DTû!ù?	           
+   €ÿÿÿÿÿ@              FòÿÿÿRÀpÿÿÿÿ.@   BòÿÿÿçRÀÿÿÿÿ'@   BòÿÿÿçRÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        BòÿÿÿÿVÀPÿÿÿÿ'@   FòÿÿÿßWÀpÿÿÿÿ.@   BòÿÿÿÿVÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   €     @              FòÿÿÿßWÀpÿÿÿÿ.@   BòÿÿÿÿVÀÈÿÿÿÿ¿2@   BòÿÿÿÿVÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   €     @              BòÿÿÿÿVÀÈÿÿÿÿ¿2@   >òÿÿÿVÀpÿÿÿÿ.@   BòÿÿÿÿVÀpÿÿÿÿ.@   -DTû!ù?	           
+   €     @              >òÿÿÿVÀpÿÿÿÿ.@   BòÿÿÿÿVÀPÿÿÿÿ'@   BòÿÿÿÿVÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   €     @             1.5mm Pocket Countersink /  ÿÿÿÿ        BòÿÿÿÿVÀX    À2À   FòÿÿÿßWÀ    €.À   BòÿÿÿÿVÀ    €.À   -DTû!ù?	   -DTû!	@
+   €     @              FòÿÿÿßWÀ    €.À   BòÿÿÿÿVÀp    €'À   BòÿÿÿÿVÀ    €.À   -DTû!ù?	   -DTû!ù¿
+   €     @              BòÿÿÿÿVÀp    €'À   >òÿÿÿVÀ    €.À   BòÿÿÿÿVÀ    €.À   -DTû!ù?	           
+   €     @              >òÿÿÿVÀ    €.À   BòÿÿÿÿVÀX    À2À   BòÿÿÿÿVÀ    €.À   -DTû!ù?	   -DTû!ù?
+   €     @             1.5mm Pocket Countersink /  ÿÿÿÿ        BòÿÿÿŸ^Àÿÿÿÿ'@   >òÿÿÿ_Àpÿÿÿÿ.@   BòÿÿÿŸ^Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ@              >òÿÿÿ_Àpÿÿÿÿ.@   BòÿÿÿŸ^À¨ÿÿÿÿ¿2@   BòÿÿÿŸ^Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ@              BòÿÿÿŸ^À¨ÿÿÿÿ¿2@   Fòÿÿÿ¿]Àpÿÿÿÿ.@   BòÿÿÿŸ^Àpÿÿÿÿ.@   -DTû!ù?	           
+   €ÿÿÿÿÿ@              Fòÿÿÿ¿]Àpÿÿÿÿ.@   BòÿÿÿŸ^Àÿÿÿÿ'@   BòÿÿÿŸ^Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        ?žôþ¦æ`À`ÿÿÿÿÿ.@   @žôþ¦VaÀ¸ÿÿÿÿÿ2@   ?žôþ¦æ`À¸ÿÿÿÿÿ2@   -DTû!ù?	   -DTû!	@
+   @     @              @žôþ¦VaÀ¸ÿÿÿÿÿ2@   ?žôþ¦æ`ÀÀÿÿÿÿ6@   ?žôþ¦æ`À¸ÿÿÿÿÿ2@   -DTû!ù?	   -DTû!ù¿
+   @     @              ?žôþ¦æ`ÀÀÿÿÿÿ6@   >žôþ¦v`À¸ÿÿÿÿÿ2@   ?žôþ¦æ`À¸ÿÿÿÿÿ2@   -DTû!ù?	           
+   @     @              >žôþ¦v`À¸ÿÿÿÿÿ2@   ?žôþ¦æ`À`ÿÿÿÿÿ.@   ?žôþ¦æ`À¸ÿÿÿÿÿ2@   -DTû!ù?	   -DTû!ù?
+   @     @             1.5mm Pocket Countersink /  ÿÿÿÿ        ?žôþ¦æ`À8    €6À   =žôþ¦VaÀH     3À   ?žôþ¦æ`ÀH     3À   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ@              =žôþ¦VaÀH     3À   ?žôþ¦æ`À°     /À   ?žôþ¦æ`ÀH     3À   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ@              ?žôþ¦æ`À°     /À   Ažôþ¦v`ÀH     3À   ?žôþ¦æ`ÀH     3À   -DTû!ù?	           
+   €ÿÿÿÿÿ@              Ažôþ¦v`ÀH     3À   ?žôþ¦æ`À8    €6À   ?žôþ¦æ`ÀH     3À   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        Éÿÿÿ¿<Àh    À2À   ”äÿÿÿ@À    €.À   Éÿÿÿ¿<À    €.À   -DTû!ù?	   -DTû!	@
+        @              ”äÿÿÿ@À    €.À   Éÿÿÿ¿<ÀP    €'À   Éÿÿÿ¿<À    €.À   -DTû!ù?	   -DTû!ù¿
+        @              Éÿÿÿ¿<ÀP    €'À   èÈÿÿÿ?9À    €.À   Éÿÿÿ¿<À    €.À   -DTû!ù?	           
+        @              èÈÿÿÿ?9À    €.À   Éÿÿÿ¿<Àh    À2À   Éÿÿÿ¿<À    €.À   -DTû!ù?	   -DTû!ù?
+        @             1.5mm Pocket Countersink /  ÿÿÿÿ             |Ë=    ÀFÀ   ÀGþÿÿÿÀ$     EÀ        |Ë=$     EÀ   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ@              ÀGþÿÿÿÀ$     EÀ        |Ë=,    @CÀ        |Ë=$     EÀ   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ@                   |Ë=,    @CÀ   @·   @$     EÀ        |Ë=$     EÀ   -DTû!ù?	           
+   €ÿÿÿÿÿ@              @·   @$     EÀ        |Ë=    ÀFÀ        |Ë=$     EÀ   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        ’ÿÿÿ.ÀX    À2À   Éÿÿÿ¿2À    €.À   ’ÿÿÿ.À    €.À   -DTû!ù?	   -DTû!	@
+   €     @              Éÿÿÿ¿2À    €.À   ’ÿÿÿ.Àp    €'À   ’ÿÿÿ.À    €.À   -DTû!ù?	   -DTû!ù¿
+   €     @              ’ÿÿÿ.Àp    €'À   ð‘ÿÿÿ'À    €.À   ’ÿÿÿ.À    €.À   -DTû!ù?	           
+   €     @              ð‘ÿÿÿ'À    €.À   ’ÿÿÿ.ÀX    À2À   ’ÿÿÿ.À    €.À   -DTû!ù?	   -DTû!ù?
+   €     @             1.5mm Pocket Countersink /  ÿÿÿÿ        ’ÿÿÿ.À`ÿÿÿÿ'@   Éÿÿÿ¿2Àpÿÿÿÿ.@   ’ÿÿÿ.Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   @     @              Éÿÿÿ¿2Àpÿÿÿÿ.@   ’ÿÿÿ.ÀÀÿÿÿÿ¿2@   ’ÿÿÿ.Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   @     @              ’ÿÿÿ.ÀÀÿÿÿÿ¿2@    ’ÿÿÿ'Àpÿÿÿÿ.@   ’ÿÿÿ.Àpÿÿÿÿ.@   -DTû!ù?	           
+   @     @               ’ÿÿÿ'Àpÿÿÿÿ.@   ’ÿÿÿ.À`ÿÿÿÿ'@   ’ÿÿÿ.Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   @     @             1.5mm Pocket Countersink /  ÿÿÿÿ        „äÿÿÿŸMÀ€ÿÿÿÿ'@   €äÿÿÿ_OÀpÿÿÿÿ.@   „äÿÿÿŸMÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   Àÿÿÿÿÿ@              €äÿÿÿ_OÀpÿÿÿÿ.@   „äÿÿÿŸMÀ°ÿÿÿÿ¿2@   „äÿÿÿŸMÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   Àÿÿÿÿÿ@              „äÿÿÿŸMÀ°ÿÿÿÿ¿2@   ˆäÿÿÿßKÀpÿÿÿÿ.@   „äÿÿÿŸMÀpÿÿÿÿ.@   -DTû!ù?	           
+   Àÿÿÿÿÿ@              ˆäÿÿÿßKÀpÿÿÿÿ.@   „äÿÿÿŸMÀ€ÿÿÿÿ'@   „äÿÿÿŸMÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   Àÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        „äÿÿÿFÀ@    À2À   €äÿÿÿOHÀ    €.À   „äÿÿÿFÀ    €.À   -DTû!ù?	   -DTû!	@
+   Àÿÿÿÿÿ@              €äÿÿÿOHÀ    €.À   „äÿÿÿFÀ     €'À   „äÿÿÿFÀ    €.À   -DTû!ù?	   -DTû!ù¿
+   Àÿÿÿÿÿ@              „äÿÿÿFÀ     €'À   ˆäÿÿÿÏDÀ    €.À   „äÿÿÿFÀ    €.À   -DTû!ù?	           
+   Àÿÿÿÿÿ@              ˆäÿÿÿÏDÀ    €.À   „äÿÿÿFÀ@    À2À   „äÿÿÿFÀ    €.À   -DTû!ù?	   -DTû!ù?
+   Àÿÿÿÿÿ@             1.5mm Pocket Countersink /  ÿÿÿÿ        „äÿÿÿFÀpÿÿÿÿ'@   „äÿÿÿOHÀpÿÿÿÿ.@   „äÿÿÿFÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+         @              „äÿÿÿOHÀpÿÿÿÿ.@   „äÿÿÿFÀ¸ÿÿÿÿ¿2@   „äÿÿÿFÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+         @              „äÿÿÿFÀ¸ÿÿÿÿ¿2@   „äÿÿÿÏDÀpÿÿÿÿ.@   „äÿÿÿFÀpÿÿÿÿ.@   -DTû!ù?	           
+         @              „äÿÿÿÏDÀpÿÿÿÿ.@   „äÿÿÿFÀpÿÿÿÿ'@   „äÿÿÿFÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+         @             1.5mm Pocket Countersink /  ÿÿÿÿ        Éÿÿÿ¿<Àÿÿÿÿ'@   |äÿÿÿ@Àpÿÿÿÿ.@   Éÿÿÿ¿<Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ@              |äÿÿÿ@Àpÿÿÿÿ.@   Éÿÿÿ¿<À¨ÿÿÿÿ¿2@   Éÿÿÿ¿<Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ@              Éÿÿÿ¿<À¨ÿÿÿÿ¿2@   Éÿÿÿ?9Àpÿÿÿÿ.@   Éÿÿÿ¿<Àpÿÿÿÿ.@   -DTû!ù?	           
+   €ÿÿÿÿÿ@              Éÿÿÿ?9Àpÿÿÿÿ.@   Éÿÿÿ¿<Àÿÿÿÿ'@   Éÿÿÿ¿<Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ@             2.5mm Holes /  ÿÿÿÿ        ¾   ÜP@øÄ23331@   ¾   ŒP@øÄ233s2@   ¾   ÜP@øÄ233s2@   -DTû!ù?	   -DTû!	@
+         ô?              ¾   ŒP@øÄ233s2@   ¾   ÜP@øÄ233³3@   ¾   ÜP@øÄ233s2@   -DTû!ù?	   -DTû!ù¿
+         ô?              ¾   ÜP@øÄ233³3@   ¾   ,Q@øÄ233s2@   ¾   ÜP@øÄ233s2@   -DTû!ù?	           
+         ô?              ¾   ,Q@øÄ233s2@   ¾   ÜP@øÄ23331@   ¾   ÜP@øÄ233s2@   -DTû!ù?	   -DTû!ù?
+         ô?             2.5mm Holes /  ÿÿÿÿ        BòÿÿÿóTÀ3333³3À   FòÿÿÿCUÀ€3333s2À   BòÿÿÿóTÀ€3333s2À   -DTû!ù?	   -DTû!	@
+        ô?              FòÿÿÿCUÀ€3333s2À   BòÿÿÿóTÀp333331À   BòÿÿÿóTÀ€3333s2À   -DTû!ù?	   -DTû!ù¿
+        ô?              BòÿÿÿóTÀp333331À   >òÿÿÿ£TÀ€3333s2À   BòÿÿÿóTÀ€3333s2À   -DTû!ù?	           
+        ô?              >òÿÿÿ£TÀ€3333s2À   BòÿÿÿóTÀ3333³3À   BòÿÿÿóTÀ€3333s2À   -DTû!ù?	   -DTû!ù?
+        ô?             2.5mm Holes /  ÿÿÿÿ        BòÿÿÿÛPÀøÄ23331@   Bòÿÿÿ+QÀøÄ233s2@   BòÿÿÿÛPÀøÄ233s2@   -DTû!ù?	   -DTû!	@
+         ô?              Bòÿÿÿ+QÀøÄ233s2@   BòÿÿÿÛPÀøÄ233³3@   BòÿÿÿÛPÀøÄ233s2@   -DTû!ù?	   -DTû!ù¿
+         ô?              BòÿÿÿÛPÀøÄ233³3@   Bòÿÿÿ‹PÀøÄ233s2@   BòÿÿÿÛPÀøÄ233s2@   -DTû!ù?	           
+         ô?              Bòÿÿÿ‹PÀøÄ233s2@   BòÿÿÿÛPÀøÄ23331@   BòÿÿÿÛPÀøÄ233s2@   -DTû!ù?	   -DTû!ù?
+         ô?             2.5mm Holes /  ÿÿÿÿ        BòÿÿÿóTÀøÄ23331@   BòÿÿÿCUÀøÄ233s2@   BòÿÿÿóTÀøÄ233s2@   -DTû!ù?	   -DTû!	@
+         ô?              BòÿÿÿCUÀøÄ233s2@   BòÿÿÿóTÀøÄ233³3@   BòÿÿÿóTÀøÄ233s2@   -DTû!ù?	   -DTû!ù¿
+         ô?              BòÿÿÿóTÀøÄ233³3@   Bòÿÿÿ£TÀøÄ233s2@   BòÿÿÿóTÀøÄ233s2@   -DTû!ù?	           
+         ô?              Bòÿÿÿ£TÀøÄ233s2@   BòÿÿÿóTÀøÄ23331@   BòÿÿÿóTÀøÄ233s2@   -DTû!ù?	   -DTû!ù?
+         ô?             2.5mm Holes /  ÿÿÿÿ        BòÿÿÿÛPÀ3333³3À   Fòÿÿÿ+QÀ€3333s2À   BòÿÿÿÛPÀ€3333s2À   -DTû!ù?	   -DTû!	@
+        ô?              Fòÿÿÿ+QÀ€3333s2À   BòÿÿÿÛPÀp333331À   BòÿÿÿÛPÀ€3333s2À   -DTû!ù?	   -DTû!ù¿
+        ô?              BòÿÿÿÛPÀp333331À   >òÿÿÿ‹PÀ€3333s2À   BòÿÿÿÛPÀ€3333s2À   -DTû!ù?	           
+        ô?              >òÿÿÿ‹PÀ€3333s2À   BòÿÿÿÛPÀ3333³3À   BòÿÿÿÛPÀ€3333s2À   -DTû!ù?	   -DTû!ù?
+        ô?             2.5mm Holes /  ÿÿÿÿ        ¾   ÜP@x¡333³3À   ¼   ŒP@p¡333s2À   ¾   ÜP@p¡333s2À   -DTû!ù?	   -DTû!	@
+   €     ô?              ¼   ŒP@p¡333s2À   ¾   ÜP@h¡33331À   ¾   ÜP@p¡333s2À   -DTû!ù?	   -DTû!ù¿
+   €     ô?              ¾   ÜP@h¡33331À   À   ,Q@p¡333s2À   ¾   ÜP@p¡333s2À   -DTû!ù?	           
+   €     ô?              À   ,Q@p¡333s2À   ¾   ÜP@x¡333³3À   ¾   ÜP@p¡333s2À   -DTû!ù?	   -DTû!ù?
+   €     ô?             3.4mm Holes /  ÿÿÿÿ        »G«]PPÀ@¸‘Qå{&@   …xè)½PÀø·Kâ)@   »G«]PPÀø·Kâ)@   -DTû!ù?	   -DTû!	@
+   €23333û?              …xè)½PÀø·Kâ)@   »G«]PPÀà„^²H-@   »G«]PPÀø·Kâ)@   -DTû!ù?	   -DTû!ù¿
+   €23333û?              »G«]PPÀà„^²H-@   âõ¼ ÇOÀø·Kâ)@   »G«]PPÀø·Kâ)@   -DTû!ù?	           
+   €23333û?              âõ¼ ÇOÀø·Kâ)@   »G«]PPÀ@¸‘Qå{&@   »G«]PPÀø·Kâ)@   -DTû!ù?	   -DTû!ù?
+   €23333û?             3.4mm Holes /  ÿÿÿÿ        Þ£Õ.È`À€>rsÕ ü¿   D
+<ô”þ`À páH´­¿   Þ£Õ.È`À páH´­¿   -DTû!ù?	   -DTû!	@
+    33333û?              D
+<ô”þ`À páH´­¿   Þ£Õ.È`À€'ôòEú?   Þ£Õ.È`À páH´­¿   -DTû!ù?	   -DTû!ù¿
+    33333û?              Þ£Õ.È`À€'ôòEú?   x=o'È‘`À páH´­¿   Þ£Õ.È`À páH´­¿   -DTû!ù?	           
+    33333û?              x=o'È‘`À páH´­¿   Þ£Õ.È`À€>rsÕ ü¿   Þ£Õ.È`À páH´­¿   -DTû!ù?	   -DTû!ù?
+    33333û?             3.4mm Holes /  ÿÿÿÿ        »G«]Ð_À€>rsÕ ü¿   D
+<ô”`À páH´­¿   »G«]Ð_À páH´­¿   -DTû!ù?	   -DTû!	@
+    33333û?              D
+<ô”`À páH´­¿   »G«]Ð_À€'ôòEú?   »G«]Ð_À páH´­¿   -DTû!ù?	   -DTû!ù¿
+    33333û?              »G«]Ð_À€'ôòEú?   ïzÞNc_À páH´­¿   »G«]Ð_À páH´­¿   -DTû!ù?	           
+    33333û?              ïzÞNc_À páH´­¿   »G«]Ð_À€>rsÕ ü¿   »G«]Ð_À páH´­¿   -DTû!ù?	   -DTû!ù?
+    33333û?             3.4mm Holes /  ÿÿÿÿ        »G«]PPÀÀGn®„-À   …xè)½PÀpáH´*À   »G«]PPÀpáH´*À   -DTû!ù?	   -DTû!	@
+   €23333û?              …xè)½PÀpáH´*À   »G«]PPÀ {¡áM·&À   »G«]PPÀpáH´*À   -DTû!ù?	   -DTû!ù¿
+   €23333û?              »G«]PPÀ {¡áM·&À   âõ¼ ÇOÀpáH´*À   »G«]PPÀpáH´*À   -DTû!ù?	           
+   €23333û?              âõ¼ ÇOÀpáH´*À   »G«]PPÀÀGn®„-À   »G«]PPÀpáH´*À   -DTû!ù?	   -DTû!ù?
+   €23333û?             3.4mm Holes /  ÿÿÿÿ        ”Ô¡|œH@°ËÍÌÌFÀ   ÀÕI¯ÏG@Üþ?   FÀ   ”Ô¡|œH@Üþ?   FÀ   -DTû!ù?	   -DTû!	@
+   €š™™™™ù?              ÀÕI¯ÏG@Üþ?   FÀ   ”Ô¡|œH@2s333EÀ   ”Ô¡|œH@Üþ?   FÀ   -DTû!ù?	   -DTû!ù¿
+   €š™™™™ù?              ”Ô¡|œH@2s333EÀ   h¡nãHiI@Üþ?   FÀ   ”Ô¡|œH@Üþ?   FÀ   -DTû!ù?	           
+   €š™™™™ù?              h¡nãHiI@Üþ?   FÀ   ”Ô¡|œH@°ËÍÌÌFÀ   ”Ô¡|œH@Üþ?   FÀ   -DTû!ù?	   -DTû!ù?
+   €š™™™™ù?             3.4mm Holes /  ÿÿÿÿ        ”Ô¡|œH@Ì1s333E@   ÌÕI¯ÏG@”þ?   F@   ”Ô¡|œH@”þ?   F@   -DTû!ù?	   -DTû!	@
+    ™™™™™ù?              ÌÕI¯ÏG@”þ?   F@   ”Ô¡|œH@\ËÍÌÌF@   ”Ô¡|œH@”þ?   F@   -DTû!ù?	   -DTû!ù¿
+    ™™™™™ù?              ”Ô¡|œH@\ËÍÌÌF@   \¡nãHiI@”þ?   F@   ”Ô¡|œH@”þ?   F@   -DTû!ù?	           
+    ™™™™™ù?              \¡nãHiI@”þ?   F@   ”Ô¡|œH@Ì1s333E@   ”Ô¡|œH@”þ?   F@   -DTû!ù?	   -DTû!ù?
+    ™™™™™ù?             3.4mm Holes /  ÿÿÿÿ        (©C-ø83@Ê1s333E@   ˜ª“^Ÿ1@”þ?   F@   (©C-ø83@”þ?   F@   -DTû!ù?	   -DTû!	@
+   @™™™™™ù?              ˜ª“^Ÿ1@”þ?   F@   (©C-ø83@^ËÍÌÌF@   (©C-ø83@”þ?   F@   -DTû!ù?	   -DTû!ù¿
+    ™™™™™ù?              (©C-ø83@^ËÍÌÌF@   ¸BÝÆ‘Ò4@”þ?   F@   (©C-ø83@”þ?   F@   -DTû!ù?	           
+   @™™™™™ù?              ¸BÝÆ‘Ò4@”þ?   F@   (©C-ø83@Ê1s333E@   (©C-ø83@”þ?   F@   -DTû!ù?	   -DTû!ù?
+    ™™™™™ù?             3.4mm Holes /  ÿÿÿÿ        ØV¼ÒG3ÀÈ1s333E@   pðUl¡à4À”þ?   F@   ØV¼ÒG3À”þ?   F@   -DTû!ù?	   -DTû!	@
+   €™™™™™ù?              pðUl¡à4À”þ?   F@   ØV¼ÒG3À`ËÍÌÌF@   ØV¼ÒG3À”þ?   F@   -DTû!ù?	   -DTû!ù¿
+   €™™™™™ù?              ØV¼ÒG3À`ËÍÌÌF@   @½"9n­1À”þ?   F@   ØV¼ÒG3À”þ?   F@   -DTû!ù?	           
+   €™™™™™ù?              @½"9n­1À”þ?   F@   ØV¼ÒG3ÀÈ1s333E@   ØV¼ÒG3À”þ?   F@   -DTû!ù?	   -DTû!ù?
+   €™™™™™ù?             3.4mm Holes /  ÿÿÿÿ        n+^éƒ£HÀÊ1s333E@   8ø*¶PpIÀ”þ?   F@   n+^éƒ£HÀ”þ?   F@   -DTû!ù?	   -DTû!	@
+   @™™™™™ù?              8ø*¶PpIÀ”þ?   F@   n+^éƒ£HÀ^ËÍÌÌF@   n+^éƒ£HÀ”þ?   F@   -DTû!ù?	   -DTû!ù¿
+   @™™™™™ù?              n+^éƒ£HÀ^ËÍÌÌF@   ¤^‘·ÖGÀ”þ?   F@   n+^éƒ£HÀ”þ?   F@   -DTû!ù?	           
+   @™™™™™ù?              ¤^‘·ÖGÀ”þ?   F@   n+^éƒ£HÀÊ1s333E@   n+^éƒ£HÀ”þ?   F@   -DTû!ù?	   -DTû!ù?
+   @™™™™™ù?             3.4mm Holes /  ÿÿÿÿ        n+^éƒ£HÀ¨ËÍÌÌFÀ   :ø*¶PpIÀÜþ?   FÀ   n+^éƒ£HÀÜþ?   FÀ   -DTû!ù?	   -DTû!	@
+   €™™™™™ù?              :ø*¶PpIÀÜþ?   FÀ   n+^éƒ£HÀ2s333EÀ   n+^éƒ£HÀÜþ?   FÀ   -DTû!ù?	   -DTû!ù¿
+   €™™™™™ù?              n+^éƒ£HÀ2s333EÀ   ¢^‘·ÖGÀÜþ?   FÀ   n+^éƒ£HÀÜþ?   FÀ   -DTû!ù?	           
+   €™™™™™ù?              ¢^‘·ÖGÀÜþ?   FÀ   n+^éƒ£HÀ¨ËÍÌÌFÀ   n+^éƒ£HÀÜþ?   FÀ   -DTû!ù?	   -DTû!ù?
+   €™™™™™ù?             3.4mm Holes /  ÿÿÿÿ        ØV¼ÒG3À¨ËÍÌÌFÀ   pðUl¡à4ÀÜþ?   FÀ   ØV¼ÒG3ÀÜþ?   FÀ   -DTû!ù?	   -DTû!	@
+   €™™™™™ù?              pðUl¡à4ÀÜþ?   FÀ   ØV¼ÒG3À2s333EÀ   ØV¼ÒG3ÀÜþ?   FÀ   -DTû!ù?	   -DTû!ù¿
+   €™™™™™ù?              ØV¼ÒG3À2s333EÀ   @½"9n­1ÀÜþ?   FÀ   ØV¼ÒG3ÀÜþ?   FÀ   -DTû!ù?	           
+   €™™™™™ù?              @½"9n­1ÀÜþ?   FÀ   ØV¼ÒG3À¨ËÍÌÌFÀ   ØV¼ÒG3ÀÜþ?   FÀ   -DTû!ù?	   -DTû!ù?
+   €™™™™™ù?             3.4mm Holes /  ÿÿÿÿ        (©C-ø83@¨ËÍÌÌFÀ   ª“^Ÿ1@Üþ?   FÀ   (©C-ø83@Üþ?   FÀ   -DTû!ù?	   -DTû!	@
+   €™™™™™ù?              ª“^Ÿ1@Üþ?   FÀ   (©C-ø83@2s333EÀ   (©C-ø83@Üþ?   FÀ   -DTû!ù?	   -DTû!ù¿
+   €™™™™™ù?              (©C-ø83@2s333EÀ   ÀBÝÆ‘Ò4@Üþ?   FÀ   (©C-ø83@Üþ?   FÀ   -DTû!ù?	           
+   €™™™™™ù?              ÀBÝÆ‘Ò4@Üþ?   FÀ   (©C-ø83@¨ËÍÌÌFÀ   (©C-ø83@Üþ?   FÀ   -DTû!ù?	   -DTû!ù?
+   €™™™™™ù?             Arm Fixtures /  ÿÿÿÿ        ‚,!æ•iV@LÂIÖ=QLÀ   €,!æ•iU@HÂIÖ=QJÀ   ‚,!æ•iV@HÂIÖ=QJÀ   -DTû!ù?	   -DTû!	@
+         @              €,!æ•iU@HÂIÖ=QJÀ   ‚,!æ•iV@DÂIÖ=QHÀ   ‚,!æ•iV@HÂIÖ=QJÀ   -DTû!ù?	   -DTû!ù¿
+         @              ‚,!æ•iV@DÂIÖ=QHÀ   †,!æ•iW@HÂIÖ=QJÀ   ‚,!æ•iV@HÂIÖ=QJÀ   -DTû!ù?	           
+         @              †,!æ•iW@HÂIÖ=QJÀ   ‚,!æ•iV@LÂIÖ=QLÀ   ‚,!æ•iV@HÂIÖ=QJÀ   -DTû!ù?	   -DTû!ù?
+   @     @             3.0mm Holes /  ÿÿÿÿ        öb#%¹Ö^@8     3À   úb#%¹v^@H    €1À   öb#%¹Ö^@H    €1À   -DTû!ù?	   -DTû!	@
+    ÿÿÿÿÿ÷?              úb#%¹v^@H    €1À   öb#%¹Ö^@X     0À   öb#%¹Ö^@H    €1À   -DTû!ù?	   -DTû!ù¿
+    ÿÿÿÿÿ÷?              öb#%¹Ö^@X     0À   òb#%¹6_@H    €1À   öb#%¹Ö^@H    €1À   -DTû!ù?	           
+    ÿÿÿÿÿ÷?              òb#%¹6_@H    €1À   öb#%¹Ö^@8     3À   öb#%¹Ö^@H    €1À   -DTû!ù?	   -DTû!ù?
+    ÿÿÿÿÿ÷?             3.0mm Holes /  ÿÿÿÿ        |    M@H    À0À   |   àL@    €.À   |    M@    €.À   -DTû!ù?	   -DTû!	@
+         ø?              |   àL@    €.À   |    M@    €+À   |    M@    €.À   -DTû!ù?	   -DTû!ù¿
+         ø?              |    M@    €+À   |   `N@    €.À   |    M@    €.À   -DTû!ù?	           
+         ø?              |   `N@    €.À   |    M@H    À0À   |    M@    €.À   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        BòÿÿÿŸ^ÀH    À0À   Bòÿÿÿÿ^À    €.À   BòÿÿÿŸ^À    €.À   -DTû!ù?	   -DTû!	@
+         ø?              Bòÿÿÿÿ^À    €.À   BòÿÿÿŸ^À    €+À   BòÿÿÿŸ^À    €.À   -DTû!ù?	   -DTû!ù¿
+         ø?              BòÿÿÿŸ^À    €+À   Bòÿÿÿ?^À    €.À   BòÿÿÿŸ^À    €.À   -DTû!ù?	           
+         ø?              Bòÿÿÿ?^À    €.À   BòÿÿÿŸ^ÀH    À0À   BòÿÿÿŸ^À    €.À   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        ø6   À<@pÿÿÿÿ+@   ø6   @;@pÿÿÿÿ.@   ø6   À<@pÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+         ø?              ø6   @;@pÿÿÿÿ.@   ø6   À<@¸ÿÿÿÿ¿0@   ø6   À<@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+         ø?              ø6   À<@¸ÿÿÿÿ¿0@   ø6   @>@pÿÿÿÿ.@   ø6   À<@pÿÿÿÿ.@   -DTû!ù?	           
+         ø?              ø6   @>@pÿÿÿÿ.@   ø6   À<@pÿÿÿÿ+@   ø6   À<@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        „äÿÿÿŸMÀ€ÿÿÿÿ+@   €äÿÿÿ_NÀpÿÿÿÿ.@   „äÿÿÿŸMÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ÷?              €äÿÿÿ_NÀpÿÿÿÿ.@   „äÿÿÿŸMÀ°ÿÿÿÿ¿0@   „äÿÿÿŸMÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ÷?              „äÿÿÿŸMÀ°ÿÿÿÿ¿0@   ˆäÿÿÿßLÀpÿÿÿÿ.@   „äÿÿÿŸMÀpÿÿÿÿ.@   -DTû!ù?	           
+   €ÿÿÿÿÿ÷?              ˆäÿÿÿßLÀpÿÿÿÿ.@   „äÿÿÿŸMÀ€ÿÿÿÿ+@   „äÿÿÿŸMÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ÷?             3.0mm Holes /  ÿÿÿÿ        „äÿÿÿŸMÀ@    À0À   €äÿÿÿ_NÀ    €.À   „äÿÿÿŸMÀ    €.À   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ÷?              €äÿÿÿ_NÀ    €.À   „äÿÿÿŸMÀ     €+À   „äÿÿÿŸMÀ    €.À   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ÷?              „äÿÿÿŸMÀ     €+À   ˆäÿÿÿßLÀ    €.À   „äÿÿÿŸMÀ    €.À   -DTû!ù?	           
+   €ÿÿÿÿÿ÷?              ˆäÿÿÿßLÀ    €.À   „äÿÿÿŸMÀ@    À0À   „äÿÿÿŸMÀ    €.À   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ÷?             3.0mm Holes /  ÿÿÿÿ        |   F@@    À0À   €   ÐE@    €.À   |   F@    €.À   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ÷?              €   ÐE@    €.À   |   F@     €+À   |   F@    €.À   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ÷?              |   F@     €+À   x   PG@    €.À   |   F@    €.À   -DTû!ù?	           
+   €ÿÿÿÿÿ÷?              x   PG@    €.À   |   F@@    À0À   |   F@    €.À   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ÷?             3.0mm Holes /  ÿÿÿÿ        |   F@pÿÿÿÿ+@   |   ÐE@pÿÿÿÿ.@   |   F@pÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+         ø?              |   ÐE@pÿÿÿÿ.@   |   F@¸ÿÿÿÿ¿0@   |   F@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+         ø?              |   F@¸ÿÿÿÿ¿0@   |   PG@pÿÿÿÿ.@   |   F@pÿÿÿÿ.@   -DTû!ù?	           
+         ø?              |   PG@pÿÿÿÿ.@   |   F@pÿÿÿÿ+@   |   F@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        Éÿÿÿ¿<Àpÿÿÿÿ+@   Éÿÿÿ?>Àpÿÿÿÿ.@   Éÿÿÿ¿<Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+         ø?              Éÿÿÿ?>Àpÿÿÿÿ.@   Éÿÿÿ¿<À¸ÿÿÿÿ¿0@   Éÿÿÿ¿<Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+         ø?              Éÿÿÿ¿<À¸ÿÿÿÿ¿0@   Éÿÿÿ?;Àpÿÿÿÿ.@   Éÿÿÿ¿<Àpÿÿÿÿ.@   -DTû!ù?	           
+         ø?              Éÿÿÿ?;Àpÿÿÿÿ.@   Éÿÿÿ¿<Àpÿÿÿÿ+@   Éÿÿÿ¿<Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        Éÿÿÿ¿<À@    À0À    Éÿÿÿ?>À    €.À   Éÿÿÿ¿<À    €.À   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ÷?               Éÿÿÿ?>À    €.À   Éÿÿÿ¿<À     €+À   Éÿÿÿ¿<À    €.À   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ÷?              Éÿÿÿ¿<À     €+À   Éÿÿÿ?;À    €.À   Éÿÿÿ¿<À    €.À   -DTû!ù?	           
+   €ÿÿÿÿÿ÷?              Éÿÿÿ?;À    €.À   Éÿÿÿ¿<À@    À0À   Éÿÿÿ¿<À    €.À   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ÷?             3.0mm Holes /  ÿÿÿÿ             |Ë=Þÿÿÿÿ?D@   €üÿÿÿ÷¿ÜÿÿÿÿÿD@        |Ë=ÜÿÿÿÿÿD@   -DTû!ù?	   -DTû!	@
+   Àÿÿÿÿÿ÷?              €üÿÿÿ÷¿ÜÿÿÿÿÿD@        |Ë=Úÿÿÿÿ¿E@        |Ë=ÜÿÿÿÿÿD@   -DTû!ù?	   -DTû!ù¿
+         ø?                   |Ë=Úÿÿÿÿ¿E@   €o   ø?ÜÿÿÿÿÿD@        |Ë=ÜÿÿÿÿÿD@   -DTû!ù?	           
+   Àÿÿÿÿÿ÷?              €o   ø?ÜÿÿÿÿÿD@        |Ë=Þÿÿÿÿ?D@        |Ë=ÜÿÿÿÿÿD@   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        BòÿÿÿŸ^Àpÿÿÿÿ+@   Bòÿÿÿÿ^Àpÿÿÿÿ.@   BòÿÿÿŸ^Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+         ø?              Bòÿÿÿÿ^Àpÿÿÿÿ.@   BòÿÿÿŸ^À¸ÿÿÿÿ¿0@   BòÿÿÿŸ^Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+         ø?              BòÿÿÿŸ^À¸ÿÿÿÿ¿0@   Bòÿÿÿ?^Àpÿÿÿÿ.@   BòÿÿÿŸ^Àpÿÿÿÿ.@   -DTû!ù?	           
+         ø?              Bòÿÿÿ?^Àpÿÿÿÿ.@   BòÿÿÿŸ^Àpÿÿÿÿ+@   BòÿÿÿŸ^Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        BòÿÿÿçRÀ€ÿÿÿÿ+@   @òÿÿÿGSÀpÿÿÿÿ.@   BòÿÿÿçRÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ÷?              @òÿÿÿGSÀpÿÿÿÿ.@   BòÿÿÿçRÀ°ÿÿÿÿ¿0@   BòÿÿÿçRÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ÷?              BòÿÿÿçRÀ°ÿÿÿÿ¿0@   Dòÿÿÿ‡RÀpÿÿÿÿ.@   BòÿÿÿçRÀpÿÿÿÿ.@   -DTû!ù?	           
+   €ÿÿÿÿÿ÷?              Dòÿÿÿ‡RÀpÿÿÿÿ.@   BòÿÿÿçRÀ€ÿÿÿÿ+@   BòÿÿÿçRÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ÷?             3.0mm Holes /  ÿÿÿÿ        ¾   èR@pÿÿÿÿ+@   ¾   ˆR@pÿÿÿÿ.@   ¾   èR@pÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+         ø?              ¾   ˆR@pÿÿÿÿ.@   ¾   èR@¸ÿÿÿÿ¿0@   ¾   èR@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+         ø?              ¾   èR@¸ÿÿÿÿ¿0@   ¾   HS@pÿÿÿÿ.@   ¾   èR@pÿÿÿÿ.@   -DTû!ù?	           
+         ø?              ¾   HS@pÿÿÿÿ.@   ¾   èR@pÿÿÿÿ+@   ¾   èR@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        BòÿÿÿÿVÀpÿÿÿÿ+@   Bòÿÿÿ_WÀpÿÿÿÿ.@   BòÿÿÿÿVÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+         ø?              Bòÿÿÿ_WÀpÿÿÿÿ.@   BòÿÿÿÿVÀ¸ÿÿÿÿ¿0@   BòÿÿÿÿVÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+         ø?              BòÿÿÿÿVÀ¸ÿÿÿÿ¿0@   BòÿÿÿŸVÀpÿÿÿÿ.@   BòÿÿÿÿVÀpÿÿÿÿ.@   -DTû!ù?	           
+         ø?              BòÿÿÿŸVÀpÿÿÿÿ.@   BòÿÿÿÿVÀpÿÿÿÿ+@   BòÿÿÿÿVÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        öb#%¹V@X     3À   òb#%¹¶U@H    €1À   öb#%¹V@H    €1À   -DTû!ù?	   -DTû!	@
+        ø?              òb#%¹¶U@H    €1À   öb#%¹V@8     0À   öb#%¹V@H    €1À   -DTû!ù?	   -DTû!ù¿
+        ø?              öb#%¹V@8     0À   úb#%¹vV@H    €1À   öb#%¹V@H    €1À   -DTû!ù?	           
+        ø?              úb#%¹vV@H    €1À   öb#%¹V@X     3À   öb#%¹V@H    €1À   -DTû!ù?	   -DTû!ù?
+        ø?             3.0mm Holes /  ÿÿÿÿ        BòÿÿÿÿVÀH    À0À   Bòÿÿÿ_WÀ    €.À   BòÿÿÿÿVÀ    €.À   -DTû!ù?	   -DTû!	@
+         ø?              Bòÿÿÿ_WÀ    €.À   BòÿÿÿÿVÀ    €+À   BòÿÿÿÿVÀ    €.À   -DTû!ù?	   -DTû!ù¿
+         ø?              BòÿÿÿÿVÀ    €+À   BòÿÿÿŸVÀ    €.À   BòÿÿÿÿVÀ    €.À   -DTû!ù?	           
+         ø?              BòÿÿÿŸVÀ    €.À   BòÿÿÿÿVÀH    À0À   BòÿÿÿÿVÀ    €.À   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        öb#%¹V@Pÿÿÿÿÿ/@   òb#%¹¶U@¸ÿÿÿÿ1@   öb#%¹V@¸ÿÿÿÿ1@   -DTû!ù?	   -DTû!	@
+        ø?              òb#%¹¶U@¸ÿÿÿÿ1@   öb#%¹V@Èÿÿÿÿÿ2@   öb#%¹V@¸ÿÿÿÿ1@   -DTû!ù?	   -DTû!ù¿
+        ø?              öb#%¹V@Èÿÿÿÿÿ2@   úb#%¹vV@¸ÿÿÿÿ1@   öb#%¹V@¸ÿÿÿÿ1@   -DTû!ù?	           
+        ø?              úb#%¹vV@¸ÿÿÿÿ1@   öb#%¹V@Pÿÿÿÿÿ/@   öb#%¹V@¸ÿÿÿÿ1@   -DTû!ù?	   -DTû!ù?
+        ø?             3.0mm Holes /  ÿÿÿÿ        ?žôþ¦æ`À¸ÿÿÿÿ1@   ?žôþ¦aÀ¸ÿÿÿÿÿ2@   ?žôþ¦æ`À¸ÿÿÿÿÿ2@   -DTû!ù?	   -DTû!	@
+         ø?              ?žôþ¦aÀ¸ÿÿÿÿÿ2@   ?žôþ¦æ`À¸ÿÿÿÿ4@   ?žôþ¦æ`À¸ÿÿÿÿÿ2@   -DTû!ù?	   -DTû!ù¿
+         ø?              ?žôþ¦æ`À¸ÿÿÿÿ4@   ?žôþ¦¶`À¸ÿÿÿÿÿ2@   ?žôþ¦æ`À¸ÿÿÿÿÿ2@   -DTû!ù?	           
+         ø?              ?žôþ¦¶`À¸ÿÿÿÿÿ2@   ?žôþ¦æ`À¸ÿÿÿÿ1@   ?žôþ¦æ`À¸ÿÿÿÿÿ2@   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ             |Ë=     ÀEÀ    üÿÿÿ÷¿$     EÀ        |Ë=$     EÀ   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ÷?               üÿÿÿ÷¿$     EÀ        |Ë=(    @DÀ        |Ë=$     EÀ   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ÷?                   |Ë=(    @DÀ    o   ø?$     EÀ        |Ë=$     EÀ   -DTû!ù?	           
+   €ÿÿÿÿÿ÷?               o   ø?$     EÀ        |Ë=     ÀEÀ        |Ë=$     EÀ   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ÷?             3.0mm Holes /  ÿÿÿÿ        ?žôþ¦æ`ÀH    €4À   ?žôþ¦aÀH     3À   ?žôþ¦æ`ÀH     3À   -DTû!ù?	   -DTû!	@
+         ø?              ?žôþ¦aÀH     3À   ?žôþ¦æ`ÀH    €1À   ?žôþ¦æ`ÀH     3À   -DTû!ù?	   -DTû!ù¿
+         ø?              ?žôþ¦æ`ÀH    €1À   ?žôþ¦¶`ÀH     3À   ?žôþ¦æ`ÀH     3À   -DTû!ù?	           
+         ø?              ?žôþ¦¶`ÀH     3À   ?žôþ¦æ`ÀH    €4À   ?žôþ¦æ`ÀH     3À   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        ¾   èR@H    À0À   ¾   ˆR@    €.À   ¾   èR@    €.À   -DTû!ù?	   -DTû!	@
+         ø?              ¾   ˆR@    €.À   ¾   èR@    €+À   ¾   èR@    €.À   -DTû!ù?	   -DTû!ù¿
+         ø?              ¾   èR@    €+À   ¾   HS@    €.À   ¾   èR@    €.À   -DTû!ù?	           
+         ø?              ¾   HS@    €.À   ¾   èR@H    À0À   ¾   èR@    €.À   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        BòÿÿÿçRÀ@    À0À   @òÿÿÿGSÀ    €.À   BòÿÿÿçRÀ    €.À   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ÷?              @òÿÿÿGSÀ    €.À   BòÿÿÿçRÀ     €+À   BòÿÿÿçRÀ    €.À   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ÷?              BòÿÿÿçRÀ     €+À   Dòÿÿÿ‡RÀ    €.À   BòÿÿÿçRÀ    €.À   -DTû!ù?	           
+   €ÿÿÿÿÿ÷?              Dòÿÿÿ‡RÀ    €.À   BòÿÿÿçRÀ@    À0À   BòÿÿÿçRÀ    €.À   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ÷?             3.0mm Holes /  ÿÿÿÿ        ø6   À<@H    À0À   ø6   @;@    €.À   ø6   À<@    €.À   -DTû!ù?	   -DTû!	@
+         ø?              ø6   @;@    €.À   ø6   À<@    €+À   ø6   À<@    €.À   -DTû!ù?	   -DTû!ù¿
+         ø?              ø6   À<@    €+À   ø6   @>@    €.À   ø6   À<@    €.À   -DTû!ù?	           
+         ø?              ø6   @>@    €.À   ø6   À<@H    À0À   ø6   À<@    €.À   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        |    M@pÿÿÿÿ+@   |   àL@pÿÿÿÿ.@   |    M@pÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+         ø?              |   àL@pÿÿÿÿ.@   |    M@¸ÿÿÿÿ¿0@   |    M@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+         ø?              |    M@¸ÿÿÿÿ¿0@   |   `N@pÿÿÿÿ.@   |    M@pÿÿÿÿ.@   -DTû!ù?	           
+         ø?              |   `N@pÿÿÿÿ.@   |    M@pÿÿÿÿ+@   |    M@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        ðm   €.@@    À0À    n   €+@    €.À   ðm   €.@    €.À   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ÷?               n   €+@    €.À   ðm   €.@     €+À   ðm   €.@    €.À   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ÷?              ðm   €.@     €+À   ð6   À0@    €.À   ðm   €.@    €.À   -DTû!ù?	           
+   €ÿÿÿÿÿ÷?              ð6   À0@    €.À   ðm   €.@@    À0À   ðm   €.@    €.À   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ÷?             3.0mm Holes /  ÿÿÿÿ        „äÿÿÿFÀH    À0À   „äÿÿÿOGÀ    €.À   „äÿÿÿFÀ    €.À   -DTû!ù?	   -DTû!	@
+         ø?              „äÿÿÿOGÀ    €.À   „äÿÿÿFÀ    €+À   „äÿÿÿFÀ    €.À   -DTû!ù?	   -DTû!ù¿
+         ø?              „äÿÿÿFÀ    €+À   „äÿÿÿÏEÀ    €.À   „äÿÿÿFÀ    €.À   -DTû!ù?	           
+         ø?              „äÿÿÿÏEÀ    €.À   „äÿÿÿFÀH    À0À   „äÿÿÿFÀ    €.À   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        ’ÿÿÿ.ÀH    À0À   Éÿÿÿ¿0À    €.À   ’ÿÿÿ.À    €.À   -DTû!ù?	   -DTû!	@
+         ø?              Éÿÿÿ¿0À    €.À   ’ÿÿÿ.À    €+À   ’ÿÿÿ.À    €.À   -DTû!ù?	   -DTû!ù¿
+         ø?              ’ÿÿÿ.À    €+À   ’ÿÿÿ+À    €.À   ’ÿÿÿ.À    €.À   -DTû!ù?	           
+         ø?              ’ÿÿÿ+À    €.À   ’ÿÿÿ.ÀH    À0À   ’ÿÿÿ.À    €.À   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        „äÿÿÿFÀpÿÿÿÿ+@   „äÿÿÿOGÀpÿÿÿÿ.@   „äÿÿÿFÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+         ø?              „äÿÿÿOGÀpÿÿÿÿ.@   „äÿÿÿFÀ¸ÿÿÿÿ¿0@   „äÿÿÿFÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+         ø?              „äÿÿÿFÀ¸ÿÿÿÿ¿0@   „äÿÿÿÏEÀpÿÿÿÿ.@   „äÿÿÿFÀpÿÿÿÿ.@   -DTû!ù?	           
+         ø?              „äÿÿÿÏEÀpÿÿÿÿ.@   „äÿÿÿFÀpÿÿÿÿ+@   „äÿÿÿFÀpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        ’ÿÿÿ.Àpÿÿÿÿ+@   Éÿÿÿ¿0Àpÿÿÿÿ.@   ’ÿÿÿ.Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+         ø?              Éÿÿÿ¿0Àpÿÿÿÿ.@   ’ÿÿÿ.À¸ÿÿÿÿ¿0@   ’ÿÿÿ.Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+         ø?              ’ÿÿÿ.À¸ÿÿÿÿ¿0@   ’ÿÿÿ+Àpÿÿÿÿ.@   ’ÿÿÿ.Àpÿÿÿÿ.@   -DTû!ù?	           
+         ø?              ’ÿÿÿ+Àpÿÿÿÿ.@   ’ÿÿÿ.Àpÿÿÿÿ+@   ’ÿÿÿ.Àpÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+         ø?             3.0mm Holes /  ÿÿÿÿ        ðm   €.@€ÿÿÿÿ+@    n   €+@pÿÿÿÿ.@   ðm   €.@pÿÿÿÿ.@   -DTû!ù?	   -DTû!	@
+   €ÿÿÿÿÿ÷?               n   €+@pÿÿÿÿ.@   ðm   €.@°ÿÿÿÿ¿0@   ðm   €.@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù¿
+   €ÿÿÿÿÿ÷?              ðm   €.@°ÿÿÿÿ¿0@   ð6   À0@pÿÿÿÿ.@   ðm   €.@pÿÿÿÿ.@   -DTû!ù?	           
+   €ÿÿÿÿÿ÷?              ð6   À0@pÿÿÿÿ.@   ðm   €.@€ÿÿÿÿ+@   ðm   €.@pÿÿÿÿ.@   -DTû!ù?	   -DTû!ù?
+   €ÿÿÿÿÿ÷?             Inner Contours /  ÿÿÿÿ        êþª§¹^@`E€B‰6NÀ   öŽøÍ^@X‹C¸OÀ   F:¼]^@Ä+Š’émNÀ   ¨ójlõ?	   š;R:™sô?
+   ¯    ø?              öŽøÍ^@X‹C¸OÀ   ª »æ^@T" Ó¨ñNÀ   F:¼]^@Ä+Š’émNÀ   ¨ójlõ?	   O'ýð@
+        ø?              ª »æ^@T" Ó¨ñNÀ   ê@è;Ð[@ %JÀ   ‘Hw©WeÀ†ÞFÄñ)d@   à›Ê-ü2è¿	           
+   ¨,{                 ê@è;Ð[@ %JÀ   2@(J[@t/€!ÒñGÀ   ¶2Þ­D]@G@0]GÀ   ü&\‰5Œã?	   l–Ì½À
+   ¸þÿÿÿÿ@              2@(J[@t/€!ÒñGÀ   6ü¿5.[@”# •*¤DÀ   ‘Hw©WeÀ†ÞFÄñ)d@   `&Q
+›Â¿	           
+   ¨,{                 6ü¿5.[@”# •*¤DÀ   š	 uÉZ@(@CÀ   n[	UáZ@0é1¿SîDÀ   4¼ŠÀ3Œã¿	   5°¾Ù™Îö?
+   =üÿÿÿÿ@              š	 uÉZ@(@CÀ   N À‚NY@ûÿ€Èá?À   ‘Hw©WeÀ†ÞFÄñ)d@   `”u@ý2è¿	           
+   ¨,{                 N À‚NY@ûÿ€Èá?À   N±¡ÞôX@ ÈÚ½\>À   :ÉkqY@R±«u‚>À   SôëÞ´¥ï?	   Zò÷P¼À
+         @              N±¡ÞôX@ ÈÚ½\>À   ¾êÈ£EY@À$@.V¡<À   :ÉkqY@R±«u‚>À   SôëÞ´¥ï?	   Šêy2žhõ¿
+         @              ¾êÈ£EY@À$@.V¡<À   æ€Þ§[@(?  ë(9À   ‘Hw©WeÀ†ÞFÄñ)d@   ìVÍD5Œó?	           
+   ¨,{                 æ€Þ§[@(?  ë(9À   rõŸ¶ó[@è”%Ùu:9À   ì“r³È[@XsªÂ‘:À   €g,ºW	ê?	   ˜„÷öWÖ¿
+       ø?              rõŸ¶ó[@è”%Ùu:9À   Ê€Ÿ$\@PA€´#:À   ì“r³È[@XsªÂ‘:À   €g,ºW	ê?	   hJa}¦»Ý?
+   7    ø?              Ê€Ÿ$\@PA€´#:À   êþª§¹^@`E€B‰6NÀ   ‘Hw©WeÀ†ÞFÄñ)d@   õvÉÊ@	           
+   ¨,{                Inner Contours /  ÿÿÿÿ        Æ€Ÿ$\@ÐÒ´#:@   rõŸ¶ó[@h&%Ùu:9@   ì“r³È[@ÐªÂ‘:@   €g,ºW	ê?	    Ó,aÐý?
+   ¥     ø?              rõŸ¶ó[@h&%Ùu:9@   ê€Þ§[@¨Ðÿÿê(9@   ì“r³È[@ÐªÂ‘:@   €g,ºW	ê?	   °˜„†j@
+   •     ø?              ê€Þ§[@¨Ðÿÿê(9@   –þÈ£EY@h™?.V¡<@   ‘Hw©WeÀ†ÞFÄñ)d@   äVÍD5Œó¿	           
+   ¨,{                 –þÈ£EY@h™?.V¡<@   Š±¡ÞôX@fÚ½\>@   :ÉkqY@ã°«u‚>@   :òÞ´¥ï?	   ´†ÃrWÀ
+   _ÿÿÿÿÿÿ?              Š±¡ÞôX@fÚ½\>@   jÀ‚NY@hÝÿ€Èá?@   :ÉkqY@ã°«u‚>@   :òÞ´¥ï?	   LvXÛü¿
+   -ÿÿÿÿÿÿ?              jÀ‚NY@hÝÿ€Èá?@   ¾ uÉZ@Z@C@   ‘Hw©WeÀ†ÞFÄñ)d@   Ð¢t@ý2è?	           
+   ¨,{                 ¾ uÉZ@Z@C@   š÷¿5.[@¸âÿ”*¤D@   n[	UáZ@èè1¿SîD@   x`‡À3Œã¿	   
+²‡W»@
+   Çÿÿÿÿÿ@              š÷¿5.[@¸âÿ”*¤D@   @(J[@6ø!ÒñG@   ‘Hw©WeÀ†ÞFÄñ)d@   GR
+›Â?	           
+   ¨,{                 @(J[@6ø!ÒñG@   Ö@è;Ð[@ìàÿ%J@   ¶2Þ­D]@L@0]G@   ø&\‰5Œã?	   Ü@_—Îö¿
+         @              Ö@è;Ð[@ìàÿ%J@   V  »æ^@Ô Ó¨ñN@   ‘Hw©WeÀ†ÞFÄñ)d@   lçÉ-ü2è?	           
+   ¨,{                 V  »æ^@Ô Ó¨ñN@   Š™øÍ^@Æ~C¸O@   F:¼]^@z+Š’émN@   —­ójlõ?	   ”:òðê¿
+   w     ø?              Š™øÍ^@Æ~C¸O@   ¦òª§¹^@ÌóB‰6N@   F:¼]^@z+Š’émN@   —­ójlõ?	   š* õäÇà?
+   K     ø?              ¦òª§¹^@ÌóB‰6N@   Æ€Ÿ$\@ÐÒ´#:@   ‘Hw©WeÀ†ÞFÄñ)d@   #üvÉÊÀ	           
+   ¨,{                Inner Contours /  ÿÿÿÿ        ãþª§¹^ÀdE€B‰6NÀ   tò?g)\À8 d~b:À   ‘Hw©WeÀ†ÞFÄñ)d@   @÷*3‘¹Ò?	           
+   ¨,{                 tò?g)\À8 d~b:À   Jò¿Òq[À 1  @8À   âZFÑq[Àø0  @;À   +(nØ–sô?	   Àpå÷–sô¿
+   ïÿÿÿÿÿ@              Jò¿Òq[À 1  @8À   È „CpXÀ(2  @8À   ‘Hw©WeÀ†ÞFÄñ)d@   ¢.DTû!ù?	           
+   ¨,{                 È „CpXÀ(2  @8À   ÓeÐð»úWÀVR×/u9À   µU){CpXÀø0  @:À   j‰
+½ò?	      %l­±¾
+   ;      @              ÓeÐð»úWÀVR×/u9À   ËÀ÷&XÀh@éRŸ;À   µU){CpXÀø0  @:À   j‰
+½ò?	   Ç8ï»ò?
+   6      @              ËÀ÷&XÀh@éRŸ;À   ©	 uÉZÀ@CÀ   ‘Hw©WeÀ†ÞFÄñ)d@   ûÌA8<À	           
+   ¨,{                 ©	 uÉZÀ@CÀ   Hü¿5.[À# •*¤DÀ   n[	UáZÀ0é1¿SîDÀ   4¼ŠÀ3Œã¿	   \¤òòÿê¿
+   oþÿÿÿÿ@              Hü¿5.[À# •*¤DÀ   0@(J[Àt/€!ÒñGÀ   ‘Hw©WeÀ†ÞFÄñ)d@   ŸsIøÀ	           
+   ¨,{                 0@(J[Àt/€!ÒñGÀ   è@è;Ð[À %JÀ   ¶2Þ­D]ÀG@0]GÀ   '\‰5Œã?	   \ëH_uû?
+   Ùþÿÿÿÿ@              è@è;Ð[À %JÀ   ¬ »æ^ÀL" Ó¨ñNÀ   ‘Hw©WeÀ†ÞFÄñ)d@   †ÑH<À	           
+   ¨,{                 ¬ »æ^ÀL" Ó¨ñNÀ   ðŽøÍ^ÀP‹C¸OÀ   D:¼]^ÀÄ+Š’émNÀ   ¨ójlõ?	   J)·¿@
+   A     ø?              ðŽøÍ^ÀP‹C¸OÀ   ãþª§¹^ÀdE€B‰6NÀ   D:¼]^ÀÄ+Š’émNÀ   ¨ójlõ?	   d'ýðÀ
+   :     ø?             Inner Contours /  ÿÿÿÿ        S  »æ^ÀÔ Ó¨ñN@   ã@è;Ð[ÀÚàÿ%J@   ‘Hw©WeÀ†ÞFÄñ)d@   h³ÑH<@	           
+   ¨,{                 ã@è;Ð[ÀÚàÿ%J@   *@(J[À4ø!ÒñG@   ¶2Þ­D]ÀL@0]G@   þ&\‰5Œã?	   ¦ZÞ5ùê?
+   Kÿÿÿÿÿ@              *@(J[À4ø!ÒñG@   ˜÷¿5.[À¶âÿ”*¤D@   ‘Hw©WeÀ†ÞFÄñ)d@   JŸsIø@	           
+   ¨,{                 ˜÷¿5.[À¶âÿ”*¤D@   ½ uÉZÀX@C@   n[	UáZÀèè1¿SîD@   x`‡À3Œã¿	   ì³ËÎ\uû¿
+   Êÿÿÿÿÿ@              ½ uÉZÀX@C@   üÀ÷&XÀÈ@éRŸ;@   ‘Hw©WeÀ†ÞFÄñ)d@   šÊA8<@	           
+   ¨,{                 üÀ÷&XÀÈ@éRŸ;@   HÐð»úWÀ¸üQ×/u9@   8:){CpXÀpÂÿ @:@   ¨~
+½ò?	   @¸v^ûê?
+   U      @              HÐð»úWÀ¸üQ×/u9@   2
+ „CpXÀ Ãÿ @8@   8:){CpXÀpÂÿ @:@   ¨~
+½ò?	   ÈÚN¹:¦ÿ?
+   D      @              2
+ „CpXÀ Ãÿ @8@   ìú¿Òq[ÀxÂÿ @8@   ‘Hw©WeÀ†ÞFÄñ)d@    .DTû!ù¿	           
+   ¨,{                 ìú¿Òq[ÀxÂÿ @8@   Áú?g)\Àè d~b:@   âZFÑq[ÀpÂÿ @;@   ÖoØ–sô?	   º,ˆDû!	À
+   ñÿÿÿÿÿ@              Áú?g)\Àè d~b:@   ¤òª§¹^ÀÌóB‰6N@   ‘Hw©WeÀ†ÞFÄñ)d@    ¾*3‘¹Ò¿	           
+   ¨,{                 ¤òª§¹^ÀÌóB‰6N@   ‡™øÍ^ÀÆ~C¸O@   D:¼]^Àz+Š’émN@   —­ójlõ?	   ß1=n]Ðý¿
+   G     ø?              ‡™øÍ^ÀÆ~C¸O@   S  »æ^ÀÔ Ó¨ñN@   D:¼]^Àz+Š’émN@   —­ójlõ?	   * õäÇà¿
+   M     ø?             Inner Contours /  ÿÿÿÿ        Bý¿…\{^@ ¿?õÿ(@   Fý¿…\{^@œ@õÿ(À   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!	@	           
+   ¨,{                 Fý¿…\{^@œ@õÿ(À   æ ”\û]@g@  €,À   Bý¿…\û]@@m@  €(À   h=B¸ù!ù?	   HèD(û!ù?
+   ¢      @              æ ”\û]@g@  €,À   ª€ž\ÛW@`d@  €,À   ‘Hw©WeÀ†ÞFÄñ)d@   8,DTû!ù¿	           
+   ¨,{                 ª€ž\ÛW@`d@  €,À   6GlÚ€W@ BùT+À   ª€\ÛW@@m@  €(À   òB ý!é?	   úlDDú!	@
+   ³      @              6GlÚ€W@ BùT+À   ¦€\[W@œ@õÿ(À   ª€\ÛW@@m@  €(À   òB ý!é?	   ±03ü|ÙÀ
+   ¼      @              ¦€\[W@œ@õÿ(À   ¦€\[W@¿?õÿ(@   ‘Hw©WeÀ†ÞFÄñ)d@           	           
+   ¨,{                 ¦€\[W@¿?õÿ(@   :GlÚ€W@ 1AùT+@   ª€\ÛW@0?  €(@   òB ý!é?	   ’qC€û!ù¿
+   †      @              :GlÚ€W@ 1AùT+@   ®€ž\ÛW@P‡?  €,@   ª€\ÛW@0?  €(@   òB ý!é?	   ñC`ù!é¿
+          @              ®€ž\ÛW@P‡?  €,@   æ ”\û]@à‰?  €,@   ‘Hw©WeÀ†ÞFÄñ)d@   B,DTû!ù?	           
+   ¨,{                 æ ”\û]@à‰?  €,@   Bý¿…\{^@ ¿?õÿ(@   Bý¿…\û]@0?  €(@   f=B¸ù!ù?	      G€¼>
+   <      @             Outer Contour /  ÿÿÿÿ        í?s¦ÉH@X*À÷ÿ?LÀ   tÿÿÄ]H@*À÷ÿ?LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   È%DTû!ù¿	           
+   ¨,{                 tÿÿÄ]H@*À÷ÿ?LÀ   ì' ÙòÐG@4@ñÙ(LÀ   àÎºÌ]H@H*À÷ÿ¿KÀ   xÏØF3Œã?	   r6—Øú!	À
+   0ÿÿÿÿÿï?              ì' ÙòÐG@4@ñÙ(LÀ   pã¿Dv¥F@L(€û%WKÀ   ‘Hw©WeÀ†ÞFÄñ)d@   xTLÀ·î¿	           
+   ¨,{                 pã¿Dv¥F@L(€û%WKÀ    Õ¿X\F@p õÿ?KÀ   h<Q\F@X õÿ¿KÀ   ¹{æF3Œã¿	   ’©Œ55Œã?
+   N    ð?               Õ¿X\F@p õÿ?KÀ   ¸€ªÂ¬E@¼ õÿ?KÀ   ‘Hw©WeÀ†ÞFÄñ)d@   4DTû!ù¿	           
+   ¨,{                 ¸€ªÂ¬E@¼ õÿ?KÀ   ”€¾WcE@ˆ(€û%WKÀ   p¶:²Â¬E@X õÿ¿KÀ   ¸{æF3Œã¿	      àbê®¾
+   ïõÿÿÿÿï?              ”€¾WcE@ˆ(€û%WKÀ   @*Û7D@t@ñÙ(LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   ¨Èñ,tÀ	           
+   ¨,{                 @*Û7D@t@ñÙ(LÀ   ¨ó?>pîC@X*À÷ÿ?LÀ   ðZ…6pîC@H*À÷ÿ¿KÀ   ¸{æF3Œã?	   ªáî>@
+   w	    ð?              ¨ó?>pîC@X*À÷ÿ?LÀ   ” '?C@D*À÷ÿ?LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   D+DTû!ù¿	           
+   ¨,{                 ” '?C@D*À÷ÿ?LÀ   è- ¤¼õB@d@ñÙ(LÀ   üÔº—'?C@H*À÷ÿ¿KÀ   xÏØF3Œã?	   ‡6—Øú!	À
+   Í    ð?              è- ¤¼õB@d@ñÙ(LÀ   pì¿@ÊA@Ø*€û%WKÀ   ‘Hw©WeÀ†ÞFÄñ)d@   YLÀ·î¿	           
+   ¨,{                 pì¿@ÊA@Ø*€û%WKÀ   tØÕ€A@Ì õÿ?KÀ   €BÕ€A@X õÿ¿KÀ   {"è;Œã¿	   mŸ55Œã?
+   Åíÿÿÿÿï?              tØÕ€A@Ì õÿ?KÀ   Ô#€uŒÑ@@à õÿ?KÀ   ‘Hw©WeÀ†ÞFÄñ)d@   0 DTû!ù¿	           
+   ¨,{                 Ô#€uŒÑ@@à õÿ?KÀ   Ä€‰!ˆ@@¨(€û%WKÀ   Œ¼:}ŒÑ@@X õÿ¿KÀ   ¸{æF3Œã¿	      àbê®¾
+   ïìÿÿÿÿï?              Ä€‰!ˆ@@¨(€û%WKÀ   ÀÓ?ËI¹>@D@ñÙ(LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   °x½ú
+tÀ	           
+   ¨,{                 ÀÓ?ËI¹>@D@ñÙ(LÀ   8·?ós&>@*À÷ÿ?LÀ   È…Êãs&>@H*À÷ÿ¿KÀ   ¸{æF3Œã?	   ªáî>@
+   ÷    ð?              8·?ós&>@*À÷ÿ?LÀ   ¸R@ÕâÇ<@*À÷ÿ?LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   D+DTû!ù¿	           
+   ¨,{                 ¸R@ÕâÇ<@*À÷ÿ?LÀ   @h Þ5<@8@ñÙ(LÀ   (¶uÅâÇ<@H*À÷ÿ¿KÀ   ;à.7Œã?	   “HïÕú!	@
+         ð?              @h Þ5<@8@ñÙ(LÀ   ðëÞ;à1@€ý*äŠHÀ   ‘Hw©WeÀ†ÞFÄñ)d@   0£D‰Á·î¿	           
+   ¨,{                 ðëÞ;à1@€ý*äŠHÀ   q€ápÞ,@,%€  HÀ   pN†ãpÞ,@@%€  KÀ   ‹¸Ý:5Œã¿	   ÍÀx55Œã?
+   œ     @              q€ápÞ,@,%€  HÀ   q€ápÞ,Àh%€  HÀ   ‘Hw©WeÀ†ÞFÄñ)d@   X-DTû!ù¿	           
+   ¨,{                 q€ápÞ,Àh%€  HÀ   °ëÞ;à1À°ý*äŠHÀ   pN†ãpÞ,À@%€  KÀ   Ž¸Ý:5Œã¿	      ¬Þ“E>
+   Áþÿÿÿÿ@              °ëÞ;à1À°ý*äŠHÀ   (úÿÝ5<ÀL@ñÙ(LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   $,óñ
+tÀ	           
+   ¨,{                 (úÿÝ5<ÀL@ñÙ(LÀ   T@ÕâÇ<À$*À÷ÿ?LÀ   0HuÅâÇ<ÀH*À÷ÿ¿KÀ   @%î.7Œã?	   ˆáî>@
+   K    ð?              T@ÕâÇ<À$*À÷ÿ?LÀ   8·?ós&>À*À÷ÿ?LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   D+DTû!ù¿	           
+   ¨,{                 8·?ós&>À*À÷ÿ?LÀ   °Ó?ËI¹>À8@ñÙ(LÀ   À…Êãs&>ÀH*À÷ÿ¿KÀ   ¸{æF3Œã?	   s¡šØú!	À
+   J     ð?              °Ó?ËI¹>À8@ñÙ(LÀ   ˜€‰!ˆ@Àl(€û%WKÀ   ‘Hw©WeÀ†ÞFÄñ)d@   `ÌfÁ·î¿	           
+   ¨,{                 ˜€‰!ˆ@Àl(€û%WKÀ   Ô#€uŒÑ@À˜ õÿ?KÀ   Œ¼:}ŒÑ@ÀX õÿ¿KÀ   ¹{æF3Œã¿	   ªŒ55Œã?
+   0ÿÿÿÿÿï?              Ô#€uŒÑ@À˜ õÿ?KÀ   tØÕ€AÀÄ õÿ?KÀ   ‘Hw©WeÀ†ÞFÄñ)d@   Ø_DTû!ù¿	           
+   ¨,{                 tØÕ€AÀÄ õÿ?KÀ   tì¿@ÊAÀÔ*€û%WKÀ   €BÕ€AÀX õÿ¿KÀ   z"è;Œã¿	      j…Ç>
+   Oïÿÿÿÿï?              tì¿@ÊAÀÔ*€û%WKÀ    . ¤¼õBÀ@@ñÙ(LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   ñ,tÀ	           
+   ¨,{                  . ¤¼õBÀ@@ñÙ(LÀ   ” '?CÀ*À÷ÿ?LÀ   üÔº—'?CÀH*À÷ÿ¿KÀ   xÏØF3Œã?	   ºáî>@
+   x    ð?              ” '?CÀ*À÷ÿ?LÀ   \ó?>pîCÀô)À÷ÿ?LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   Ð)DTû!ù¿	           
+   ¨,{                 \ó?>pîCÀô)À÷ÿ?LÀ   ÜÊ?*Û7DÀ$@ñÙ(LÀ   ô#…6pîCÀH*À÷ÿ¿KÀ   xÏØF3Œã?	   }6—Øú!	À
+   0úÿÿÿÿï?              ÜÊ?*Û7DÀ$@ñÙ(LÀ   z€¾WcEÀh(€û%WKÀ   ‘Hw©WeÀ†ÞFÄñ)d@   XYLÀ·î¿	           
+   ¨,{                 z€¾WcEÀh(€û%WKÀ   ¸€ªÂ¬EÀ” õÿ?KÀ   p¶:²Â¬EÀX õÿ¿KÀ   ¹{æF3Œã¿	   æ©Œ55Œã?
+   %     ð?              ¸€ªÂ¬EÀ” õÿ?KÀ   Õ¿X\FÀä õÿ?KÀ   ‘Hw©WeÀ†ÞFÄñ)d@   d4DTû!ù¿	           
+   ¨,{                 Õ¿X\FÀä õÿ?KÀ   ,ã¿Dv¥FÀ¬(€û%WKÀ   f<Q\FÀX õÿ¿KÀ   ¸{æF3Œã¿	      àbê®¾
+   ïëÿÿÿÿï?              ,ã¿Dv¥FÀ¬(€û%WKÀ   Ú' ÙòÐGÀL@ñÙ(LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   ñ,tÀ	           
+   ¨,{                 Ú' ÙòÐGÀL@ñÙ(LÀ   vÿÿÄ]HÀ(*À÷ÿ?LÀ   àÎºÌ]HÀH*À÷ÿ¿KÀ   xÏØF3Œã?	   šáî>@
+   x    ð?              vÿÿÄ]HÀ(*À÷ÿ?LÀ   Ží?s¦ÉHÀ*À÷ÿ?LÀ   ‘Hw©WeÀ†ÞFÄñ)d@    ,DTû!ù¿	           
+   ¨,{                 Ží?s¦ÉHÀ*À÷ÿ?LÀ   Ôû?_IÀD@ñÙ(LÀ   ÖT…k¦ÉHÀH*À÷ÿ¿KÀ   ¸{æF3Œã?	   ’¡šØú!	À
+   ó    ð?              Ôû?_IÀD@ñÙ(LÀ   r	€ó>JÀ€(€û%WKÀ   ‘Hw©WeÀ†ÞFÄñ)d@   è•IÀ·î¿	           
+   ¨,{                 r	€ó>JÀ€(€û%WKÀ   ž€ßø‡JÀ° õÿ?KÀ   V°:çø‡JÀX õÿ¿KÀ   ¹{æF3Œã¿	   §©Œ55Œã?
+   Ìøÿÿÿÿï?              ž€ßø‡JÀ° õÿ?KÀ   Ï¿A7KÀ¼ õÿ?KÀ   ‘Hw©WeÀ†ÞFÄñ)d@   0.DTû!ù¿	           
+   ¨,{                 Ï¿A7KÀ¼ õÿ?KÀ   *Ý¿y¬€KÀˆ(€û%WKÀ   L6†A7KÀX õÿ¿KÀ   ¸{æF3Œã¿	      àbê®¾
+   ïõÿÿÿÿï?              *Ý¿y¬€KÀˆ(€û%WKÀ   òÀ©
+jLÀ"@äúKÀ   ‘Hw©WeÀ†ÞFÄñ)d@    ÃÛ
+tÀ	           
+   ¨,{                 òÀ©
+jLÀ"@äúKÀ   ¬û¿mKFMÀœ)À÷ÿ?LÀ   4^ï„KFMÀH*À÷ÿ¿JÀ   xIßF3Œã?	   å÷äî>@
+   s     @              ¬û¿mKFMÀœ)À÷ÿ?LÀ   ’
+@oáNÀø+À÷ÿ?LÀ   ‘Hw©WeÀ†ÞFÄñ)d@    DDTû!ù¿	           
+   ¨,{                 ’
+@oáNÀø+À÷ÿ?LÀ   8ÚÕdøOÀ˜'@Ò¸LÀ   aÚJáNÀH*À÷ÿ¿MÀ   ôÉØbøê¿	      XÆC¸¾
+   ™     @              8ÚÕdøOÀ˜'@Ò¸LÀ   I€a§ÈRÀÊ ŒÈSQÀ   ‘Hw©WeÀ†ÞFÄñ)d@   çÉ,<À	           
+   ¨,{                 I€a§ÈRÀÊ ŒÈSQÀ   A€kOSÀR ùÓžQÀ   Q‹²Oà‚SÀÜ
+E¤PÀ   0ãûø5Œã?	   µi¾›½@
+   Eýÿÿÿÿ@              A€kOSÀR ùÓžQÀ   & ë•ñTÀZ RGõQÀ   ‘Hw©WeÀ†ÞFÄñ)d@    ±QÂ^dü¿	           
+   ¨,{                 & ë•ñTÀZ RGõQÀ   $
+ÀßsþUÀ˜@K^‹RÀ   G.×ŠTÀŒ~á-±êSÀ   ˆÂÂ.5Œã¿	   ÈzƒåÊ¿
+   I      @              $
+ÀßsþUÀ˜@K^‹RÀ   @[V¹]Àøöÿó8½ZÀ   ‘Hw©WeÀ†ÞFÄñ)d@   Ý¦1<À	           
+   ¨,{                 @[V¹]Àøöÿó8½ZÀ   ´@-ªL^À´ò˜S[À   mTÒ«Ð^À$´Á¹ºµYÀ   @uÐFc¬Ý?	   J…½@
+   [    @              ´@-ªL^À´ò˜S[À   ’ýÿ9Éi`Àý?ö$\À   ‘Hw©WeÀ†ÞFÄñ)d@   ¨Î€¯^¿þ¿	           
+   ¨,{                 ’ýÿ9Éi`Àý?ö$\À   Ü@Ü³«`ÀX€ƒð[À   Ý† €É`ÀŒ”4ò’[À   <[Á€á¶ñ?	   ËIn€IS@
+   wýÿÿÿÿÿ?              Ü@Ü³«`ÀX€ƒð[À   ù€ª¶CbÀ ÀòOîXÀ   ‘Hw©WeÀ†ÞFÄñ)d@    ‘Jûê¿	           
+   ¨,{                 ù€ª¶CbÀ ÀòOîXÀ   ÿúUbÀt÷ÿxHlXÀ   ¡®_@ÌbÀH£Š3‘XÀ   ’'Já¶ñ?	   66:À
+   ;     @              ÿúUbÀt÷ÿxHlXÀ   ë	 p¤ä_ÀH. í"*AÀ   ‘Hw©WeÀ†ÞFÄñ)d@   xhm/‘¹Ò?	           
+   ¨,{                 ë	 p¤ä_ÀH. í"*AÀ   ú¿¿=`À¸\À•¨Ý>À   >ÿeÒ=N`À&³âa»@À   y³Zµoõ¿	   KÄŒbÐý?
+   O     @              ú¿¿=`À¸\À•¨Ý>À   ‚üï¦æaÀà 4–¡6À   ‘Hw©WeÀ†ÞFÄñ)d@   ð¤´+RÁð¿	           
+   ¨,{                 ‚üï¦æaÀà 4–¡6À   lÀó¦bÀh; |.æ4À   nÀó¦ÆaÀ°;Ùq.æ4À   $@!SÁð?	   ~µCc§ñÀ
+   V      @              lÀó¦bÀh; |.æ4À   nÀó¦bÀ8ü¿ŽÑ1À   ‘Hw©WeÀ†ÞFÄñ)d@         ½	           
+   ¨,{                 nÀó¦bÀ8ü¿ŽÑ1À   ƒüï¦æaÀp7€­Ó¼.À   nÀó¦ÆaÀðûæ˜Ñ1À   "@!SÁð?	   K/û!ù¿
+   ª      @              ƒüï¦æaÀp7€­Ó¼.À   ² €ù¦FaÀð\ ]Ïö(À   ‘Hw©WeÀ†ÞFÄñ)d@   ú“i¼QÁð?	           
+   ¨,{                 ² €ù¦FaÀð\ ]Ïö(À   Úú?õ¦&aÀ l@ €%À   Åú?õ¦faÀ œ²Øÿ%À   x ¤RÁð¿	   ƒµCc§ñ@
+         @              Úú?õ¦&aÀ l@ €%À   àú?õ¦&aÀ@Œ? €%@   ‘Hw©WeÀ†ÞFÄñ)d@         ½	           
+   ¨,{                 àú?õ¦&aÀ@Œ? €%@   µ €ù¦FaÀ€[ ]Ïö(@   Åú?õ¦faÀ€›²Øÿ%@   èz¤RÁð¿	   j†ú!ù?
+   Aýÿÿÿÿÿ?              µ €ù¦FaÀ€[ ]Ïö(@   ‚üï¦æaÀ€Z­Ó¼.@   ‘Hw©WeÀ†ÞFÄñ)d@   4›j¼QÁð¿	           
+   ¨,{                 ‚üï¦æaÀ€Z­Ó¼.@   mÀó¦bÀ¸¿ŽÑ1@   nÀó¦ÆaÀpæ˜Ñ1@   $@!SÁð?	   ~µCc§ñÀ
+   v      @              mÀó¦bÀ¸¿ŽÑ1@   oÀó¦bÀˆËÿ{.æ4@   ‘Hw©WeÀ†ÞFÄñ)d@         ½	           
+   ¨,{                 oÀó¦bÀˆËÿ{.æ4@   ƒüï¦æaÀX 4–¡6@   nÀó¦ÆaÀ;Ùq.æ4@   Žº!SÁð?	   ¬©û!ù¿
+   î      @              ƒüï¦æaÀX 4–¡6@   ú¿¿=`À(î¿•¨Ý>@   ‘Hw©WeÀ†ÞFÄñ)d@   †µ+RÁð?	           
+   ¨,{                 ú¿¿=`À(î¿•¨Ý>@   è	 p¤ä_À÷ÿì"*A@   >ÿeÒ=N`ÀÚî²âa»@@   y³Zµoõ¿	   µU×ú¤ñ@
+   Ÿ     @              è	 p¤ä_À÷ÿì"*A@   <€úUbÀt yHlX@   ‘Hw©WeÀ†ÞFÄñ)d@   ÀIm/‘¹Ò¿	           
+   ¨,{                 <€úUbÀt yHlX@   €ª¶CbÀŒý¿òOîX@   ¡®_@ÌbÀáG£Š3‘X@   6#Já¶ñ?	   ª8@ècÐý¿
+   n      @              €ª¶CbÀŒý¿òOîX@   š @Ü³«`Àzüƒð[@   ‘Hw©WeÀ†ÞFÄñ)d@   è	Jûê?	           
+   ¨,{                 š @Ü³«`Àzüƒð[@   /úÿ9Éi`ÀŽ@ö$\@   y €É`Àg”4ò’[@   )2Â€á¶ñ?	   [2²û2è¿
+         @              /úÿ9Éi`ÀŽ@ö$\@   Ê@-ªL^ÀWò˜S[@   ‘Hw©WeÀ†ÞFÄñ)d@   s¯^¿þ?	           
+   ¨,{                 Ê@-ªL^ÀWò˜S[@   1@[V¹]Àªöÿó8½Z@   mTÒ«Ð^À´Á¹ºµY@   NuÐFc¬Ý?	   a(ÏŽuÖ?
+   |     @              1@[V¹]Àªöÿó8½Z@   ÒÀßsþUÀR@K^‹R@   ‘Hw©WeÀ†ÞFÄñ)d@   Ó¥1<@	           
+   ¨,{                 ÒÀßsþUÀR@K^‹R@   x
+ ë•ñTÀÌ RGõQ@   ‹+.×ŠTÀêbá-±êS@   (¸Ã.5Œã¿	   7}:š¼À
+   ÿÿÿÿÿ@              x
+ ë•ñTÀÌ RGõQ@   Æ €kOSÀ­ ùÓžQ@   ‘Hw©WeÀ†ÞFÄñ)d@   |QÂ^dü?	           
+   ¨,{                 Æ €kOSÀ­ ùÓžQ@   È€a§ÈRÀÒöÿ‹ÈSQ@   Î¦²Oà‚SÀ¸
+E¤P@   tÎýø5Œã?	   8ù|¤Ê?
+   3     @              È€a§ÈRÀÒöÿ‹ÈSQ@   4ÚÕdøOÀVð?Ò¸L@   ‘Hw©WeÀ†ÞFÄñ)d@   ÞÉ,<@	           
+   ¨,{                 4ÚÕdøOÀVð?Ò¸L@   ’
+@oáNÀºô¿÷ÿ?L@   aÚJáNÀó¿÷ÿ¿M@   ôÉØbøê¿	   ÛÇoy¼À
+   C     @              ’
+@oáNÀºô¿÷ÿ?L@   ¬û¿mKFMÀBò¿÷ÿ?L@   ‘Hw©WeÀ†ÞFÄñ)d@   ¶EDTû!ù?	           
+   ¨,{                 ¬û¿mKFMÀBò¿÷ÿ?L@   þÀ©
+jLÀ¾ê?äúK@   4^ï„KFMÀó¿÷ÿ¿J@   xIßF3Œã?	      µØé®>
+   ÿÿÿÿÿ@              þÀ©
+jLÀ¾ê?äúK@   ¨ü¿y¬€KÀñû%WK@   ‘Hw©WeÀ†ÞFÄñ)d@   MFÛ
+t@	           
+   ¨,{                 ¨ü¿y¬€KÀñû%WK@   Lî¿A7KÀ6 õÿ?K@   @¤†A7KÀ õÿ¿K@   `*âF3Œã¿	   Íçî>À
+   |    ð?              Lî¿A7KÀ6 õÿ?K@   Zøßø‡JÀH õÿ?K@   ‘Hw©WeÀ†ÞFÄñ)d@   s+DTû!ù?	           
+   ¨,{                 Zøßø‡JÀH õÿ?K@   êó>JÀñû%WK@   dB:çø‡JÀ õÿ¿K@   h*âF3Œã¿	   xŒŸØú!	@
+   7     ð?              êó>JÀñû%WK@   (@_IÀ@ñÙ(L@   ‘Hw©WeÀ†ÞFÄñ)d@   {BÀ·î?	           
+   ¨,{                 (@_IÀ@ñÙ(L@   Ô@s¦ÉHÀÎò¿÷ÿ?L@   ÊÂ…k¦ÉHÀó¿÷ÿ¿K@   ^*âF3Œã?	   Þ¬t55Œã¿
+   ·     ð?              Ô@s¦ÉHÀÎò¿÷ÿ?L@   0àÿÄ]HÀÈò¿÷ÿ?L@   ‘Hw©WeÀ†ÞFÄñ)d@   ¤-DTû!ù?	           
+   ¨,{                 0àÿÄ]HÀÈò¿÷ÿ?L@    ÙòÐGÀü@ñÙ(L@   ì`ºÌ]HÀó¿÷ÿ¿K@   ~ÔF3Œã?	     Ðîê®>
+   øÿÿÿÿÿï?               ÙòÐGÀü@ñÙ(L@   ºÀDv¥FÀñû%WK@   ‘Hw©WeÀ†ÞFÄñ)d@   µÝò,t@	           
+   ¨,{                 ºÀDv¥FÀñû%WK@   dô¿X\FÀB õÿ?K@   ZªQ\FÀ õÿ¿K@   `*âF3Œã¿	   Úçî>À
+   ã     ð?              dô¿X\FÀB õÿ?K@   rþªÂ¬EÀ4 õÿ?K@   ‘Hw©WeÀ†ÞFÄñ)d@   _.DTû!ù?	           
+   ¨,{                 rþªÂ¬EÀ4 õÿ?K@   ð¾WcEÀñû%WK@   |H:²Â¬EÀ õÿ¿K@   h*âF3Œã¿	   xŒŸØú!	@
+   ·    ð?              ð¾WcEÀñû%WK@   ,ê?*Û7DÀÚ@ñÙ(L@   ‘Hw©WeÀ†ÞFÄñ)d@   @EÀ·î?	           
+   ¨,{                 ,ê?*Û7DÀÚ@ñÙ(L@   ¤@>pîCÀžò¿÷ÿ?L@   è‘…6pîCÀó¿÷ÿ¿K@   ~ÔF3Œã?	   ­t55Œã¿
+   nõÿÿÿÿï?              ¤@>pîCÀžò¿÷ÿ?L@   Læÿ'?CÀžò¿÷ÿ?L@   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù?	           
+   ¨,{                 Læÿ'?CÀžò¿÷ÿ?L@   Ä ¤¼õBÀÚ@ñÙ(L@   gº—'?CÀó¿÷ÿ¿K@   ~ÔF3Œã?	     0îê®>
+   ‘õÿÿÿÿï?              Ä ¤¼õBÀÚ@ñÙ(L@   ðÀ@ÊAÀNóû%WK@   ‘Hw©WeÀ†ÞFÄñ)d@   yÜò,t@	           
+   ¨,{                 ðÀ@ÊAÀNóû%WK@   ¸÷Õ€AÀ> õÿ?K@   t°Õ€AÀ õÿ¿K@   Ñã;Œã¿	   …Äæî>À
+   ]þÿÿÿÿï?              ¸÷Õ€AÀ> õÿ?K@   Œ€uŒÑ@À õÿ?K@   ‘Hw©WeÀ†ÞFÄñ)d@   {_DTû!ù?	           
+   ¨,{                 Œ€uŒÑ@À õÿ?K@   ö‰!ˆ@Àìðû%WK@   ˜N:}ŒÑ@À õÿ¿K@   h*âF3Œã¿	   XŒŸØú!	@
+   w    ð?              ö‰!ˆ@Àìðû%WK@   H@ËI¹>Àè@ñÙ(L@   ‘Hw©WeÀ†ÞFÄñ)d@   ˜°fÁ·î?	           
+   ¨,{                 H@ËI¹>Àè@ñÙ(L@   Àõ?ós&>À°ò¿÷ÿ?L@   ¨aËãs&>Àó¿÷ÿ¿K@   ^*âF3Œã?	   ^­t55Œã¿
+   îùÿÿÿÿï?              Àõ?ós&>À°ò¿÷ÿ?L@    @ÕâÇ<À¤ò¿÷ÿ?L@   ‘Hw©WeÀ†ÞFÄñ)d@   0.DTû!ù?	           
+   ¨,{                  @ÕâÇ<À¤ò¿÷ÿ?L@   À»ÿÝ5<Àâ@ñÙ(L@   PltÅâÇ<Àó¿÷ÿ¿K@   z–é.7Œã?	     0N—¯¾
+   Ç÷ÿÿÿÿï?              À»ÿÝ5<Àâ@ñÙ(L@   è¦Þ;à1Àû*äŠH@   ‘Hw©WeÀ†ÞFÄñ)d@   ,óñ
+t@	           
+   ¨,{                 è¦Þ;à1Àû*äŠH@   0üápÞ,Àôí  H@    –„ãpÞ,Àüí  K@   X3Þ:5Œã¿	   <åî>À
+   C     @              0üápÞ,Àôí  H@    üápÞ,@ôí  H@   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù?	           
+   ¨,{                  üápÞ,@ôí  H@   à¦Þ;à1@û*äŠH@    –„ãpÞ,@üí  K@   X3Þ:5Œã¿	   ÆëRû!	À
+   A     @              à¦Þ;à1@û*äŠH@   `) Þ5<@@ñÙ(L@   ‘Hw©WeÀ†ÞFÄñ)d@   Ð¢D‰Á·î?	           
+   ¨,{                 `) Þ5<@@ñÙ(L@   (@ÕâÇ<@äò¿÷ÿ?L@   @ÚtÅâÇ<@ó¿÷ÿ¿K@   4êÛ.7Œã?	   4­t55Œã¿
+   Ë    ð?              (@ÕâÇ<@äò¿÷ÿ?L@   Àõ?ós&>@Ôò¿÷ÿ?L@   ‘Hw©WeÀ†ÞFÄñ)d@   Ž.DTû!ù?	           
+   ¨,{                 Àõ?ós&>@Ôò¿÷ÿ?L@   p@ËI¹>@@ñÙ(L@   ¨aËãs&>@ó¿÷ÿ¿K@   ^*âF3Œã?	     °-(é®>
+   •    ð?              p@ËI¹>@@ñÙ(L@   4ö‰!ˆ@@ñû%WK@   ‘Hw©WeÀ†ÞFÄñ)d@   î@¿ú
+t@	           
+   ¨,{                 4ö‰!ˆ@@ñû%WK@   €uŒÑ@@: õÿ?K@   ˜N:}ŒÑ@@ õÿ¿K@   `*âF3Œã¿	   ïçî>À
+   þ    ð?              €uŒÑ@@: õÿ?K@   ¸÷Õ€A@> õÿ?K@   ‘Hw©WeÀ†ÞFÄñ)d@   þýCTû!ù?	           
+   ¨,{                 ¸÷Õ€A@> õÿ?K@   ðÀ@ÊA@Nóû%WK@   t°Õ€A@ õÿ¿K@    Ñã;Œã¿	   X¡èÛù!	À
+   Sþÿÿÿÿï?              ðÀ@ÊA@Nóû%WK@   ¼ ¤¼õB@æ@ñÙ(L@   ‘Hw©WeÀ†ÞFÄñ)d@   8AEÀ·î?	           
+   ¨,{                 ¼ ¤¼õB@æ@ñÙ(L@   Læÿ'?C@®ò¿÷ÿ?L@   gº—'?C@ó¿÷ÿ¿K@   ~ÔF3Œã?	   ­t55Œã¿
+   nùÿÿÿÿï?              Læÿ'?C@®ò¿÷ÿ?L@   ð@>pîC@Àò¿÷ÿ?L@   ‘Hw©WeÀ†ÞFÄñ)d@   s+DTû!ù?	           
+   ¨,{                 ð@>pîC@Àò¿÷ÿ?L@   <!@*Û7D@ô@ñÙ(L@   äÈ…6pîC@ó¿÷ÿ¿K@   ^*âF3Œã?	     °/(é®>
+   Âýÿÿÿÿï?              <!@*Û7D@ô@ñÙ(L@   ð¾WcE@ñû%WK@   ‘Hw©WeÀ†ÞFÄñ)d@   xŽó,t@	           
+   ¨,{                 ð¾WcE@ñû%WK@   pþªÂ¬E@4 õÿ?K@   |H:²Â¬E@ õÿ¿K@   `*âF3Œã¿	   ßçî>À
+   °    ð?              pþªÂ¬E@4 õÿ?K@   dô¿X\F@F õÿ?K@   ‘Hw©WeÀ†ÞFÄñ)d@   s+DTû!ù?	           
+   ¨,{                 dô¿X\F@F õÿ?K@   ¸ÀDv¥F@ñû%WK@   XªQ\F@ õÿ¿K@   h*âF3Œã¿	   XŒŸØú!	@
+   w     ð?              ¸ÀDv¥F@ñû%WK@   Œ ÙòÐG@@ñÙ(L@   ‘Hw©WeÀ†ÞFÄñ)d@   (=EÀ·î?	           
+   ¨,{                 Œ ÙòÐG@@ñÙ(L@   0àÿÄ]H@Òò¿÷ÿ?L@   ì`ºÌ]H@ó¿÷ÿ¿K@   ~ÔF3Œã?	   ­t55Œã¿
+   7    ð?              0àÿÄ]H@Òò¿÷ÿ?L@   Ô@s¦ÉH@œò¿÷ÿ?L@   ‘Hw©WeÀ†ÞFÄñ)d@   2DTû!ù?	           
+   ¨,{                 Ô@s¦ÉH@œò¿÷ÿ?L@   @_I@Ø@ñÙ(L@   ÈÂ…k¦ÉH@ó¿÷ÿ¿K@   ^*âF3Œã?	     `.(é®>
+   (õÿÿÿÿï?              @_I@Ø@ñÙ(L@   êó>J@ñû%WK@   ‘Hw©WeÀ†ÞFÄñ)d@   :ó,t@	           
+   ¨,{                 êó>J@ñû%WK@   \øßø‡J@H õÿ?K@   dB:çø‡J@ õÿ¿K@   `*âF3Œã¿	   éçî>À
+   0     ð?              \øßø‡J@H õÿ?K@   Lî¿A7K@" õÿ?K@   ‘Hw©WeÀ†ÞFÄñ)d@   0DTû!ù?	           
+   ¨,{                 Lî¿A7K@" õÿ?K@   ´ü¿y¬€K@öðû%WK@   @¤†A7K@ õÿ¿K@   h*âF3Œã¿	   XŒŸØú!	@
+   ÷    ð?              ´ü¿y¬€K@öðû%WK@   ìÀ©
+jL@Øê?äúK@   ‘Hw©WeÀ†ÞFÄñ)d@   `•ÃäÁ·î?	           
+   ¨,{                 ìÀ©
+jL@Øê?äúK@   ¬û¿mKFM@bò¿÷ÿ?L@   4^ï„KFM@ó¿÷ÿ¿J@   vIßF3Œã?	   ËÔ|55Œã¿
+       @              ¬û¿mKFM@bò¿÷ÿ?L@   
+@oáN@Äô¿÷ÿ?L@   ‘Hw©WeÀ†ÞFÄñ)d@   UDTû!ù?	           
+   ¨,{                 
+@oáN@Äô¿÷ÿ?L@   ,ÚÕdøO@^ð?Ò¸L@   aÚJáN@ó¿÷ÿ¿M@   øÉØbøê¿	   Xú%’ú!	@
+   ™ÿÿÿÿÿ@              ,ÚÕdøO@^ð?Ò¸L@   Ê€a§ÈR@Ðöÿ‹ÈSQ@   ‘Hw©WeÀ†ÞFÄñ)d@   ,Uìü2è?	           
+   ¨,{                 Ê€a§ÈR@Ðöÿ‹ÈSQ@   Æ €kOS@« ùÓžQ@   Î¦²Oà‚S@¸
+E¤P@   vÎýø5Œã?	   Óâöê¿
+        @              Æ €kOS@« ùÓžQ@   ~
+ ë•ñT@­ RGõQ@   ‘Hw©WeÀ†ÞFÄñ)d@   ÐA7æ—ßõ?	           
+   ¨,{                 ~
+ ë•ñT@­ RGõQ@   êÀßsþU@=@K^‹R@   Š+.×ŠT@êbá-±êS@   0¸Ã.5Œã¿	   ?këåÉ€@
+   ‹      @              êÀßsþU@=@K^‹R@   >@[V¹]@ öÿó8½Z@   ‘Hw©WeÀ†ÞFÄñ)d@   èÞŒü2è?	           
+   ¨,{                 >@[V¹]@ öÿó8½Z@   Ò@-ªL^@Jò˜S[@   ŽmTÒ«Ð^@´Á¹ºµY@   TuÐFc¬Ý?	   kü
+ùê¿
+   ‹ÿÿÿÿÿ@              Ò@-ªL^@Jò˜S[@   +úÿ9Éi`@¦@ö$\@   ‘Hw©WeÀ†ÞFÄñ)d@   ÍPù—„ó?	           
+   ¨,{                 +úÿ9Éi`@¦@ö$\@   £ @Ü³«`@Žüƒð[@   y €É`@g”4ò’[@   *2Â€á¶ñ?	   Â¤žŽuÖ¿
+   U     @              £ @Ü³«`@Žüƒð[@   €ª¶Cb@’ý¿òOîX@   ‘Hw©WeÀ†ÞFÄñ)d@   }æÁ¼@	           
+   ¨,{                 €ª¶Cb@’ý¿òOîX@   A€úUb@p yHlX@   ¡®_@Ìb@áG£Š3‘X@   6#Já¶ñ?	   \:<3è?
+   ‹     @              A€úUb@p yHlX@   žóÿ+'_@øÍ?Ÿ7€8@   ‘Hw©WeÀ†ÞFÄñ)d@   õ£‹%ÉÊÀ	           
+   ¨,{                 žóÿ+'_@øÍ?Ÿ7€8@   rìÿ‡Ab_@Ô:Ÿ¨6@   î+(ƒ_@0—ð‘v8@   Z¼õÐ•:ø¿	   d±wy”sô¿
+   qÿÿÿÿÿ÷?              rìÿ‡Ab_@Ô:Ÿ¨6@   õ?2¹`@0 €/•5@   ‘Hw©WeÀ†ÞFÄñ)d@   Ð)“À·þ?	           
+   ¨,{                 õ?2¹`@0 €/•5@   Uø‘Ü8`@àèÿ	ø4@   B{¡òªó_@€ºVÑ´3@   ÿ_fOÁð?	   4RTÔ)WÖ?
+   óþÿÿÿÿÿ?              Uø‘Ü8`@àèÿ	ø4@   Ãü€¬=`@Èðÿ{¢23@   ‘Hw©WeÀ†ÞFÄñ)d@   ÄoyŠ¼@	           
+   ¨,{                 Ãü€¬=`@Èðÿ{¢23@   _÷ÿþÏf`@`Ø€kª1@   S–Š–³|`@È–ä‹‹3@   þ¿Ò2UÁð¿	   Œðîâßìû¿
+   ¬     @              _÷ÿþÏf`@`Ø€kª1@   …ÿÿZnRa@@0Ÿµø-@   ‘Hw©WeÀ†ÞFÄñ)d@   Ò1·bÁ·þ?	           
+   ¨,{                 …ÿÿZnRa@@0Ÿµø-@   @§¦a@ bÿñ7t&@   )@§&a@ œF%8t&@   ¼RY%5Œó?	   p9åUWÖ?
+        @              @§¦a@ bÿñ7t&@   @§¦a@ ? ò7t&À   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!	À	           
+   ¨,{                 @§¦a@ ? ò7t&À   …ÿÿZnRa@ €Ÿµø-À   )@§&a@ yG%8t&À   ·RY%5Œó?	   #¹µíú!ù?
+   žÿÿÿÿÿ@              …ÿÿZnRa@ €Ÿµø-À   úÿþÏf`@?€€kª1À   ‘Hw©WeÀ†ÞFÄñ)d@   2·bÁ·þ¿	           
+   ¨,{                 úÿþÏf`@?€€kª1À   [ÿ€¬=`@êÿ{¢23À   S–Š–³|`@Hå‹‹3À   `ÀÏ2UÁð¿	    ÅKWÖ¿
+   ò      @              [ÿ€¬=`@êÿ{¢23À   y€‘Ü8`@^ 
+ø4À   ‘Hw©WeÀ†ÞFÄñ)d@   L¥“yŠ¼À	           
+   ¨,{                 y€‘Ü8`@^ 
+ø4À   ‰ @2¹`@(€/•5À   ¾–¡òªó_@»VÑ´3À   Èà\fOÁð?	   @þÍÜìû?
+   6üÿÿÿÿÿ?              ‰ @2¹`@(€/•5À   nìÿ‡Ab_@€B€:Ÿ¨6À   ‘Hw©WeÀ†ÞFÄñ)d@   Œx”À·þ¿	           
+   ¨,{                 nìÿ‡Ab_@€B€:Ÿ¨6À   šóÿ+'_@ˆ<@Ÿ7€8À   î+(ƒ_@¸ñ‘v8À   Y¼õÐ•:ø¿	   °²kx1WÖ¿
+   ­     ø?              šóÿ+'_@ˆ<@Ÿ7€8À   ÿúUb@t÷ÿxHlXÀ   ‘Hw©WeÀ†ÞFÄñ)d@   ¤ ‹%ÉÊ@	           
+   ¨,{                 ÿúUb@t÷ÿxHlXÀ   ÷€ª¶Cb@œÀòOîXÀ   ¡®_@Ìb@H£Š3‘XÀ   'Já¶ñ?	   j_EÀ’sô?
+   r      @              ÷€ª¶Cb@œÀòOîXÀ   Ý@Ü³«`@X€ƒð[À   ‘Hw©WeÀ†ÞFÄñ)d@   ¾Â¼À	           
+   ¨,{                 Ý@Ü³«`@X€ƒð[À   “ýÿ9Éi`@ý?ö$\À   Ý† €É`@Œ”4ò’[À   8[Á€á¶ñ?	   °b¹g<@
+   Îýÿÿÿÿÿ?              “ýÿ9Éi`@ý?ö$\À   ¦@-ªL^@Üò˜S[À   ‘Hw©WeÀ†ÞFÄñ)d@   ˆŒù—„ó¿	           
+   ¨,{                 ¦@-ªL^@Üò˜S[À   Þ@[V¹]@,ùÿó8½ZÀ   ŽmTÒ«Ð^@$´Á¹ºµYÀ   €úÏFc¬Ý?	   ï _zISÀ
+       @              Þ@[V¹]@,ùÿó8½ZÀ   2
+ÀßsþU@Œ@K^‹RÀ   ‘Hw©WeÀ†ÞFÄñ)d@   @ÞŒü2è¿	           
+   ¨,{                 2
+ÀßsþU@Œ@K^‹RÀ   * ë•ñT@H RGõQÀ   G.×ŠT@Œ~á-±êSÀ   ˆÂÂ.5Œã¿	   D¡#èúê?
+   ß      @              * ë•ñT@H RGõQÀ   @€kOS@` ùÓžQÀ   ‘Hw©WeÀ†ÞFÄñ)d@   hª6æ—ßõ¿	           
+   ¨,{                 @€kOS@` ùÓžQÀ   @€a§ÈR@Ô ŒÈSQÀ   R‹²Oà‚S@Ü
+E¤PÀ   0ãûø5Œã?	   býË€À
+   îþÿÿÿÿ@              @€a§ÈR@Ô ŒÈSQÀ   4ÚÕdøO@”'@Ò¸LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   `Lìü2è¿	           
+   ¨,{                 4ÚÕdøO@”'@Ò¸LÀ   Œ
+@oáN@ø+À÷ÿ?LÀ   aÚJáN@H*À÷ÿ¿MÀ   òÉØbøê¿	   ¶”Qkûê?
+   œ     @              Œ
+@oáN@ø+À÷ÿ?LÀ   ¨û¿mKFM@Ô)À÷ÿ?LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   ÀDTû!ù¿	           
+   ¨,{                 ¨û¿mKFM@Ô)À÷ÿ?LÀ   ÐÀ©
+jL@@"@äúKÀ   4^ï„KFM@H*À÷ÿ¿JÀ   xIßF3Œã?	   8ÊœØú!	À
+   â    @              ÐÀ©
+jL@@"@äúKÀ   0Ý¿y¬€K@„(€û%WKÀ   ‘Hw©WeÀ†ÞFÄñ)d@   àžÅäÁ·î¿	           
+   ¨,{                 0Ý¿y¬€K@„(€û%WKÀ   Ï¿A7K@´ õÿ?KÀ   L6†A7K@X õÿ¿KÀ   ¹{æF3Œã¿	   :ªŒ55Œã?
+   ú÷ÿÿÿÿï?              Ï¿A7K@´ õÿ?KÀ    €ßø‡J@Ü õÿ?KÀ   ‘Hw©WeÀ†ÞFÄñ)d@   À0DTû!ù¿	           
+   ¨,{                  €ßø‡J@Ü õÿ?KÀ   Œ	€ó>J@¤(€û%WKÀ   X°:çø‡J@X õÿ¿KÀ   ¸{æF3Œã¿	      àbê®¾
+   ïíÿÿÿÿï?              Œ	€ó>J@¤(€û%WKÀ   øû?_I@t@ñÙ(LÀ   ‘Hw©WeÀ†ÞFÄñ)d@   ôÇñ,tÀ	           
+   ¨,{                 øû?_I@t@ñÙ(LÀ   í?s¦ÉH@X*À÷ÿ?LÀ   ØT…k¦ÉH@H*À÷ÿ¿KÀ   ¸{æF3Œã?	   ªáî>@
+   w	    ð?             Inner Contours /  ÿÿÿÿ        H
+À À<À˜X  €6À   €@ @;À`\€  8À   H
+À À<À`\€  8À   -DTû!ù?	           
+   €< Hÿÿ÷?              €@ @;À`\€  8À   H
+À À<À(` øÿ9À   H
+À À<À`\€  8À   -DTû!ù?	   -DTû!ù?
+   €< Hÿÿ÷?              H
+À À<À(` øÿ9À   vö?  MÀ(` øÿ9À   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù¿	           
+   ¨,{                 vö?  MÀ(` øÿ9À   Zø `NÀ`\€  8À   vö?  MÀ`\€  8À   -DTû!ù?	   -DTû!	@
+   €< Hÿÿ÷?              Zø `NÀ`\€  8À   vö?  MÀ˜X  €6À   vö?  MÀ`\€  8À   -DTû!ù?	   -DTû!ù¿
+   €< Hÿÿ÷?              vö?  MÀ˜X  €6À   H
+À À<À˜X  €6À   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù?	           
+   ¨,{                Inner Contours /  ÿÿÿÿ        H
+À À<@|ÿ €6@   x@ @;@à  8@   H
+À À<@à  8@   -DTû!ù?	   -DTû!	@
+    = Hÿÿ÷?              x@ @;@à  8@   H
+À À<@°ƒÿ÷ÿ9@   H
+À À<@à  8@   -DTû!ù?	   -DTû!ù¿
+    = Hÿÿ÷?              H
+À À<@°ƒÿ÷ÿ9@   xö?  M@°ƒÿ÷ÿ9@   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù?	           
+   ¨,{                 xö?  M@°ƒÿ÷ÿ9@   `ø `N@à  8@   xö?  M@à  8@   -DTû!ù?	           
+    = Hÿÿ÷?              `ø `N@à  8@   xö?  M@|ÿ €6@   xö?  M@à  8@   -DTû!ù?	   -DTû!ù?
+    = Hÿÿ÷?              xö?  M@|ÿ €6@   H
+À À<@|ÿ €6@   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù¿	           
+   ¨,{                Inner Contours /  ÿÿÿÿ        è¿  PÀôè? ÀC@   L€  AÀòè? ÀC@   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù?	           
+   ¨,{                 L€  AÀòè? ÀC@   ÄþŸ @@Àhä_  C@   L€  AÀhä_  C@   -DTû!ù?	           
+    ‘ < ø?              ÄþŸ @@Àhä_  C@   L€  AÀÞßûÿ?B@   L€  AÀhä_  C@   -DTû!ù?	   -DTû!ù?
+   @‘ < ø?              L€  AÀÞßûÿ?B@   è¿  PÀÜßûÿ?B@   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù¿	           
+   ¨,{                 è¿  PÀÜßûÿ?B@   dê¯ `PÀhä_  C@   è¿  PÀhä_  C@   -DTû!ù?	   -DTû!	@
+   €‘ < ø?              dê¯ `PÀhä_  C@   è¿  PÀôè? ÀC@   è¿  PÀhä_  C@   -DTû!ù?	   -DTû!ù¿
+   €‘ < ø?             Inner Contours /  ÿÿÿÿ        P€  A@ôè? ÀC@   œÀ  P@öè? ÀC@   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù?	           
+   ¨,{                 œÀ  P@öè? ÀC@   â° `P@hä_  C@   œÀ  P@hä_  C@   -DTû!ù?	           
+   €‘ < ø?              â° `P@hä_  C@   œÀ  P@Úßûÿ?B@   œÀ  P@hä_  C@   -DTû!ù?	   -DTû!ù?
+   À‘ < ø?              œÀ  P@Úßûÿ?B@   P€  A@Üßûÿ?B@   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù¿	           
+   ¨,{                 P€  A@Üßûÿ?B@   ÄþŸ @@@hä_  C@   P€  A@hä_  C@   -DTû!ù?	   -DTû!	@
+   €‘ < ø?              ÄþŸ @@@hä_  C@   P€  A@ôè? ÀC@   P€  A@hä_  C@   -DTû!ù?	   -DTû!ù¿
+   €‘ < ø?             Inner Contours /  ÿÿÿÿ        œÀ  P@8 @ ÀCÀ   P€  A@8 @ ÀCÀ   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù¿	           
+   ¨,{                 P€  A@8 @ ÀCÀ   ÄþŸ @@@¬`  CÀ   P€  A@¬`  CÀ   -DTû!ù?	   -DTû!	@
+   €‘ < ø?              ÄþŸ @@@¬`  CÀ   P€  A@ €ûÿ?BÀ   P€  A@¬`  CÀ   -DTû!ù?	   -DTû!ù¿
+   €‘ < ø?              P€  A@ €ûÿ?BÀ   œÀ  P@ €ûÿ?BÀ   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù?	           
+   ¨,{                 œÀ  P@ €ûÿ?BÀ   â° `P@¬`  CÀ   œÀ  P@¬`  CÀ   -DTû!ù?	           
+   €‘ < ø?              â° `P@¬`  CÀ   œÀ  P@8 @ ÀCÀ   œÀ  P@¬`  CÀ   -DTû!ù?	   -DTû!ù?
+   €‘ < ø?             Inner Contours /  ÿÿÿÿ        è¿  PÀ €ûÿ?BÀ   L€  AÀ €ûÿ?BÀ   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù?	           
+   ¨,{                 L€  AÀ €ûÿ?BÀ   ÀþŸ @@À¬`  CÀ   L€  AÀ¬`  CÀ   -DTû!ù?	           
+   €‘ < ø?              ÀþŸ @@À¬`  CÀ   L€  AÀ8 @ ÀCÀ   L€  AÀ¬`  CÀ   -DTû!ù?	   -DTû!ù?
+   €‘ < ø?              L€  AÀ8 @ ÀCÀ   è¿  PÀ8 @ ÀCÀ   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù¿	           
+   ¨,{                 è¿  PÀ8 @ ÀCÀ   dê¯ `PÀ¬`  CÀ   è¿  PÀ¬`  CÀ   -DTû!ù?	   -DTû!	@
+   €‘ < ø?              dê¯ `PÀ¬`  CÀ   è¿  PÀ €ûÿ?BÀ   è¿  PÀ¬`  CÀ   -DTû!ù?	   -DTû!ù¿
+   €‘ < ø?             Inner Contours /  ÿÿÿÿ        H
+À À<À°ƒÿ÷ÿ9@   x@ @;Àà  8@   H
+À À<Àà  8@   -DTû!ù?	           
+    = Hÿÿ÷?              x@ @;Àà  8@   H
+À À<À|ÿ €6@   H
+À À<Àà  8@   -DTû!ù?	   -DTû!ù?
+    = Hÿÿ÷?              H
+À À<À|ÿ €6@   vö?  MÀ|ÿ €6@   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù¿	           
+   ¨,{                 vö?  MÀ|ÿ €6@   ^ø `NÀà  8@   vö?  MÀà  8@   -DTû!ù?	   -DTû!	@
+    = Hÿÿ÷?              ^ø `NÀà  8@   vö?  MÀ°ƒÿ÷ÿ9@   vö?  MÀà  8@   -DTû!ù?	   -DTû!ù¿
+    = Hÿÿ÷?              vö?  MÀ°ƒÿ÷ÿ9@   H
+À À<À°ƒÿ÷ÿ9@   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù?	           
+   ¨,{                Inner Contours /  ÿÿÿÿ        H
+À À<@(` øÿ9À   €@ @;@`\€  8À   H
+À À<@`\€  8À   -DTû!ù?	   -DTû!	@
+   €< Hÿÿ÷?              €@ @;@`\€  8À   H
+À À<@˜X  €6À   H
+À À<@`\€  8À   -DTû!ù?	   -DTû!ù¿
+   €< Hÿÿ÷?              H
+À À<@˜X  €6À   xö?  M@˜X  €6À   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù?	           
+   ¨,{                 xö?  M@˜X  €6À   \ø `N@`\€  8À   xö?  M@`\€  8À   -DTû!ù?	           
+   €< Hÿÿ÷?              \ø `N@`\€  8À   xö?  M@(` øÿ9À   xö?  M@`\€  8À   -DTû!ù?	   -DTû!ù?
+   €< Hÿÿ÷?              xö?  M@(` øÿ9À   H
+À À<@(` øÿ9À   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù¿	           
+   ¨,{                Inner Contours /  ÿÿÿÿ        à+JÆÿÿ@¨` À5À   ð%ãÿ @¨` À9À   à+JÆÿÿ@¨` À9À   -DTû!ù?	           
+         @              ð%ãÿ @¨` À9À   à+JÆÿÿ@¨` À=À   à+JÆÿÿ@¨` À9À   -DTû!ù?	   -DTû!ù?
+         @              à+JÆÿÿ@¨` À=À    Ôµ9  À¨` À=À   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù¿	           
+   ¨,{                  Ôµ9  À¨` À=À   êÚ € À¨` À9À    Ôµ9  À¨` À9À   -DTû!ù?	   -DTû!	@
+         @              êÚ € À¨` À9À    Ôµ9  À¨` À5À    Ôµ9  À¨` À9À   -DTû!ù?	   -DTû!ù¿
+         @               Ôµ9  À¨` À5À   à+JÆÿÿ@¨` À5À   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù?	           
+   ¨,{                Inner Contours /  ÿÿÿÿ        à+JÆÿÿ@`Ÿëóÿ¿=@    %ãÿ @XŸëóÿ¿9@   à+JÆÿÿ@XŸëóÿ¿9@   -DTû!ù?	           
+         @               %ãÿ @XŸëóÿ¿9@   à+JÆÿÿ@PŸëóÿ¿5@   à+JÆÿÿ@XŸëóÿ¿9@   -DTû!ù?	   -DTû!ù?
+         @              à+JÆÿÿ@PŸëóÿ¿5@    Ôµ9  ÀXŸëóÿ¿5@   ‘Hw©WeÀ†ÞFÄñ)d@   -DTû!ù¿	           
+   ¨,{                  Ôµ9  ÀXŸëóÿ¿5@   êÚ € ÀXŸëóÿ¿9@    Ôµ9  ÀXŸëóÿ¿9@   -DTû!ù?	   -DTû!	@
+         @              êÚ € ÀXŸëóÿ¿9@    Ôµ9  ÀXŸëóÿ¿=@    Ôµ9  ÀXŸëóÿ¿9@   -DTû!ù?	   -DTû!ù¿
+         @               Ôµ9  ÀXŸëóÿ¿=@   à+JÆÿÿ@`Ÿëóÿ¿=@   ‘Hw©WeÀ†ÞFÄñ)d@   	-DTû!ù?	           
+   ¨,{                                               ÿÿÿÿ    ÓK Œ‘Q@  N½3cyU3@     #   $   0          1   2                                                             ÿÿÿÿ   	 Z0 Œ‘,UÀ 	 á+4cyU3À     #   $   0 	         1   2 	                                                            ÿÿÿÿ   	 W0 Œ‘QÀ 	 ¢Ì1í1@      #   $   0 	         1   2 	                                                            ÿÿÿÿ   	 W0 Œ‘,UÀ 	 ¢Ì1í1@     #   $   0 	         1   2 	                                                            ÿÿÿÿ   	 *´ÿsn£PÀ 	 á+4cyU3À     #   $   0 	         1   2 	                                                            ÿÿÿÿ   	 ÕK Œ‘Q@ 	 Ì™4cyU3À     #   $   0 	         1   2 	                                                          ÿÿÿÿ    DT:£Ów[@  ;uÇ¡¡IÀ     #   $   0          1   2                                                           ÿÿÿÿ    ±å†NõZ@  „´ ÚBD@     #   $   0          1   2                                                           ÿÿÿÿ    WVÐä[À  fk"/•×8À     #   $   0          1   2                                                           ÿÿÿÿ    <T:£Ów[À  >Ç¡¡I@     #   $   0          1   2                                                           ÿÿÿÿ    Ê@™\ëZ@  ˜ˆ?  €,@     #   $   0          1   2                                                           ÿÿÿÿ    ½–¹Ã'NÀ  ÓÔžxð6À  	   #   $   0          1   2                                                           ÿÿÿÿ    Á–¹Ã'N@  sÀ+h‡9@     #   $   0          1   2                                                           ÿÿÿÿ    ÏsR<x@À  åsÂÂÃ‡C@     #   $   0          1   2                                                           ÿÿÿÿ    \KqëáCP@  èsÂÂÃ‡C@     #   $   0          1   2                                                           ÿÿÿÿ    ÑsR<x@@  ,«ÂÂÃ‡CÀ     #   $   0          1   2                                                           ÿÿÿÿ    Þ/qëáCPÀ  ,«ÂÂÃ‡CÀ  
+   #   $   0          1   2                                                           ÿÿÿÿ    ÍýÏ  FÀ  °ƒÿ÷ÿ9@     #   $   0          1   2                                                           ÿÿÿÿ   	 ÎýÏ  F@ 	 (` øÿ9À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 rõlOPÀ 	 .yD?ìë6À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ÜÉ‰ùNP@ 	 ×†»À”<@      #   $   0 	         1   2 	                              ð¿        ð¿              ÿÿÿÿ    öb#%¹Ö^@  ¸ÿÿÿÿ1@     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    öb#%¹Ö^@  H    €1À     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    |    M@      €.À     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    BòÿÿÿŸ^À      €.À     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    ø6   À<@  pÿÿÿÿ.@     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    „äÿÿÿŸMÀ  pÿÿÿÿ.@     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    „äÿÿÿŸMÀ      €.À     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    |   F@      €.À     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    |   F@  pÿÿÿÿ.@     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    Éÿÿÿ¿<À  pÿÿÿÿ.@     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    Éÿÿÿ¿<À      €.À     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ         |Ë=  ÜÿÿÿÿÿD@     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    BòÿÿÿŸ^À  pÿÿÿÿ.@     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    BòÿÿÿçRÀ  pÿÿÿÿ.@     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    ¾   èR@  pÿÿÿÿ.@     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    BòÿÿÿÿVÀ  pÿÿÿÿ.@     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    öb#%¹V@  H    €1À     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    BòÿÿÿÿVÀ      €.À  
+   #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    öb#%¹V@  ¸ÿÿÿÿ1@     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    ?žôþ¦æ`À  ¸ÿÿÿÿÿ2@     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ         |Ë=  $     EÀ     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    ?žôþ¦æ`À  H     3À  	   #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ    ¾   èR@      €.À     #   $   0          1   2                                ð¿         ð¿              ÿÿÿÿ   	 BòÿÿÿçRÀ 	     €.À     #   $   0 	         1   2 	                               ð¿         ð¿              ÿÿÿÿ   	 ø6   À<@ 	     €.À     #   $   0 	         1   2 	                               ð¿         ð¿              ÿÿÿÿ   	 |    M@ 	 pÿÿÿÿ.@     #   $   0 	         1   2 	                               ð¿         ð¿              ÿÿÿÿ   	 ðm   €.@ 	     €.À     #   $   0 	         1   2 	                               ð¿         ð¿              ÿÿÿÿ   	 „äÿÿÿFÀ 	     €.À     #   $   0 	         1   2 	                               ð¿         ð¿              ÿÿÿÿ   	 ’ÿÿÿ.À 	     €.À     #   $   0 	         1   2 	                               ð¿         ð¿              ÿÿÿÿ   	 „äÿÿÿFÀ 	 pÿÿÿÿ.@     #   $   0 	         1   2 	                               ð¿         ð¿              ÿÿÿÿ   	 ’ÿÿÿ.À 	 pÿÿÿÿ.@      #   $   0 	         1   2 	                               ð¿         ð¿              ÿÿÿÿ   	 ðm   €.@ 	 pÿÿÿÿ.@     #   $   0 	         1   2 	                                                        ÿÿÿÿ   	 âlÍTd>_À 	 Çê5S‘¹1À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 bLÊ¬nF:@ 	 Nê5S‘¹1@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ¼›©ÈÌG@ 	 ’+”YÝŒ)À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 <&eV7SE@ 	 7ê5S‘¹1@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 :&eV7cL@ 	 =ê5S‘¹1@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 }!6S‘9?@ 	 †+”YÝŒ)À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 Å˜”YÝŒ)@ 	 d+”YÝŒ)À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 Ð˜”YÝŒ)@ 	 Hê5S‘¹1@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 å±™ŠÌ@ 	 õš©È<F@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 —ÝðyµV@ 	 =ê5S‘ù3@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ¾›©ÈÜN@ 	 †+”YÝŒ)À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 [ˆÍTd†S@ 	 ¨+”YÝŒ)À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 —ÝðyµV@ 	 †+”YÝ.À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	  “2«›IR@ 	 2ê5S‘¹1@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 BïdV7cLÀ 	 Íê5S‘¹1À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ¢w2«›IRÀ 	 Çê5S‘¹1À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 âlÍTd†SÀ 	 7ê5S‘¹1@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 çlÍTdžWÀ 	 Nê5S‘¹1@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 w2«›aVÀ 	 Þê5S‘¹1À  
+   #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 âlÍTd>_À 	 7ê5S‘¹1@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ‘[[)Ù5aÀ 	 (Ê¬n†0@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 [[)Ù5aÀ 	 ÉÊ¬n†0À  	   #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 gÞÉ¬nF:À 	 éê5S‘¹1À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 8œ­™ŠÌÀ 	 dõš©È<FÀ     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ä¼“YÝŒ)À 	 Þê5S‘¹1À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ð¼“YÝŒ)À 	 Hê5S‘¹1@      #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ÆÙš©ÈÜNÀ 	 =ê5S‘¹1@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 BïdV7SEÀ 	 Íê5S‘¹1À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ÉÙš©ÈÌGÀ 	 Bê5S‘¹1@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ‡³5S‘9?À 	 7ê5S‘¹1@     #   $   0 	         1   2 	                                                        ÿÿÿÿ   	 XÊN4nPÀ 	 y3}Ôz'@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 âƒ¦î`À 	 ˜d^\)ô¿     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 âƒ¦`À 	 ˜d^\)ô¿  
+   #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 XÊN4nPÀ 	 ‡Ìë‚+…,À     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ±Ï1ÙL-I@ 	 ùùÏÂÐFÀ  	   #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ©Ï1ÙL-I@ 	 ©ùÏÂÐF@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 þ²#¨V2@ 	 ©ùÏÂÐF@      #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 MÜW©h4À 	 ¬ùÏÂÐF@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 „&î«T4IÀ 	 ªùÏÂÐF@     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 †&î«T4IÀ 	 ôùÏÂÐFÀ     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 ¨`œMf%2À 	 ôùÏÂÐFÀ     #   $   0 	         1   2 	                                                          ÿÿÿÿ   	 XŸc²™Z4@ 	 ôùÏÂÐFÀ     #   $   0 	         1   2 	                                                        ÿÿÿÿ    °söÌ~ÿ_À  3dëúÆXÀ     #   $   0          1   2                                                           ÿÿÿÿ    a&UÙšWÀ  F—áï3çH@      #   $   0          1   2                                                           ÿÿÿÿ    ¬söÌ~ÿ_@  cdëúÆX@     #   $   0          1   2                                                           ÿÿÿÿ    ®söÌ~ÿ_@  3dëúÆXÀ     #   $   0          1   2                                                           ÿÿÿÿ    `&UÙšW@  Á~±¼G»K@     #   $   0          1   2                                                           ÿÿÿÿ    ®söÌ~ÿ_À  cdëúÆX@     #   $   0          1   2                                                           ÿÿÿÿ    a&UÙšWÀ  ¶±¼G»KÀ     #   $   0          1   2                                                           ÿÿÿÿ    c&UÙšW@  
+¶±¼G»KÀ     #   $   0          1   2                                                         ÿÿÿÿ    ñ¿Å=0À  Â³e¡‹#H@      #   $   0          1   2                           
